@@ -27,18 +27,18 @@ $EndComp
 $Comp
 L Device:Ferrite_Bead_Small L401
 U 1 1 60B41C5A
-P 1250 3500
-F 0 "L401" H 1325 3550 50  0000 L CNN
-F 1 "Ferrite Bead" H 1325 3450 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 1180 3500 50  0001 C CNN
-F 3 "~" H 1250 3500 50  0001 C CNN
-	1    1250 3500
+P 2000 3500
+F 0 "L401" H 2075 3550 50  0000 L CNN
+F 1 "Ferrite Bead" H 2075 3450 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 1930 3500 50  0001 C CNN
+F 3 "~" H 2000 3500 50  0001 C CNN
+	1    2000 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 60B4784B
-P 1250 4150
+P 2000 4150
 AR Path="/60786F27/6078774E/60B4784B" Ref="C?"  Part="1" 
 AR Path="/60786F27/607875AF/60B4784B" Ref="C?"  Part="1" 
 AR Path="/6089D0BA/60B4784B" Ref="C?"  Part="1" 
@@ -49,38 +49,38 @@ AR Path="/60AD8617/60B4784B" Ref="C?"  Part="1"
 AR Path="/60AD332C/60B4784B" Ref="C?"  Part="1" 
 AR Path="/60AD33B6/60B4784B" Ref="C?"  Part="1" 
 AR Path="/60B3D9E3/60B4784B" Ref="C411"  Part="1" 
-F 0 "C411" H 1275 4250 50  0000 L CNN
-F 1 "0.1uF" H 1275 4050 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L10.16mm" H 1288 4000 50  0001 C CNN
-F 3 "~" H 1250 4150 50  0001 C CNN
-	1    1250 4150
+F 0 "C411" H 2025 4250 50  0000 L CNN
+F 1 "0.1uF" H 2025 4050 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L10.16mm" H 2038 4000 50  0001 C CNN
+F 3 "~" H 2000 4150 50  0001 C CNN
+	1    2000 4150
 	1    0    0    -1  
 $EndComp
-Text Label 1250 4500 1    50   ~ 0
+Text Label 2000 4500 1    50   ~ 0
 GND
 Wire Wire Line
-	1250 4300 1250 4500
-Text Label 1250 3800 0    50   ~ 0
+	2000 4300 2000 4500
+Text Label 2000 3800 0    50   ~ 0
 fvcc1
 Wire Wire Line
-	1250 3400 1250 3200
-Text Label 1250 3200 3    50   ~ 0
+	2000 3400 2000 3200
+Text Label 2000 3200 3    50   ~ 0
 VCC
 $Comp
 L Device:Ferrite_Bead_Small L402
 U 1 1 60B49A84
-P 2000 3500
-F 0 "L402" H 2075 3550 50  0000 L CNN
-F 1 "Ferrite Bead" H 2075 3450 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 1930 3500 50  0001 C CNN
-F 3 "~" H 2000 3500 50  0001 C CNN
-	1    2000 3500
+P 2000 5500
+F 0 "L402" H 2075 5550 50  0000 L CNN
+F 1 "Ferrite Bead" H 2075 5450 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 1930 5500 50  0001 C CNN
+F 3 "~" H 2000 5500 50  0001 C CNN
+	1    2000 5500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 60B49A8A
-P 2000 4150
+P 2000 6150
 AR Path="/60786F27/6078774E/60B49A8A" Ref="C?"  Part="1" 
 AR Path="/60786F27/607875AF/60B49A8A" Ref="C?"  Part="1" 
 AR Path="/6089D0BA/60B49A8A" Ref="C?"  Part="1" 
@@ -91,27 +91,27 @@ AR Path="/60AD8617/60B49A8A" Ref="C?"  Part="1"
 AR Path="/60AD332C/60B49A8A" Ref="C?"  Part="1" 
 AR Path="/60AD33B6/60B49A8A" Ref="C?"  Part="1" 
 AR Path="/60B3D9E3/60B49A8A" Ref="C414"  Part="1" 
-F 0 "C414" H 2025 4250 50  0000 L CNN
-F 1 "0.1uF" H 2025 4050 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L7.62mm" H 2038 4000 50  0001 C CNN
-F 3 "~" H 2000 4150 50  0001 C CNN
-	1    2000 4150
+F 0 "C414" H 2025 6250 50  0000 L CNN
+F 1 "0.1uF" H 2025 6050 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L7.62mm" H 2038 6000 50  0001 C CNN
+F 3 "~" H 2000 6150 50  0001 C CNN
+	1    2000 6150
 	1    0    0    -1  
 $EndComp
-Text Label 2000 4500 1    50   ~ 0
+Text Label 2000 6500 1    50   ~ 0
 GND
 Wire Wire Line
-	2000 4300 2000 4500
-Text Label 2000 3800 0    50   ~ 0
+	2000 6300 2000 6500
+Text Label 2000 5800 0    50   ~ 0
 fvcc2
 Wire Wire Line
-	2000 3400 2000 3200
-Text Label 2000 3200 3    50   ~ 0
+	2000 5400 2000 5200
+Text Label 2000 5200 3    50   ~ 0
 VCC
 Wire Wire Line
-	1250 3600 1250 4000
-Wire Wire Line
 	2000 3600 2000 4000
+Wire Wire Line
+	2000 5600 2000 6000
 $Comp
 L Transistor_BJT:2N3904 Q400
 U 1 1 60B4CA43
@@ -126,12 +126,12 @@ $EndComp
 $Comp
 L Transistor_BJT:2N3904 Q402
 U 1 1 60B4DDC9
-P 2650 5700
-F 0 "Q402" H 2850 5775 50  0000 L CNN
-F 1 "2N3904" H 2850 5700 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 2850 5625 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 2650 5700 50  0001 L CNN
-	1    2650 5700
+P 3900 5700
+F 0 "Q402" H 4100 5775 50  0000 L CNN
+F 1 "2N3904" H 4100 5700 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 4100 5625 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 3900 5700 50  0001 L CNN
+	1    3900 5700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -148,29 +148,29 @@ $EndComp
 $Comp
 L Transistor_BJT:2N3904 Q403
 U 1 1 60B4EC8A
-P 5150 5700
-F 0 "Q403" H 5350 5775 50  0000 L CNN
-F 1 "2N3904" H 5350 5700 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5350 5625 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 5150 5700 50  0001 L CNN
-	1    5150 5700
+P 6400 5700
+F 0 "Q403" H 6600 5775 50  0000 L CNN
+F 1 "2N3904" H 6600 5700 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 6600 5625 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 6400 5700 50  0001 L CNN
+	1    6400 5700
 	1    0    0    -1  
 $EndComp
 Text GLabel 3400 3700 0    50   Input ~ 0
 SHIFTER_RED
 Text GLabel 5900 3700 0    50   Input ~ 0
 SHIFTER_GREEN
-Text GLabel 2150 5700 0    50   Input ~ 0
+Text GLabel 3400 5700 0    50   Input ~ 0
 SHIFTER_BLUE
-Text GLabel 4650 5700 0    50   Input ~ 0
+Text GLabel 5900 5700 0    50   Input ~ 0
 SHIFTER_MONO
 Text Label 4000 3100 3    50   ~ 0
 fvcc1
 Text Label 6500 3100 3    50   ~ 0
 fvcc1
-Text Label 2750 5100 3    50   ~ 0
+Text Label 4000 5100 3    50   ~ 0
 fvcc1
-Text Label 5250 5100 3    50   ~ 0
+Text Label 6500 5100 3    50   ~ 0
 fvcc2
 $Comp
 L Device:R_Small_US R?
@@ -235,21 +235,10 @@ L Device:R_Small_US R409
 U 1 1 60B5B7C9
 P 4000 4300
 F 0 "R409" H 4030 4320 50  0000 L CNN
-F 1 "75" H 4030 4260 50  0000 L CNN
+F 1 "150" H 4030 4260 50  0000 L CNN
 F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4000 4300 50  0001 C CNN
 F 3 "~" H 4000 4300 50  0001 C CNN
 	1    4000 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R410
-U 1 1 60B5C054
-P 4000 4800
-F 0 "R410" H 4030 4820 50  0000 L CNN
-F 1 "75" H 4030 4760 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4000 4800 50  0001 C CNN
-F 3 "~" H 4000 4800 50  0001 C CNN
-	1    4000 4800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -265,10 +254,8 @@ F 3 "~" H 3500 3950 50  0001 C CNN
 $EndComp
 Text Label 3500 4300 1    50   ~ 0
 GND
-Text Label 4000 5150 1    50   ~ 0
+Text Label 4000 4650 1    50   ~ 0
 GND
-Text GLabel 4200 4550 2    50   Output ~ 0
-R
 Wire Wire Line
 	3500 3700 3500 3850
 Connection ~ 3500 3700
@@ -282,14 +269,7 @@ Wire Wire Line
 	4000 4000 4000 4200
 Connection ~ 4000 4000
 Wire Wire Line
-	4000 4400 4000 4550
-Wire Wire Line
-	4000 4550 4200 4550
-Connection ~ 4000 4550
-Wire Wire Line
-	4000 4550 4000 4700
-Wire Wire Line
-	4000 4900 4000 5150
+	4000 4400 4000 4650
 $Comp
 L Device:R_Small_US R?
 U 1 1 60B611CC
@@ -371,41 +351,23 @@ L Device:R_Small_US R425
 U 1 1 60B64C56
 P 6500 4300
 F 0 "R425" H 6530 4320 50  0000 L CNN
-F 1 "75" H 6530 4260 50  0000 L CNN
+F 1 "150" H 6530 4260 50  0000 L CNN
 F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6500 4300 50  0001 C CNN
 F 3 "~" H 6500 4300 50  0001 C CNN
 	1    6500 4300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small_US R427
-U 1 1 60B64C5C
-P 6500 4800
-F 0 "R427" H 6530 4820 50  0000 L CNN
-F 1 "75" H 6530 4760 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6500 4800 50  0001 C CNN
-F 3 "~" H 6500 4800 50  0001 C CNN
-	1    6500 4800
-	1    0    0    -1  
-$EndComp
-Text Label 6500 5150 1    50   ~ 0
+Text Label 6500 4650 1    50   ~ 0
 GND
 Wire Wire Line
 	6500 4000 6500 4200
 Connection ~ 6500 4000
 Wire Wire Line
-	6500 4400 6500 4550
-Wire Wire Line
-	6500 4550 6700 4550
-Connection ~ 6500 4550
-Wire Wire Line
-	6500 4550 6500 4700
-Wire Wire Line
-	6500 4900 6500 5150
+	6500 4400 6500 4650
 $Comp
 L Device:R_Small_US R?
 U 1 1 60B69F0D
-P 2500 5400
+P 3750 5400
 AR Path="/608A2359/60B69F0D" Ref="R?"  Part="1" 
 AR Path="/60A1445F/60B69F0D" Ref="R?"  Part="1" 
 AR Path="/60A73CDE/60B69F0D" Ref="R?"  Part="1" 
@@ -413,53 +375,53 @@ AR Path="/60AD8617/60B69F0D" Ref="R?"  Part="1"
 AR Path="/60AD332C/60B69F0D" Ref="R?"  Part="1" 
 AR Path="/60AD33B6/60B69F0D" Ref="R?"  Part="1" 
 AR Path="/60B3D9E3/60B69F0D" Ref="R429"  Part="1" 
-F 0 "R429" V 2400 5400 50  0000 C CNN
-F 1 "1K" V 2600 5400 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2500 5400 50  0001 C CNN
-F 3 "~" H 2500 5400 50  0001 C CNN
-	1    2500 5400
+F 0 "R429" V 3650 5400 50  0000 C CNN
+F 1 "1K" V 3850 5400 50  0000 C CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3750 5400 50  0001 C CNN
+F 3 "~" H 3750 5400 50  0001 C CNN
+	1    3750 5400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2150 5700 2250 5700
+	3400 5700 3500 5700
 Wire Wire Line
-	2400 5400 2350 5400
+	3650 5400 3600 5400
 Wire Wire Line
-	2350 5400 2350 5700
-Connection ~ 2350 5700
+	3600 5400 3600 5700
+Connection ~ 3600 5700
 Wire Wire Line
-	2350 5700 2450 5700
+	3600 5700 3700 5700
 $Comp
 L Device:R_Small_US R433
 U 1 1 60B69F18
-P 2250 5950
-F 0 "R433" H 2280 5970 50  0000 L CNN
-F 1 "2K" H 2280 5910 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2250 5950 50  0001 C CNN
-F 3 "~" H 2250 5950 50  0001 C CNN
-	1    2250 5950
+P 3500 5950
+F 0 "R433" H 3530 5970 50  0000 L CNN
+F 1 "2K" H 3530 5910 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3500 5950 50  0001 C CNN
+F 3 "~" H 3500 5950 50  0001 C CNN
+	1    3500 5950
 	1    0    0    -1  
 $EndComp
-Text Label 2250 6300 1    50   ~ 0
+Text Label 3500 6300 1    50   ~ 0
 GND
 Wire Wire Line
-	2250 5700 2250 5850
-Connection ~ 2250 5700
+	3500 5700 3500 5850
+Connection ~ 3500 5700
 Wire Wire Line
-	2250 5700 2350 5700
+	3500 5700 3600 5700
 Wire Wire Line
-	2250 6050 2250 6300
+	3500 6050 3500 6300
 Wire Wire Line
-	2600 5400 2750 5400
+	3850 5400 4000 5400
 Wire Wire Line
-	2750 5100 2750 5400
-Connection ~ 2750 5400
+	4000 5100 4000 5400
+Connection ~ 4000 5400
 Wire Wire Line
-	2750 5400 2750 5500
+	4000 5400 4000 5500
 $Comp
 L Device:R_Small_US R?
 U 1 1 60B69F27
-P 3000 6000
+P 4250 6000
 AR Path="/608A2359/60B69F27" Ref="R?"  Part="1" 
 AR Path="/60A1445F/60B69F27" Ref="R?"  Part="1" 
 AR Path="/60A73CDE/60B69F27" Ref="R?"  Part="1" 
@@ -467,77 +429,59 @@ AR Path="/60AD8617/60B69F27" Ref="R?"  Part="1"
 AR Path="/60AD332C/60B69F27" Ref="R?"  Part="1" 
 AR Path="/60AD33B6/60B69F27" Ref="R?"  Part="1" 
 AR Path="/60B3D9E3/60B69F27" Ref="R432"  Part="1" 
-F 0 "R432" V 2900 6000 50  0000 C CNN
-F 1 "75" V 3100 6000 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3000 6000 50  0001 C CNN
-F 3 "~" H 3000 6000 50  0001 C CNN
-	1    3000 6000
+F 0 "R432" V 4150 6000 50  0000 C CNN
+F 1 "75" V 4350 6000 50  0000 C CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4250 6000 50  0001 C CNN
+F 3 "~" H 4250 6000 50  0001 C CNN
+	1    4250 6000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2750 5900 2750 6000
+	4000 5900 4000 6000
 Wire Wire Line
-	2750 6000 2900 6000
+	4000 6000 4150 6000
 $Comp
 L Device:R_Small_US R434
 U 1 1 60B69F2F
-P 2750 6300
-F 0 "R434" H 2780 6320 50  0000 L CNN
-F 1 "75" H 2780 6260 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2750 6300 50  0001 C CNN
-F 3 "~" H 2750 6300 50  0001 C CNN
-	1    2750 6300
+P 4000 6300
+F 0 "R434" H 4030 6320 50  0000 L CNN
+F 1 "150" H 4030 6260 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4000 6300 50  0001 C CNN
+F 3 "~" H 4000 6300 50  0001 C CNN
+	1    4000 6300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small_US R436
-U 1 1 60B69F35
-P 2750 6800
-F 0 "R436" H 2780 6820 50  0000 L CNN
-F 1 "75" H 2780 6760 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2750 6800 50  0001 C CNN
-F 3 "~" H 2750 6800 50  0001 C CNN
-	1    2750 6800
-	1    0    0    -1  
-$EndComp
-Text Label 2750 7150 1    50   ~ 0
+Text Label 4000 6650 1    50   ~ 0
 GND
 Wire Wire Line
-	2750 6000 2750 6200
-Connection ~ 2750 6000
+	4000 6000 4000 6200
+Connection ~ 4000 6000
 Wire Wire Line
-	2750 6400 2750 6550
+	4000 6400 4000 6650
 Wire Wire Line
-	2750 6550 2950 6550
-Connection ~ 2750 6550
-Wire Wire Line
-	2750 6550 2750 6700
-Wire Wire Line
-	2750 6900 2750 7150
-Wire Wire Line
-	4650 5700 4750 5700
+	5900 5700 6000 5700
 $Comp
 L Device:R_Small_US R440
 U 1 1 60B6D7E9
-P 4750 5950
-F 0 "R440" H 4780 5970 50  0000 L CNN
-F 1 "1K" H 4780 5910 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4750 5950 50  0001 C CNN
-F 3 "~" H 4750 5950 50  0001 C CNN
-	1    4750 5950
+P 6000 5950
+F 0 "R440" H 6030 5970 50  0000 L CNN
+F 1 "1K" H 6030 5910 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6000 5950 50  0001 C CNN
+F 3 "~" H 6000 5950 50  0001 C CNN
+	1    6000 5950
 	1    0    0    -1  
 $EndComp
-Text Label 4750 6300 1    50   ~ 0
+Text Label 6000 6300 1    50   ~ 0
 GND
 Wire Wire Line
-	4750 5700 4750 5850
-Connection ~ 4750 5700
+	6000 5700 6000 5850
+Connection ~ 6000 5700
 Wire Wire Line
-	4750 6050 4750 6300
+	6000 6050 6000 6300
 $Comp
 L Device:R_Small_US R?
 U 1 1 60B6D7F8
-P 5500 6000
+P 6750 6000
 AR Path="/608A2359/60B6D7F8" Ref="R?"  Part="1" 
 AR Path="/60A1445F/60B6D7F8" Ref="R?"  Part="1" 
 AR Path="/60A73CDE/60B6D7F8" Ref="R?"  Part="1" 
@@ -545,50 +489,50 @@ AR Path="/60AD8617/60B6D7F8" Ref="R?"  Part="1"
 AR Path="/60AD332C/60B6D7F8" Ref="R?"  Part="1" 
 AR Path="/60AD33B6/60B6D7F8" Ref="R?"  Part="1" 
 AR Path="/60B3D9E3/60B6D7F8" Ref="R438"  Part="1" 
-F 0 "R438" V 5400 6000 50  0000 C CNN
-F 1 "27" V 5600 6000 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5500 6000 50  0001 C CNN
-F 3 "~" H 5500 6000 50  0001 C CNN
-	1    5500 6000
+F 0 "R438" V 6650 6000 50  0000 C CNN
+F 1 "27" V 6850 6000 50  0000 C CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6750 6000 50  0001 C CNN
+F 3 "~" H 6750 6000 50  0001 C CNN
+	1    6750 6000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5250 5900 5250 6000
+	6500 5900 6500 6000
 Wire Wire Line
-	5250 6000 5400 6000
+	6500 6000 6650 6000
 $Comp
 L Device:R_Small_US R441
 U 1 1 60B6D800
-P 5250 6300
-F 0 "R441" H 5280 6320 50  0000 L CNN
-F 1 "100" H 5280 6260 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5250 6300 50  0001 C CNN
-F 3 "~" H 5250 6300 50  0001 C CNN
-	1    5250 6300
+P 6500 6300
+F 0 "R441" H 6530 6320 50  0000 L CNN
+F 1 "100" H 6530 6260 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6500 6300 50  0001 C CNN
+F 3 "~" H 6500 6300 50  0001 C CNN
+	1    6500 6300
 	1    0    0    -1  
 $EndComp
-Text Label 5250 6650 1    50   ~ 0
+Text Label 6500 6650 1    50   ~ 0
 GND
 Wire Wire Line
-	5250 6000 5250 6200
-Connection ~ 5250 6000
+	6500 6000 6500 6200
+Connection ~ 6500 6000
 Wire Wire Line
-	5250 6400 5250 6650
+	6500 6400 6500 6650
 Wire Wire Line
-	5250 5100 5250 5500
+	6500 5100 6500 5500
 Wire Wire Line
-	4750 5700 4950 5700
+	6000 5700 6200 5700
 Wire Wire Line
 	6850 4000 6950 4000
 Wire Wire Line
-	3100 6000 3200 6000
+	4350 6000 4450 6000
 Wire Wire Line
-	5600 6000 5700 6000
+	6850 6000 6950 6000
 Text Label 6950 4000 0    50   ~ 0
 vid6_green
-Text Label 3200 6000 0    50   ~ 0
+Text Label 4450 6000 0    50   ~ 0
 vid10_blue
-Text Label 5700 6000 0    50   ~ 0
+Text Label 6950 6000 0    50   ~ 0
 vid11_mono
 Text Label 5900 2500 0    50   ~ 0
 GND
@@ -968,10 +912,6 @@ F 3 "~" H 3650 1300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3650 1400 3650 1600
-Text GLabel 6700 4550 2    50   Output ~ 0
-G
-Text GLabel 2950 6550 2    50   Output ~ 0
-B
 Text Notes 4300 7650 0    50   ~ 0
 It may also be a 74F257
 Text Label 6350 2900 1    50   ~ 0
@@ -981,33 +921,33 @@ Wire Wire Line
 Text Notes 700  4950 0    50   ~ 0
 When there is ghosting using RGB/Scart, \nadd a 47uF low ESR electrolytic capacitor in parallel of C411, \nand a 1uF ceramic capacitor in parallel of C411 too.\n\nsee https://www.exxoshost.co.uk/atari/last/VIDEOFIX/index.htm\n
 Wire Notes Line
-	1100 4100 900  4100
+	1850 4100 1650 4100
 Wire Notes Line
-	900  4150 1100 4150
+	1650 4150 1850 4150
 Wire Notes Line
-	850  4100 650  4100
+	1600 4100 1400 4100
 Wire Notes Line
-	750  4150 750  4300
+	1500 4150 1500 4300
 Wire Notes Line
-	750  4300 1250 4300
+	1500 4300 2000 4300
 Wire Notes Line
-	1000 4150 1000 4300
+	1750 4150 1750 4300
 Wire Notes Line
-	750  4100 750  3950
+	1500 4100 1500 3950
 Wire Notes Line
-	750  3950 1250 3950
+	1500 3950 2000 3950
 Wire Notes Line
-	1000 4100 1000 3950
+	1750 4100 1750 3950
 Wire Notes Line
-	700  4200 700  4150
+	1450 4200 1450 4150
 Wire Notes Line
-	800  4200 800  4150
+	1550 4200 1550 4150
 Wire Notes Line
-	700  4150 800  4150
-Text Notes 550  4300 0    50   ~ 0
+	1450 4150 1550 4150
+Text Notes 1300 4300 0    50   ~ 0
 47uF
-Text Notes 650  4100 0    50   ~ 0
+Text Notes 1400 4100 0    50   ~ 0
 +
-Text Notes 850  4300 0    50   ~ 0
+Text Notes 1600 4300 0    50   ~ 0
 1uF
 $EndSCHEMATC

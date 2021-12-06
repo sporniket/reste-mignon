@@ -162,8 +162,6 @@ Text GLabel 4900 2050 1    50   Input ~ 0
 MCU_LATCH
 Text GLabel 4800 2050 1    50   Input ~ 0
 MCU_RDAT
-Text GLabel 4800 6100 3    50   Output ~ 0
-SHIFTER_COLOR
 Text Label 4700 6050 1    50   ~ 0
 mono
 Text Label 4600 6050 1    50   ~ 0
@@ -357,8 +355,6 @@ Wire Wire Line
 	3100 5800 3100 6100
 Wire Wire Line
 	3300 5800 3300 6100
-Wire Wire Line
-	4800 5800 4800 6100
 Wire Wire Line
 	4900 5800 4900 6100
 $Comp
@@ -787,4 +783,5 @@ Wire Wire Line
 	4900 2300 4900 2050
 Wire Wire Line
 	3100 2050 3100 2300
+NoConn ~ 4800 5800
 $EndSCHEMATC

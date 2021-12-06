@@ -502,14 +502,6 @@ Text Label 3100 5200 0    50   ~ 0
 GND
 Text Label 5000 4600 2    50   ~ 0
 VCC
-Text Label 4900 5000 2    50   ~ 0
-VCC
-Text GLabel 4950 4800 2    50   Input ~ 0
-CCLK
-Text GLabel 4950 4900 2    50   Input ~ 0
-HSYNC
-Text GLabel 5000 5200 2    50   Output ~ 0
-LINE_PHASE
 Wire Wire Line
 	3100 4900 3300 4900
 Wire Wire Line
@@ -538,18 +530,8 @@ Wire Wire Line
 Connection ~ 4800 4600
 Wire Wire Line
 	4800 4600 5000 4600
-Wire Wire Line
-	4700 4800 4950 4800
-Wire Wire Line
-	4700 4900 4950 4900
-Wire Wire Line
-	4700 5000 4900 5000
-Wire Wire Line
-	4700 5200 5000 5200
 Text Notes 5200 4850 0    50   ~ 0
-From subsheet 106 (Pal subcarrier)
-Text Notes 5500 5250 0    50   ~ 0
-To subsheet 106 \n(generate 32MHz clock for PAL systems)
+TODO : verify how to wire unused flip flop
 Text Label 3750 6000 2    50   ~ 0
 acsi_1
 Text Label 3750 6250 2    50   ~ 0
@@ -696,4 +678,21 @@ Text Label 5650 8600 1    50   ~ 0
 GND
 Wire Wire Line
 	5650 8600 5650 8400
+NoConn ~ 4700 5200
+Text Label 5000 5000 2    50   ~ 0
+GND
+Wire Wire Line
+	4700 4800 4800 4800
+Wire Wire Line
+	4700 5000 4800 5000
+Connection ~ 4800 5000
+Wire Wire Line
+	4800 5000 5000 5000
+Wire Wire Line
+	4800 4800 4800 4900
+Wire Wire Line
+	4700 4900 4800 4900
+Connection ~ 4800 4900
+Wire Wire Line
+	4800 4900 4800 5000
 $EndSCHEMATC

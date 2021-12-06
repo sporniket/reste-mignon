@@ -213,10 +213,6 @@ Wire Wire Line
 	1950 5250 2500 5250
 Text Label 1850 7200 0    50   ~ 0
 hsync_xor_vsync
-Text GLabel 2300 7300 0    50   Output ~ 0
-NOT__HSYNC_XOR_VSYNC
-Wire Wire Line
-	2300 7300 2500 7300
 Text Label 2350 7400 0    50   ~ 0
 GND
 Wire Wire Line
@@ -629,4 +625,5 @@ Text Label 6750 2350 1    50   ~ 0
 GND
 Wire Wire Line
 	6750 2150 6750 2350
+NoConn ~ 2500 7300
 $EndSCHEMATC
