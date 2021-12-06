@@ -265,169 +265,20 @@ Wire Wire Line
 	6000 2200 6000 2400
 Wire Wire Line
 	6000 1700 6000 1900
-$Comp
-L Device:EMI_Filter_LCL L?
-U 1 1 609FB314
-P 4000 5600
-AR Path="/608A2359/609FB314" Ref="L?"  Part="1" 
-AR Path="/608C2344/609FB314" Ref="L?"  Part="1" 
-AR Path="/608EA3C9/609FB314" Ref="L?"  Part="1" 
-AR Path="/609B5A51/609FB314" Ref="L219"  Part="1" 
-F 0 "L219" H 4000 5875 50  0000 C CNN
-F 1 "EMI_Filter_LCL" H 4000 5800 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm" V 4000 5600 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 4000 5600 50  0001 C CNN
-	1    4000 5600
-	1    0    0    -1  
-$EndComp
-Text Label 4000 5700 0    50   ~ 0
-GND
-$Comp
-L Device:EMI_Filter_LCL L?
-U 1 1 609FCBFE
-P 3250 5850
-AR Path="/608A2359/609FCBFE" Ref="L?"  Part="1" 
-AR Path="/608C2344/609FCBFE" Ref="L?"  Part="1" 
-AR Path="/608EA3C9/609FCBFE" Ref="L?"  Part="1" 
-AR Path="/609B5A51/609FCBFE" Ref="L220"  Part="1" 
-F 0 "L220" H 3250 6125 50  0000 C CNN
-F 1 "EMI_Filter_LCL" H 3250 6050 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm" V 3250 5850 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 3250 5850 50  0001 C CNN
-	1    3250 5850
-	1    0    0    -1  
-$EndComp
-Text Label 3250 5950 0    50   ~ 0
-GND
-Wire Wire Line
-	2700 5750 2950 5750
-$Comp
-L Device:EMI_Filter_LCL L?
-U 1 1 609FDFCE
-P 4000 6100
-AR Path="/608A2359/609FDFCE" Ref="L?"  Part="1" 
-AR Path="/608C2344/609FDFCE" Ref="L?"  Part="1" 
-AR Path="/608EA3C9/609FDFCE" Ref="L?"  Part="1" 
-AR Path="/609B5A51/609FDFCE" Ref="L221"  Part="1" 
-F 0 "L221" H 4000 6375 50  0000 C CNN
-F 1 "EMI_Filter_LCL" H 4000 6300 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm" V 4000 6100 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 4000 6100 50  0001 C CNN
-	1    4000 6100
-	1    0    0    -1  
-$EndComp
-Text Label 4000 6200 0    50   ~ 0
-GND
-$Comp
-L Device:EMI_Filter_LCL L?
-U 1 1 609FFCE9
-P 3250 6350
-AR Path="/608A2359/609FFCE9" Ref="L?"  Part="1" 
-AR Path="/608C2344/609FFCE9" Ref="L?"  Part="1" 
-AR Path="/608EA3C9/609FFCE9" Ref="L?"  Part="1" 
-AR Path="/609B5A51/609FFCE9" Ref="L222"  Part="1" 
-F 0 "L222" H 3250 6625 50  0000 C CNN
-F 1 "EMI_Filter_LCL" H 3250 6550 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm" V 3250 6350 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 3250 6350 50  0001 C CNN
-	1    3250 6350
-	1    0    0    -1  
-$EndComp
-Text Label 3250 6450 0    50   ~ 0
-GND
-Wire Wire Line
-	2700 6250 2950 6250
-$Comp
-L Device:EMI_Filter_LCL L?
-U 1 1 60A01C8C
-P 4000 6600
-AR Path="/608A2359/60A01C8C" Ref="L?"  Part="1" 
-AR Path="/608C2344/60A01C8C" Ref="L?"  Part="1" 
-AR Path="/608EA3C9/60A01C8C" Ref="L?"  Part="1" 
-AR Path="/609B5A51/60A01C8C" Ref="L223"  Part="1" 
-F 0 "L223" H 4000 6875 50  0000 C CNN
-F 1 "EMI_Filter_LCL" H 4000 6800 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm" V 4000 6600 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 4000 6600 50  0001 C CNN
-	1    4000 6600
-	1    0    0    -1  
-$EndComp
-Text Label 4000 6700 0    50   ~ 0
-GND
-$Comp
-L Device:EMI_Filter_LCL L?
-U 1 1 60A04176
-P 3250 6850
-AR Path="/608A2359/60A04176" Ref="L?"  Part="1" 
-AR Path="/608C2344/60A04176" Ref="L?"  Part="1" 
-AR Path="/608EA3C9/60A04176" Ref="L?"  Part="1" 
-AR Path="/609B5A51/60A04176" Ref="L224"  Part="1" 
-F 0 "L224" H 3250 7125 50  0000 C CNN
-F 1 "EMI_Filter_LCL" H 3250 7050 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm" V 3250 6850 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 3250 6850 50  0001 C CNN
-	1    3250 6850
-	1    0    0    -1  
-$EndComp
-Text Label 3250 6950 0    50   ~ 0
-GND
-Wire Wire Line
-	2700 6750 2950 6750
-$Comp
-L Device:EMI_Filter_LCL L?
-U 1 1 60A06530
-P 4000 7100
-AR Path="/608A2359/60A06530" Ref="L?"  Part="1" 
-AR Path="/608C2344/60A06530" Ref="L?"  Part="1" 
-AR Path="/608EA3C9/60A06530" Ref="L?"  Part="1" 
-AR Path="/609B5A51/60A06530" Ref="L225"  Part="1" 
-F 0 "L225" H 4000 7375 50  0000 C CNN
-F 1 "EMI_Filter_LCL" H 4000 7300 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm" V 4000 7100 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 4000 7100 50  0001 C CNN
-	1    4000 7100
-	1    0    0    -1  
-$EndComp
-Text Label 4000 7200 0    50   ~ 0
-GND
-Wire Wire Line
-	4300 5500 4550 5500
-Wire Wire Line
-	4300 6000 4550 6000
-Wire Wire Line
-	4300 6500 4550 6500
-Wire Wire Line
-	4300 7000 4550 7000
-Text Label 4550 5500 0    50   ~ 0
-serial_2
-Text Label 4550 5750 0    50   ~ 0
-serial_3
-Text Label 4550 6000 0    50   ~ 0
-serial_4
-Text Label 4550 6250 0    50   ~ 0
-serial_5
-Text Label 4550 6500 0    50   ~ 0
-serial_8
-Text Label 4550 6750 0    50   ~ 0
-serial_20
-Text Label 4550 7000 0    50   ~ 0
-serial_22
-Text Label 2700 5500 2    50   ~ 0
+Text Label 5500 5250 2    50   ~ 0
 rs_232_tx
-Text Label 2700 5750 2    50   ~ 0
+Text Label 5500 5350 2    50   ~ 0
 rs_232_rx
-Text Label 2700 6000 2    50   ~ 0
+Text Label 5500 5450 2    50   ~ 0
 rs_232_rts
-Text Label 2700 6250 2    50   ~ 0
-rs_232_cts
-Text Label 2700 6500 2    50   ~ 0
-rs_232_cd
-Text Label 2700 7000 2    50   ~ 0
-rs_232_ri
-Text Label 2700 6750 2    50   ~ 0
-rs_232_dir
 Text Label 5500 5550 2    50   ~ 0
-serial_5
+rs_232_cts
+Text Label 5500 5850 2    50   ~ 0
+rs_232_cd
+Text Label 5500 7250 2    50   ~ 0
+rs_232_ri
+Text Label 5500 7050 2    50   ~ 0
+rs_232_dir
 NoConn ~ 5800 7550
 NoConn ~ 5800 7450
 NoConn ~ 5800 7350
@@ -466,18 +317,6 @@ Text Label 5600 5750 0    50   ~ 0
 GND
 Text Label 5600 5150 0    50   ~ 0
 GND
-Text Label 5500 7250 2    50   ~ 0
-serial_22
-Text Label 5500 7050 2    50   ~ 0
-serial_20
-Text Label 5500 5850 2    50   ~ 0
-serial_8
-Text Label 5500 5450 2    50   ~ 0
-serial_4
-Text Label 5500 5350 2    50   ~ 0
-serial_3
-Text Label 5500 5250 2    50   ~ 0
-serial_2
 $Comp
 L Device:C C206
 U 1 1 609CC7B6
@@ -497,20 +336,6 @@ Wire Wire Line
 	6500 1700 6500 1900
 Text GLabel 6500 1700 1    50   Input ~ 0
 G12V
-Wire Wire Line
-	2700 7000 3700 7000
-Wire Wire Line
-	3550 6750 4550 6750
-Wire Wire Line
-	2700 6500 3700 6500
-Wire Wire Line
-	3550 6250 4550 6250
-Wire Wire Line
-	2700 6000 3700 6000
-Wire Wire Line
-	2700 5500 3700 5500
-Wire Wire Line
-	3550 5750 4550 5750
 $Comp
 L Connector_Generic_Shielded:Conn_01x25_Shielded J204
 U 1 1 609B5CCF
@@ -528,4 +353,6 @@ Wire Wire Line
 	6000 7950 6000 7750
 Text GLabel 6000 1700 1    50   Input ~ 0
 -12V
+Text Notes 5250 4850 0    50   ~ 0
+TODO : replace by a DB-9P Serial Port
 $EndSCHEMATC

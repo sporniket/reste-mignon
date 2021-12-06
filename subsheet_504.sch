@@ -441,25 +441,6 @@ F 3 "~" H 1750 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:EMI_Filter_LCL L?
-U 1 1 60D98994
-P 1650 6750
-AR Path="/608A2359/60D98994" Ref="L?"  Part="1" 
-AR Path="/608C2344/60D98994" Ref="L?"  Part="1" 
-AR Path="/608EA3C9/60D98994" Ref="L?"  Part="1" 
-AR Path="/609B5A51/60D98994" Ref="L?"  Part="1" 
-AR Path="/60B3D9E3/60D98994" Ref="L?"  Part="1" 
-AR Path="/60CD36E9/60D98994" Ref="L504"  Part="1" 
-F 0 "L504" V 1750 6450 50  0000 C CNN
-F 1 "EMI_Filter_LCL" V 1850 6450 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm" V 1650 6750 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 1650 6750 50  0001 C CNN
-	1    1650 6750
-	0    1    1    0   
-$EndComp
-Text Label 1550 6750 2    50   ~ 0
-GND
-$Comp
 L Device:R_Small_US R?
 U 1 1 60D9A41B
 P 1500 7500
@@ -496,10 +477,6 @@ Wire Wire Line
 	1550 8000 1150 8000
 Wire Wire Line
 	1750 5600 1750 5850
-Wire Wire Line
-	1750 6150 1750 6450
-Wire Wire Line
-	1750 7050 1750 7500
 Wire Wire Line
 	1600 7500 1750 7500
 Connection ~ 1750 7500
@@ -545,25 +522,6 @@ F 3 "~" H 6500 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:EMI_Filter_LCL L?
-U 1 1 60DBE194
-P 6400 6750
-AR Path="/608A2359/60DBE194" Ref="L?"  Part="1" 
-AR Path="/608C2344/60DBE194" Ref="L?"  Part="1" 
-AR Path="/608EA3C9/60DBE194" Ref="L?"  Part="1" 
-AR Path="/609B5A51/60DBE194" Ref="L?"  Part="1" 
-AR Path="/60B3D9E3/60DBE194" Ref="L?"  Part="1" 
-AR Path="/60CD36E9/60DBE194" Ref="L505"  Part="1" 
-F 0 "L505" V 6500 6450 50  0000 C CNN
-F 1 "EMI_Filter_LCL" V 6600 6450 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm" V 6400 6750 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 6400 6750 50  0001 C CNN
-	1    6400 6750
-	0    1    1    0   
-$EndComp
-Text Label 6300 6750 2    50   ~ 0
-GND
-$Comp
 L Device:R_Small_US R?
 U 1 1 60DBE19B
 P 6250 7500
@@ -600,10 +558,6 @@ Wire Wire Line
 	6300 8000 5900 8000
 Wire Wire Line
 	6500 5600 6500 5850
-Wire Wire Line
-	6500 6150 6500 6450
-Wire Wire Line
-	6500 7050 6500 7500
 Wire Wire Line
 	6350 7500 6500 7500
 Connection ~ 6500 7500
@@ -1023,4 +977,8 @@ Wire Notes Line
 	5150 700  7650 700 
 Wire Notes Line
 	5150 2400 7650 2400
+Wire Wire Line
+	1750 6150 1750 7500
+Wire Wire Line
+	6500 6150 6500 7500
 $EndSCHEMATC

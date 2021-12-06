@@ -626,4 +626,22 @@ GND
 Wire Wire Line
 	6750 2150 6750 2350
 NoConn ~ 2500 7300
+Text Notes 800  5500 0    50   ~ 0
+TODO : verify that\nHSYNC xor VSYNC is no more used
+Wire Notes Line
+	2350 4950 1150 4950
+Wire Notes Line
+	1150 4950 1150 5300
+Wire Notes Line
+	1150 5300 2350 5300
+Wire Notes Line
+	2350 5300 2350 4950
+Wire Notes Line
+	1150 5550 1150 7300
+Wire Notes Line
+	1150 7300 2350 7300
+Wire Notes Line
+	2350 7300 2350 7100
+Wire Notes Line
+	2350 7100 1150 7100
 $EndSCHEMATC

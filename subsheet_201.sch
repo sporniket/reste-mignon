@@ -176,12 +176,6 @@ Text Label 5550 5050 0    50   ~ 0
 GND
 Text GLabel 5400 4550 0    50   Input ~ 0
 BD0SEL
-Text Label 5450 4650 0    50   ~ 0
-ikbd_4
-Text Label 5450 4750 0    50   ~ 0
-ikbd_5
-Text Label 5450 4850 0    50   ~ 0
-ikbd_6
 Text GLabel 5400 4950 0    50   Input ~ 0
 XRESET
 Wire Wire Line
@@ -189,104 +183,41 @@ Wire Wire Line
 Wire Wire Line
 	5400 4550 5750 4550
 Wire Wire Line
-	5450 4650 5750 4650
-Wire Wire Line
-	5450 4750 5750 4750
-Wire Wire Line
-	5450 4850 5750 4850
-Wire Wire Line
 	5400 4950 5750 4950
 Wire Wire Line
 	5550 5050 5750 5050
 $Comp
 L Device:R_Small_US R?
 U 1 1 608E21C0
-P 2300 4500
+P 4550 4500
 AR Path="/608A2359/608E21C0" Ref="R?"  Part="1" 
 AR Path="/608C2344/608E21C0" Ref="R210"  Part="1" 
-F 0 "R210" H 2150 4450 50  0000 C CNN
-F 1 "10K" H 2150 4550 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2300 4500 50  0001 C CNN
-F 3 "~" H 2300 4500 50  0001 C CNN
-	1    2300 4500
+F 0 "R210" H 4400 4450 50  0000 C CNN
+F 1 "10K" H 4400 4550 50  0000 C CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4550 4500 50  0001 C CNN
+F 3 "~" H 4550 4500 50  0001 C CNN
+	1    4550 4500
 	-1   0    0    1   
 $EndComp
-Text Label 2300 4200 3    50   ~ 0
+Text Label 4550 4200 3    50   ~ 0
 VCC
 Wire Wire Line
-	2300 4200 2300 4400
-Text Label 2750 4500 0    50   ~ 0
+	4550 4200 4550 4400
+Text Label 5550 4650 0    50   ~ 0
 VCC
-Text Label 2150 4750 0    50   ~ 0
+Text Label 4350 4750 2    50   ~ 0
 rx
-Text Label 2150 5000 0    50   ~ 0
+Text Label 5550 4850 2    50   ~ 0
 tx
-Text Label 4600 4500 2    50   ~ 0
-ikbd_4
-Text Label 4600 4750 2    50   ~ 0
-ikbd_5
-Text Label 4600 5000 2    50   ~ 0
-ikbd_6
-$Comp
-L Device:EMI_Filter_LCL L?
-U 1 1 608CE71E
-P 3250 4600
-AR Path="/608A2359/608CE71E" Ref="L?"  Part="1" 
-AR Path="/608C2344/608CE71E" Ref="L207"  Part="1" 
-F 0 "L207" H 3250 4875 50  0000 C CNN
-F 1 "EMI_Filter_LCL" H 3250 4800 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm" V 3250 4600 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 3250 4600 50  0001 C CNN
-	1    3250 4600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2750 4500 2950 4500
-$Comp
-L Device:EMI_Filter_LCL L?
-U 1 1 608CE72D
-P 4000 4850
-AR Path="/608A2359/608CE72D" Ref="L?"  Part="1" 
-AR Path="/608C2344/608CE72D" Ref="L226"  Part="1" 
-F 0 "L226" H 4000 5125 50  0000 C CNN
-F 1 "EMI_Filter_LCL" H 4000 5050 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm" V 4000 4850 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 4000 4850 50  0001 C CNN
-	1    4000 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:EMI_Filter_LCL L?
-U 1 1 608CE734
-P 3250 5100
-AR Path="/608A2359/608CE734" Ref="L?"  Part="1" 
-AR Path="/608C2344/608CE734" Ref="L227"  Part="1" 
-F 0 "L227" H 3250 5375 50  0000 C CNN
-F 1 "EMI_Filter_LCL" H 3250 5300 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm" V 3250 5100 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 3250 5100 50  0001 C CNN
-	1    3250 5100
-	1    0    0    -1  
-$EndComp
-Text Label 3250 4700 0    50   ~ 0
-GND
-Text Label 4000 4950 0    50   ~ 0
-GND
-Text Label 3250 5200 0    50   ~ 0
-GND
+	4550 4600 4550 4750
 Wire Wire Line
-	4300 4750 4600 4750
+	5550 4650 5750 4650
 Wire Wire Line
-	3550 5000 4600 5000
+	5550 4850 5750 4850
 Wire Wire Line
-	3550 4500 4600 4500
+	4550 4750 5750 4750
+Connection ~ 4550 4750
 Wire Wire Line
-	2150 4750 2300 4750
-Wire Wire Line
-	2300 4600 2300 4750
-Connection ~ 2300 4750
-Wire Wire Line
-	2300 4750 3700 4750
-Wire Wire Line
-	2150 5000 2950 5000
+	4350 4750 4550 4750
 $EndSCHEMATC

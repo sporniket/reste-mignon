@@ -177,20 +177,20 @@ NoConn ~ 6050 6050
 $Comp
 L pc900-dip6:PC900_PHY U208
 U 1 1 608AFA25
-P 2800 6250
-F 0 "U208" H 2350 6650 50  0000 L TNN
-F 1 "PC900_PHY" H 2350 6550 50  0000 L TNB
-F 2 "Package_DIP:DIP-6_W7.62mm_LongPads" H 2350 6750 50  0001 L TNN
-F 3 "" H 2350 6850 50  0001 L TNN
-	1    2800 6250
+P 3400 6250
+F 0 "U208" H 2950 6650 50  0000 L TNN
+F 1 "PC900_PHY" H 2950 6550 50  0000 L TNB
+F 2 "Package_DIP:DIP-6_W7.62mm_LongPads" H 2950 6750 50  0001 L TNN
+F 3 "" H 2950 6850 50  0001 L TNN
+	1    3400 6250
 	-1   0    0    -1  
 $EndComp
-Text Label 1850 6150 0    50   ~ 0
+Text Label 2450 6150 0    50   ~ 0
 VCC
-Text Label 1850 6250 0    50   ~ 0
+Text Label 2450 6250 0    50   ~ 0
 GND
-NoConn ~ 3550 6350
-Text Label 1850 6350 0    50   ~ 0
+NoConn ~ 4150 6350
+Text Label 2450 6350 0    50   ~ 0
 rx
 Wire Wire Line
 	5700 2200 5800 2200
@@ -199,73 +199,73 @@ Wire Wire Line
 $Comp
 L Device:D D202
 U 1 1 608C6C78
-P 4450 6400
-F 0 "D202" V 4400 6200 50  0000 C CNN
-F 1 "1N914" V 4500 6200 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_diode_W2.54mm_L12.70mm" H 4450 6400 50  0001 C CNN
-F 3 "~" H 4450 6400 50  0001 C CNN
-	1    4450 6400
+P 5050 6400
+F 0 "D202" V 5000 6200 50  0000 C CNN
+F 1 "1N914" V 5100 6200 50  0000 C CNN
+F 2 "commons_passives_THT:Passive_THT_diode_W2.54mm_L12.70mm" H 5050 6400 50  0001 C CNN
+F 3 "~" H 5050 6400 50  0001 C CNN
+	1    5050 6400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5850 6250 6050 6250
 Wire Wire Line
-	1850 6150 2050 6150
+	2450 6150 2650 6150
 Wire Wire Line
-	1850 6250 2050 6250
+	2450 6250 2650 6250
 Wire Wire Line
-	1850 6350 2050 6350
+	2450 6350 2650 6350
 $Comp
 L Device:R_Small_US R200
 U 1 1 608F0CAD
-P 2700 4400
-F 0 "R200" V 2650 4250 50  0000 C CNN
-F 1 "220" V 2750 4250 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2700 4400 50  0001 C CNN
-F 3 "~" H 2700 4400 50  0001 C CNN
-	1    2700 4400
+P 4900 4400
+F 0 "R200" V 4850 4250 50  0000 C CNN
+F 1 "220" V 4950 4250 50  0000 C CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4900 4400 50  0001 C CNN
+F 3 "~" H 4900 4400 50  0001 C CNN
+	1    4900 4400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small_US R205
 U 1 1 608F1C5A
-P 2700 4650
-F 0 "R205" V 2650 4500 50  0000 C CNN
-F 1 "220" V 2750 4500 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2700 4650 50  0001 C CNN
-F 3 "~" H 2700 4650 50  0001 C CNN
-	1    2700 4650
+P 4900 4650
+F 0 "R205" V 4850 4500 50  0000 C CNN
+F 1 "220" V 4950 4500 50  0000 C CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4900 4650 50  0001 C CNN
+F 3 "~" H 4900 4650 50  0001 C CNN
+	1    4900 4650
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small_US R202
 U 1 1 608F1FF8
-P 2700 4900
-F 0 "R202" V 2650 4750 50  0000 C CNN
-F 1 "220" V 2750 4750 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2700 4900 50  0001 C CNN
-F 3 "~" H 2700 4900 50  0001 C CNN
-	1    2700 4900
+P 4900 4900
+F 0 "R202" V 4850 4750 50  0000 C CNN
+F 1 "220" V 4950 4750 50  0000 C CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4900 4900 50  0001 C CNN
+F 3 "~" H 4900 4900 50  0001 C CNN
+	1    4900 4900
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small_US R204
 U 1 1 608F24EF
-P 2700 5150
-F 0 "R204" V 2650 5000 50  0000 C CNN
-F 1 "220" V 2750 5000 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2700 5150 50  0001 C CNN
-F 3 "~" H 2700 5150 50  0001 C CNN
-	1    2700 5150
+P 4900 5150
+F 0 "R204" V 4850 5000 50  0000 C CNN
+F 1 "220" V 4950 5000 50  0000 C CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4900 5150 50  0001 C CNN
+F 3 "~" H 4900 5150 50  0001 C CNN
+	1    4900 5150
 	0    1    1    0   
 $EndComp
-Text Label 2100 4400 0    50   ~ 0
+Text Label 4300 4400 0    50   ~ 0
 VCC
-Text Label 2100 4900 0    50   ~ 0
+Text Label 4300 4900 0    50   ~ 0
 VCC
-Text Label 1850 4650 0    50   ~ 0
+Text Label 4050 4650 0    50   ~ 0
 midi_thru
-Text Label 1850 5150 0    50   ~ 0
+Text Label 4050 5150 0    50   ~ 0
 midi_out
 Wire Wire Line
 	5850 4650 6050 4650
@@ -319,14 +319,6 @@ GND
 Text Label 7000 2900 3    50   ~ 0
 VCC
 Wire Wire Line
-	5850 4550 6050 4550
-Wire Wire Line
-	5850 4750 6050 4750
-Wire Wire Line
-	5850 4850 6050 4850
-Wire Wire Line
-	5850 4950 6050 4950
-Wire Wire Line
 	4150 2000 4600 2000
 Wire Wire Line
 	4150 2200 4600 2200
@@ -343,110 +335,22 @@ Wire Wire Line
 Wire Wire Line
 	6500 3350 6500 3650
 $Comp
-L Device:EMI_Filter_LCL L200
-U 1 1 608CB580
-P 3300 4500
-F 0 "L200" H 3300 4775 50  0000 C CNN
-F 1 "EMI_Filter_LCL" H 3300 4700 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm" V 3300 4500 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 3300 4500 50  0001 C CNN
-	1    3300 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2800 4400 3000 4400
-$Comp
-L Device:EMI_Filter_LCL L201
-U 1 1 608F28E5
-P 4050 4750
-F 0 "L201" H 4050 5025 50  0000 C CNN
-F 1 "EMI_Filter_LCL" H 4050 4950 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm" V 4050 4750 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 4050 4750 50  0001 C CNN
-	1    4050 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:EMI_Filter_LCL L202
-U 1 1 608F52CA
-P 3300 5000
-F 0 "L202" H 3300 5275 50  0000 C CNN
-F 1 "EMI_Filter_LCL" H 3300 5200 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm" V 3300 5000 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 3300 5000 50  0001 C CNN
-	1    3300 5000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2800 4900 3000 4900
-$Comp
-L Device:EMI_Filter_LCL L204
-U 1 1 608F7E74
-P 4050 5250
-F 0 "L204" H 4050 5525 50  0000 C CNN
-F 1 "EMI_Filter_LCL" H 4050 5450 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm" V 4050 5250 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 4050 5250 50  0001 C CNN
-	1    4050 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4350 4650 4600 4650
-Text Label 3300 4600 0    50   ~ 0
-GND
-Text Label 4050 4850 0    50   ~ 0
-GND
-Text Label 3300 5100 0    50   ~ 0
-GND
-Text Label 4050 5350 0    50   ~ 0
-GND
-Wire Wire Line
-	4350 5150 4600 5150
-$Comp
 L Device:R_Small_US R207
 U 1 1 60927CA7
-P 4750 6150
-F 0 "R207" V 4650 6150 50  0000 C CNN
-F 1 "220" V 4850 6150 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4750 6150 50  0001 C CNN
-F 3 "~" H 4750 6150 50  0001 C CNN
-	1    4750 6150
+P 5350 6150
+F 0 "R207" V 5250 6150 50  0000 C CNN
+F 1 "220" V 5450 6150 50  0000 C CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5350 6150 50  0001 C CNN
+F 3 "~" H 5350 6150 50  0001 C CNN
+	1    5350 6150
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:EMI_Filter_LCL L205
-U 1 1 60927CAE
-P 5300 6250
-F 0 "L205" H 5300 6525 50  0000 C CNN
-F 1 "EMI_Filter_LCL" H 5300 6450 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm" V 5300 6250 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5300 6250 50  0001 C CNN
-	1    5300 6250
-	1    0    0    -1  
-$EndComp
-Text Label 5300 6350 0    50   ~ 0
-GND
-$Comp
-L Device:EMI_Filter_LCL L206
-U 1 1 609336A0
-P 5300 6750
-F 0 "L206" H 5300 7025 50  0000 C CNN
-F 1 "EMI_Filter_LCL" H 5300 6950 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_EMI_filter_W5.08mm_L7.62mm" V 5300 6750 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 5300 6750 50  0001 C CNN
-	1    5300 6750
-	1    0    0    -1  
-$EndComp
-Text Label 5300 6850 0    50   ~ 0
-GND
 Wire Wire Line
-	5600 6650 5850 6650
+	5050 6150 5050 6250
 Wire Wire Line
-	4450 6150 4450 6250
+	5050 6550 5050 6650
 Wire Wire Line
-	4450 6550 4450 6650
-Wire Wire Line
-	3550 6250 4050 6250
+	4150 6250 4650 6250
 $Comp
 L Device:C C?
 U 1 1 608CAEAC
@@ -519,14 +423,6 @@ Wire Wire Line
 Connection ~ 3150 1900
 Wire Wire Line
 	3150 1900 3350 1900
-Wire Wire Line
-	3600 4400 4600 4400
-Wire Wire Line
-	2800 4650 3750 4650
-Wire Wire Line
-	3600 4900 4600 4900
-Wire Wire Line
-	2800 5150 3750 5150
 $Comp
 L Connector_Generic_Shielded:Conn_01x05_Shielded J200
 U 1 1 611055AA
@@ -538,32 +434,16 @@ F 3 "~" H 6250 4750 50  0001 C CNN
 	1    6250 4750
 	1    0    0    -1  
 $EndComp
-Text Label 5850 4550 2    55   ~ 0
-midi_out_1
-Text Label 5850 4750 2    55   ~ 0
-midi_out_3
-Text Label 5850 4850 2    55   ~ 0
-midi_out_4
-Text Label 5850 4950 2    55   ~ 0
-midi_out_5
-Text Label 4600 4400 0    55   ~ 0
-midi_out_1
-Text Label 4600 4650 0    55   ~ 0
-midi_out_3
-Text Label 4600 4900 0    55   ~ 0
-midi_out_4
-Text Label 4600 5150 0    55   ~ 0
-midi_out_5
 Wire Wire Line
-	2100 4400 2600 4400
+	4300 4400 4800 4400
 Wire Wire Line
-	1850 4650 2600 4650
+	4050 4650 4800 4650
 Wire Wire Line
-	2100 4900 2600 4900
+	4300 4900 4800 4900
 Wire Wire Line
-	1850 5150 2600 5150
+	4050 5150 4800 5150
 Wire Wire Line
-	4050 6250 4050 6650
+	4650 6250 4650 6650
 $Comp
 L Connector_Generic_Shielded:Conn_01x05_Shielded J201
 U 1 1 61143C4D
@@ -576,10 +456,8 @@ F 3 "~" H 6250 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 6150 6050 6150
-Wire Wire Line
 	5850 6250 5850 6650
-Text Notes 2350 6650 0    55   ~ 0
+Text Notes 2950 6650 0    55   ~ 0
 WARNING ! \nThe pinout is mirrored.
 Wire Wire Line
 	4400 2300 4600 2300
@@ -631,16 +509,40 @@ Wire Wire Line
 	4500 3350 4500 3500
 Wire Wire Line
 	4400 3500 4500 3500
-Connection ~ 4450 6650
+Connection ~ 5050 6650
 Wire Wire Line
-	4450 6650 5000 6650
+	4650 6650 5050 6650
 Wire Wire Line
-	4050 6650 4450 6650
+	4150 6150 5050 6150
+Connection ~ 5050 6150
 Wire Wire Line
-	3550 6150 4450 6150
-Connection ~ 4450 6150
+	5050 6150 5250 6150
 Wire Wire Line
-	4450 6150 4650 6150
+	5350 4650 5350 4750
 Wire Wire Line
-	4850 6150 5000 6150
+	5000 4650 5350 4650
+Wire Wire Line
+	5650 5150 5650 4950
+Wire Wire Line
+	5000 5150 5650 5150
+Wire Wire Line
+	5350 4750 6050 4750
+Wire Wire Line
+	5550 4400 5550 4550
+Wire Wire Line
+	5550 4550 6050 4550
+Wire Wire Line
+	5000 4400 5550 4400
+Wire Wire Line
+	5450 4900 5450 4850
+Wire Wire Line
+	5450 4850 6050 4850
+Wire Wire Line
+	5000 4900 5450 4900
+Wire Wire Line
+	5650 4950 6050 4950
+Wire Wire Line
+	5050 6650 5850 6650
+Wire Wire Line
+	5450 6150 6050 6150
 $EndSCHEMATC
