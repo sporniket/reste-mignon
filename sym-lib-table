@@ -36,4 +36,5 @@
   (lib (name Delay_Line_Custom_Atari_ST)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-handmade/Delay_Line_Custom_Atari_ST.lib)(options "")(descr ""))
   (lib (name vref)(type Legacy)(uri ${KIPRJMOD}/vref.lib)(options "")(descr ""))
   (lib (name reset-switch)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-handmade/reset-switch.lib)(options "")(descr ""))
+  (lib (name mc_68000_dip64)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-generated/ics/atari-16-32/mc_68000_dip64.lib)(options "")(descr ""))
 )
