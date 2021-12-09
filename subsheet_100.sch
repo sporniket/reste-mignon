@@ -139,7 +139,7 @@ XUDS
 Text GLabel 2000 1500 1    50   Output ~ 0
 XLDS
 Text GLabel 950  2500 0    50   Output ~ 0
-XCPUBG
+XBLTBG
 Wire Bus Line
 	1300 1000 1550 1000
 Wire Bus Line
@@ -461,7 +461,7 @@ Wire Wire Line
 Text Label 1400 8050 0    50   ~ 0
 XBERR
 Text Label 1400 8150 0    50   ~ 0
-XBGACK
+XBGK
 Text Label 1400 8250 0    50   ~ 0
 XBR
 Text Label 1400 8350 0    50   ~ 0
@@ -613,7 +613,7 @@ Wire Wire Line
 Text GLabel 1000 2700 0    50   Input ~ 0
 XBR
 Text GLabel 1000 2600 0    50   Input ~ 0
-XBGACK
+XBGK
 Text GLabel 1000 2400 0    50   Input ~ 0
 XDTACK
 Wire Wire Line
@@ -774,7 +774,7 @@ Wire Wire Line
 Text Label 5300 3350 0    50   ~ 0
 VCC
 Text GLabel 5250 3050 0    50   Output ~ 0
-XCPUBG
+XBLTBG
 Text GLabel 5300 3450 0    50   Input ~ 0
 CLK8
 Wire Wire Line
@@ -782,7 +782,7 @@ Wire Wire Line
 Text GLabel 5300 3250 0    50   Input ~ 0
 XBR
 Text GLabel 5300 3150 0    50   Input ~ 0
-XBGACK
+XBGK
 Text GLabel 5300 2950 0    50   Input ~ 0
 XDTACK
 Wire Wire Line
@@ -1038,4 +1038,6 @@ F 3 "https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf" H 5800 5650 50 
 	1    6250 3600
 	1    0    0    -1  
 $EndComp
+Text Notes 500  8450 0    39   ~ 0
+XBGK when coming to \nBlitter is pulled-up\nwith 4K7, but in my STE\nit was not populated \nanyway (no external\nBlitter), so pulled-up \nwith 1K2 should be ok
 $EndSCHEMATC
