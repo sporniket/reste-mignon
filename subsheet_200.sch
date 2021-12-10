@@ -215,89 +215,19 @@ Wire Wire Line
 	2450 6250 2650 6250
 Wire Wire Line
 	2450 6350 2650 6350
-$Comp
-L Device:R_Small_US R200
-U 1 1 608F0CAD
-P 4900 4400
-F 0 "R200" V 4850 4250 50  0000 C CNN
-F 1 "220" V 4950 4250 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4900 4400 50  0001 C CNN
-F 3 "~" H 4900 4400 50  0001 C CNN
-	1    4900 4400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R205
-U 1 1 608F1C5A
-P 4900 4650
-F 0 "R205" V 4850 4500 50  0000 C CNN
-F 1 "220" V 4950 4500 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4900 4650 50  0001 C CNN
-F 3 "~" H 4900 4650 50  0001 C CNN
-	1    4900 4650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R202
-U 1 1 608F1FF8
-P 4900 4900
-F 0 "R202" V 4850 4750 50  0000 C CNN
-F 1 "220" V 4950 4750 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4900 4900 50  0001 C CNN
-F 3 "~" H 4900 4900 50  0001 C CNN
-	1    4900 4900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R204
-U 1 1 608F24EF
-P 4900 5150
-F 0 "R204" V 4850 5000 50  0000 C CNN
-F 1 "220" V 4950 5000 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4900 5150 50  0001 C CNN
-F 3 "~" H 4900 5150 50  0001 C CNN
-	1    4900 5150
-	0    1    1    0   
-$EndComp
-Text Label 4300 4400 0    50   ~ 0
+Text Label 4550 4650 0    50   ~ 0
 VCC
-Text Label 4300 4900 0    50   ~ 0
+Text Label 4550 4850 0    50   ~ 0
 VCC
-Text Label 4050 4650 0    50   ~ 0
+Text Label 4200 4750 0    50   ~ 0
 midi_thru
-Text Label 4050 5150 0    50   ~ 0
+Text Label 4200 4950 0    50   ~ 0
 midi_out
 Wire Wire Line
 	5850 4650 6050 4650
-$Comp
-L Device:R_Small_US R218
-U 1 1 608C9942
-P 6000 3250
-F 0 "R218" H 5850 3200 50  0000 C CNN
-F 1 "4K7" H 5850 3300 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6000 3250 50  0001 C CNN
-F 3 "~" H 6000 3250 50  0001 C CNN
-	1    6000 3250
-	-1   0    0    1   
-$EndComp
-Text Label 6000 2900 3    50   ~ 0
-VCC
-$Comp
-L Device:R_Small_US R219
-U 1 1 608CBCCA
-P 6500 3250
-F 0 "R219" H 6350 3200 50  0000 C CNN
-F 1 "4K7" H 6350 3300 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6500 3250 50  0001 C CNN
-F 3 "~" H 6500 3250 50  0001 C CNN
-	1    6500 3250
-	-1   0    0    1   
-$EndComp
-Text Label 6500 2900 3    50   ~ 0
-VCC
-Text Label 6000 3650 1    50   ~ 0
+Text Label 5000 3200 0    50   ~ 0
 not_tx
-Text Label 6500 3650 1    50   ~ 0
+Text Label 5000 3100 0    50   ~ 0
 not_rx
 $Comp
 L Device:C C?
@@ -331,9 +261,9 @@ Wire Wire Line
 Wire Wire Line
 	7000 3400 7000 3600
 Wire Wire Line
-	6000 3350 6000 3650
+	5300 3200 5000 3200
 Wire Wire Line
-	6500 3350 6500 3650
+	5300 3100 5000 3100
 $Comp
 L Device:R_Small_US R207
 U 1 1 60927CA7
@@ -399,23 +329,8 @@ Wire Wire Line
 	7100 1800 7100 2000
 Wire Wire Line
 	7100 2300 7100 2500
-Wire Wire Line
-	5500 3350 5500 3500
-Text Label 5500 3500 1    50   ~ 0
+Text Label 5000 3000 0    50   ~ 0
 rx
-Text Label 5500 2900 3    50   ~ 0
-VCC
-$Comp
-L Device:R_Small_US R201
-U 1 1 608C885E
-P 5500 3250
-F 0 "R201" H 5350 3200 50  0000 C CNN
-F 1 "4K7" H 5350 3300 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5500 3250 50  0001 C CNN
-F 3 "~" H 5500 3250 50  0001 C CNN
-	1    5500 3250
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3050 2000 3150 2000
 Wire Wire Line
@@ -435,13 +350,9 @@ F 3 "~" H 6250 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 4400 4800 4400
+	4200 4750 4950 4750
 Wire Wire Line
-	4050 4650 4800 4650
-Wire Wire Line
-	4300 4900 4800 4900
-Wire Wire Line
-	4050 5150 4800 5150
+	4200 4950 4950 4950
 Wire Wire Line
 	4650 6250 4650 6650
 $Comp
@@ -474,12 +385,6 @@ Wire Wire Line
 Connection ~ 5800 2100
 Wire Wire Line
 	5700 1900 6000 1900
-Wire Wire Line
-	5500 2900 5500 3150
-Wire Wire Line
-	6000 2900 6000 3150
-Wire Wire Line
-	6500 2900 6500 3150
 Text Label 6250 5350 1    50   ~ 0
 GND
 Wire Wire Line
@@ -518,31 +423,68 @@ Connection ~ 5050 6150
 Wire Wire Line
 	5050 6150 5250 6150
 Wire Wire Line
-	5350 4650 5350 4750
-Wire Wire Line
-	5000 4650 5350 4650
-Wire Wire Line
-	5650 5150 5650 4950
-Wire Wire Line
-	5000 5150 5650 5150
-Wire Wire Line
 	5350 4750 6050 4750
 Wire Wire Line
-	5550 4400 5550 4550
-Wire Wire Line
 	5550 4550 6050 4550
-Wire Wire Line
-	5000 4400 5550 4400
-Wire Wire Line
-	5450 4900 5450 4850
-Wire Wire Line
-	5450 4850 6050 4850
-Wire Wire Line
-	5000 4900 5450 4900
-Wire Wire Line
-	5650 4950 6050 4950
 Wire Wire Line
 	5050 6650 5850 6650
 Wire Wire Line
 	5450 6150 6050 6150
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 61FA438E
+P 5500 3200
+F 0 "RN?" V 5200 3200 50  0000 C CNN
+F 1 "4K7 ×4" V 5700 3200 50  0000 C CNN
+F 2 "" V 5775 3200 50  0001 C CNN
+F 3 "~" H 5500 3200 50  0001 C CNN
+	1    5500 3200
+	0    1    1    0   
+$EndComp
+Text Label 6000 3000 2    50   ~ 0
+VCC
+Wire Wire Line
+	5700 3000 5800 3000
+Wire Wire Line
+	5700 3300 5800 3300
+Wire Wire Line
+	5800 3300 5800 3200
+Connection ~ 5800 3000
+Wire Wire Line
+	5800 3000 6000 3000
+Wire Wire Line
+	5700 3200 5800 3200
+Connection ~ 5800 3200
+Wire Wire Line
+	5800 3200 5800 3100
+Wire Wire Line
+	5700 3100 5800 3100
+Connection ~ 5800 3100
+Wire Wire Line
+	5800 3100 5800 3000
+Wire Wire Line
+	5000 3000 5300 3000
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 61FBA6ED
+P 5150 4850
+F 0 "RN?" V 4850 4850 50  0000 C CNN
+F 1 "220 ×4" V 5350 4850 50  0000 C CNN
+F 2 "" V 5425 4850 50  0001 C CNN
+F 3 "~" H 5150 4850 50  0001 C CNN
+	1    5150 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 4850 6050 4850
+Wire Wire Line
+	5350 4950 6050 4950
+Wire Wire Line
+	5350 4650 5550 4650
+Wire Wire Line
+	5550 4650 5550 4550
+Wire Wire Line
+	4550 4650 4950 4650
+Wire Wire Line
+	4950 4850 4550 4850
 $EndSCHEMATC

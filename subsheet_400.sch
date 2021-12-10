@@ -674,414 +674,142 @@ NoConn ~ 3450 2150
 NoConn ~ 3550 2150
 Wire Wire Line
 	3150 2150 3150 1850
-$Comp
-L Device:R_Small_US R?
-U 1 1 60BAF51B
-P 2950 8250
-AR Path="/608A2359/60BAF51B" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60BAF51B" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60BAF51B" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60BAF51B" Ref="R?"  Part="1" 
-AR Path="/60AD332C/60BAF51B" Ref="R443"  Part="1" 
-F 0 "R443" V 2850 8250 50  0000 C CNN
-F 1 "33" V 3050 8250 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2950 8250 50  0001 C CNN
-F 3 "~" H 2950 8250 50  0001 C CNN
-	1    2950 8250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60BAF522
-P 5300 8250
-AR Path="/608A2359/60BAF522" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60BAF522" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60BAF522" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60BAF522" Ref="R?"  Part="1" 
-AR Path="/60AD332C/60BAF522" Ref="R454"  Part="1" 
-F 0 "R454" V 5200 8250 50  0000 C CNN
-F 1 "68" V 5400 8250 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5300 8250 50  0001 C CNN
-F 3 "~" H 5300 8250 50  0001 C CNN
-	1    5300 8250
-	0    1    1    0   
-$EndComp
-Text Label 2600 8250 0    50   ~ 0
+Text Label 2550 8000 0    50   ~ 0
 ras0
-Text Label 2600 8750 0    50   ~ 0
+Text Label 2550 8100 0    50   ~ 0
 cas0h
-Text Label 2600 9250 0    50   ~ 0
+Text Label 2550 8200 0    50   ~ 0
 cas0l
-Text Label 3600 8250 0    50   ~ 0
+Text Label 4050 8000 0    50   ~ 0
 ras1
-Text Label 3600 8750 0    50   ~ 0
+Text Label 4050 8100 0    50   ~ 0
 cas1h
-Text Label 3600 9250 0    50   ~ 0
+Text Label 4050 8200 0    50   ~ 0
 cas1l
-Text Label 2700 9750 0    50   ~ 0
+Text Label 4150 8300 0    50   ~ 0
 we
-$Comp
-L Device:R_Small_US R?
-U 1 1 60BC3365
-P 2950 8750
-AR Path="/608A2359/60BC3365" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60BC3365" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60BC3365" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60BC3365" Ref="R?"  Part="1" 
-AR Path="/60AD332C/60BC3365" Ref="R444"  Part="1" 
-F 0 "R444" V 2850 8750 50  0000 C CNN
-F 1 "33" V 3050 8750 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2950 8750 50  0001 C CNN
-F 3 "~" H 2950 8750 50  0001 C CNN
-	1    2950 8750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60BC3B80
-P 2950 9250
-AR Path="/608A2359/60BC3B80" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60BC3B80" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60BC3B80" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60BC3B80" Ref="R?"  Part="1" 
-AR Path="/60AD332C/60BC3B80" Ref="R445"  Part="1" 
-F 0 "R445" V 2850 9250 50  0000 C CNN
-F 1 "33" V 3050 9250 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2950 9250 50  0001 C CNN
-F 3 "~" H 2950 9250 50  0001 C CNN
-	1    2950 9250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60BC45D3
-P 3950 8250
-AR Path="/608A2359/60BC45D3" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60BC45D3" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60BC45D3" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60BC45D3" Ref="R?"  Part="1" 
-AR Path="/60AD332C/60BC45D3" Ref="R446"  Part="1" 
-F 0 "R446" V 3850 8250 50  0000 C CNN
-F 1 "33" V 4050 8250 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3950 8250 50  0001 C CNN
-F 3 "~" H 3950 8250 50  0001 C CNN
-	1    3950 8250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60BC4B88
-P 3950 8750
-AR Path="/608A2359/60BC4B88" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60BC4B88" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60BC4B88" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60BC4B88" Ref="R?"  Part="1" 
-AR Path="/60AD332C/60BC4B88" Ref="R449"  Part="1" 
-F 0 "R449" V 3850 8750 50  0000 C CNN
-F 1 "33" V 4050 8750 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3950 8750 50  0001 C CNN
-F 3 "~" H 3950 8750 50  0001 C CNN
-	1    3950 8750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60BC4FC7
-P 3950 9250
-AR Path="/608A2359/60BC4FC7" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60BC4FC7" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60BC4FC7" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60BC4FC7" Ref="R?"  Part="1" 
-AR Path="/60AD332C/60BC4FC7" Ref="R450"  Part="1" 
-F 0 "R450" V 3850 9250 50  0000 C CNN
-F 1 "33" V 4050 9250 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3950 9250 50  0001 C CNN
-F 3 "~" H 3950 9250 50  0001 C CNN
-	1    3950 9250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60BC550C
-P 2950 9750
-AR Path="/608A2359/60BC550C" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60BC550C" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60BC550C" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60BC550C" Ref="R?"  Part="1" 
-AR Path="/60AD332C/60BC550C" Ref="R453"  Part="1" 
-F 0 "R453" V 2850 9750 50  0000 C CNN
-F 1 "33" V 3050 9750 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2950 9750 50  0001 C CNN
-F 3 "~" H 2950 9750 50  0001 C CNN
-	1    2950 9750
-	0    1    1    0   
-$EndComp
-Text GLabel 3150 9750 2    50   Output ~ 0
+Text GLabel 4800 8300 2    50   Output ~ 0
 XWE
-Text GLabel 3150 8250 2    50   Output ~ 0
+Text GLabel 3300 8000 2    50   Output ~ 0
 XRAS0
-Text GLabel 3150 8750 2    50   Output ~ 0
+Text GLabel 3300 8100 2    50   Output ~ 0
 XCAS0H
-Text GLabel 3150 9250 2    50   Output ~ 0
+Text GLabel 3300 8200 2    50   Output ~ 0
 XCAS0L
-Text GLabel 4150 8250 2    50   Output ~ 0
+Text GLabel 4800 8000 2    50   Output ~ 0
 XRAS1
-Text GLabel 4150 8750 2    50   Output ~ 0
+Text GLabel 4800 8100 2    50   Output ~ 0
 XCAS1H
-Text GLabel 4150 9250 2    50   Output ~ 0
+Text GLabel 4800 8200 2    50   Output ~ 0
 XCAS1L
 Wire Wire Line
-	2700 9750 2850 9750
+	4150 8300 4300 8300
 Wire Wire Line
-	3050 9750 3150 9750
+	4700 8300 4800 8300
 Wire Wire Line
-	2600 8250 2850 8250
+	2550 8000 2800 8000
 Wire Wire Line
-	2600 8750 2850 8750
+	2550 8100 2800 8100
 Wire Wire Line
-	2600 9250 2850 9250
+	2550 8200 2800 8200
 Wire Wire Line
-	3050 8250 3150 8250
+	3200 8000 3300 8000
 Wire Wire Line
-	3050 8750 3150 8750
+	3200 8100 3300 8100
 Wire Wire Line
-	3050 9250 3150 9250
+	3200 8200 3300 8200
 Wire Wire Line
-	3600 8250 3850 8250
+	4050 8000 4300 8000
 Wire Wire Line
-	3600 8750 3850 8750
+	4050 8100 4300 8100
 Wire Wire Line
-	3600 9250 3850 9250
+	4050 8200 4300 8200
 Wire Wire Line
-	4050 8250 4150 8250
+	4700 8000 4800 8000
 Wire Wire Line
-	4050 8750 4150 8750
+	4700 8100 4800 8100
 Wire Wire Line
-	4050 9250 4150 9250
-Text Label 5000 8250 0    50   ~ 0
+	4700 8200 4800 8200
+Text Label 2600 9000 0    50   ~ 0
 ma9
-Text Label 5000 8750 0    50   ~ 0
+Text Label 2600 9100 0    50   ~ 0
 ma8
-Text Label 5000 9250 0    50   ~ 0
+Text Label 2600 9200 0    50   ~ 0
 ma7
-Text Label 5000 9750 0    50   ~ 0
+Text Label 2600 9300 0    50   ~ 0
 ma6
-Text Label 5800 8250 0    50   ~ 0
+Text Label 4100 9000 0    50   ~ 0
 ma5
-Text Label 5800 8750 0    50   ~ 0
+Text Label 4100 9100 0    50   ~ 0
 ma4
-Text Label 5800 9250 0    50   ~ 0
+Text Label 4100 9200 0    50   ~ 0
 ma3
-Text Label 5800 9750 0    50   ~ 0
+Text Label 4100 9300 0    50   ~ 0
 ma2
-Text Label 6600 9250 0    50   ~ 0
+Text Label 5600 9000 0    50   ~ 0
 ma1
-Text Label 6600 9750 0    50   ~ 0
+Text Label 5600 9100 0    50   ~ 0
 ma0
-Text Label 7250 9750 2    50   ~ 0
+Text Label 6450 9100 2    50   ~ 0
 MAD0
-Text Label 7250 9250 2    50   ~ 0
+Text Label 6450 9000 2    50   ~ 0
 MAD1
-Text Label 6450 9750 2    50   ~ 0
+Text Label 4950 9300 2    50   ~ 0
 MAD2
-Text Label 6450 9250 2    50   ~ 0
+Text Label 4950 9200 2    50   ~ 0
 MAD3
-Text Label 6450 8750 2    50   ~ 0
+Text Label 4950 9100 2    50   ~ 0
 MAD4
-Text Label 6450 8250 2    50   ~ 0
+Text Label 4950 9000 2    50   ~ 0
 MAD5
-Text Label 5650 9750 2    50   ~ 0
+Text Label 3450 9300 2    50   ~ 0
 MAD6
-Text Label 5650 9250 2    50   ~ 0
+Text Label 3450 9200 2    50   ~ 0
 MAD7
-Text Label 5650 8750 2    50   ~ 0
+Text Label 3450 9100 2    50   ~ 0
 MAD8
-Text Label 5650 8250 2    50   ~ 0
+Text Label 3450 9000 2    50   ~ 0
 MAD9
-$Comp
-L Device:R_Small_US R?
-U 1 1 60CBBB7C
-P 5300 8750
-AR Path="/608A2359/60CBBB7C" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60CBBB7C" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60CBBB7C" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60CBBB7C" Ref="R?"  Part="1" 
-AR Path="/60AD332C/60CBBB7C" Ref="R455"  Part="1" 
-F 0 "R455" V 5200 8750 50  0000 C CNN
-F 1 "68" V 5400 8750 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5300 8750 50  0001 C CNN
-F 3 "~" H 5300 8750 50  0001 C CNN
-	1    5300 8750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60CBC84A
-P 5300 9250
-AR Path="/608A2359/60CBC84A" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60CBC84A" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60CBC84A" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60CBC84A" Ref="R?"  Part="1" 
-AR Path="/60AD332C/60CBC84A" Ref="R457"  Part="1" 
-F 0 "R457" V 5200 9250 50  0000 C CNN
-F 1 "68" V 5400 9250 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5300 9250 50  0001 C CNN
-F 3 "~" H 5300 9250 50  0001 C CNN
-	1    5300 9250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60CBE464
-P 5300 9750
-AR Path="/608A2359/60CBE464" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60CBE464" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60CBE464" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60CBE464" Ref="R?"  Part="1" 
-AR Path="/60AD332C/60CBE464" Ref="R458"  Part="1" 
-F 0 "R458" V 5200 9750 50  0000 C CNN
-F 1 "68" V 5400 9750 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5300 9750 50  0001 C CNN
-F 3 "~" H 5300 9750 50  0001 C CNN
-	1    5300 9750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60CBE46A
-P 6100 8250
-AR Path="/608A2359/60CBE46A" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60CBE46A" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60CBE46A" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60CBE46A" Ref="R?"  Part="1" 
-AR Path="/60AD332C/60CBE46A" Ref="R460"  Part="1" 
-F 0 "R460" V 6000 8250 50  0000 C CNN
-F 1 "68" V 6200 8250 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6100 8250 50  0001 C CNN
-F 3 "~" H 6100 8250 50  0001 C CNN
-	1    6100 8250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60CBE470
-P 6100 8750
-AR Path="/608A2359/60CBE470" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60CBE470" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60CBE470" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60CBE470" Ref="R?"  Part="1" 
-AR Path="/60AD332C/60CBE470" Ref="R461"  Part="1" 
-F 0 "R461" V 6000 8750 50  0000 C CNN
-F 1 "68" V 6200 8750 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6100 8750 50  0001 C CNN
-F 3 "~" H 6100 8750 50  0001 C CNN
-	1    6100 8750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60CC7ADF
-P 6100 9250
-AR Path="/608A2359/60CC7ADF" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60CC7ADF" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60CC7ADF" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60CC7ADF" Ref="R?"  Part="1" 
-AR Path="/60AD332C/60CC7ADF" Ref="R462"  Part="1" 
-F 0 "R462" V 6000 9250 50  0000 C CNN
-F 1 "68" V 6200 9250 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6100 9250 50  0001 C CNN
-F 3 "~" H 6100 9250 50  0001 C CNN
-	1    6100 9250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60CC7AE5
-P 6100 9750
-AR Path="/608A2359/60CC7AE5" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60CC7AE5" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60CC7AE5" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60CC7AE5" Ref="R?"  Part="1" 
-AR Path="/60AD332C/60CC7AE5" Ref="R464"  Part="1" 
-F 0 "R464" V 6000 9750 50  0000 C CNN
-F 1 "68" V 6200 9750 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6100 9750 50  0001 C CNN
-F 3 "~" H 6100 9750 50  0001 C CNN
-	1    6100 9750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60CC7AEB
-P 6900 9250
-AR Path="/608A2359/60CC7AEB" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60CC7AEB" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60CC7AEB" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60CC7AEB" Ref="R?"  Part="1" 
-AR Path="/60AD332C/60CC7AEB" Ref="R465"  Part="1" 
-F 0 "R465" V 6800 9250 50  0000 C CNN
-F 1 "68" V 7000 9250 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6900 9250 50  0001 C CNN
-F 3 "~" H 6900 9250 50  0001 C CNN
-	1    6900 9250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60CCEEB1
-P 6900 9750
-AR Path="/608A2359/60CCEEB1" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60CCEEB1" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60CCEEB1" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60CCEEB1" Ref="R?"  Part="1" 
-AR Path="/60AD332C/60CCEEB1" Ref="R466"  Part="1" 
-F 0 "R466" V 6800 9750 50  0000 C CNN
-F 1 "68" V 7000 9750 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6900 9750 50  0001 C CNN
-F 3 "~" H 6900 9750 50  0001 C CNN
-	1    6900 9750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	5000 8250 5200 8250
+	2600 9000 2800 9000
 Wire Wire Line
-	5000 8750 5200 8750
+	2600 9100 2800 9100
 Wire Wire Line
-	5000 9250 5200 9250
+	2600 9200 2800 9200
 Wire Wire Line
-	5400 8250 5650 8250
+	3200 9000 3450 9000
 Wire Wire Line
-	5400 8750 5650 8750
+	3200 9100 3450 9100
 Wire Wire Line
-	5400 9250 5650 9250
+	3200 9200 3450 9200
 Wire Wire Line
-	5000 9750 5200 9750
+	2600 9300 2800 9300
 Wire Wire Line
-	5400 9750 5650 9750
+	3200 9300 3450 9300
 Wire Wire Line
-	6200 8250 6450 8250
+	4700 9000 4950 9000
 Wire Wire Line
-	5800 8250 6000 8250
+	4100 9000 4300 9000
 Wire Wire Line
-	5800 8750 6000 8750
+	4100 9100 4300 9100
 Wire Wire Line
-	6200 8750 6450 8750
+	4700 9100 4950 9100
 Wire Wire Line
-	5800 9250 6000 9250
+	4100 9200 4300 9200
 Wire Wire Line
-	6200 9250 6450 9250
+	4700 9200 4950 9200
 Wire Wire Line
-	5800 9750 6000 9750
+	4100 9300 4300 9300
 Wire Wire Line
-	6200 9750 6450 9750
+	4700 9300 4950 9300
 Wire Wire Line
-	6600 9250 6800 9250
+	5600 9000 5800 9000
 Wire Wire Line
-	7000 9250 7250 9250
+	6200 9000 6450 9000
 Wire Wire Line
-	6600 9750 6800 9750
+	5600 9100 5800 9100
 Wire Wire Line
-	7000 9750 7250 9750
+	6200 9100 6450 9100
 $Comp
 L Device:R_Small_US R?
 U 1 1 60DB2A50
@@ -1160,4 +888,59 @@ Wire Wire Line
 	3450 7150 3450 7450
 Wire Wire Line
 	3550 7400 3550 7150
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 6229461F
+P 3000 8200
+F 0 "RN?" V 2700 8200 50  0000 C CNN
+F 1 "33 ×4" V 3200 8200 50  0000 C CNN
+F 2 "" V 3275 8200 50  0001 C CNN
+F 3 "~" H 3000 8200 50  0001 C CNN
+	1    3000 8200
+	0    1    1    0   
+$EndComp
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 622CCFB9
+P 4500 8200
+F 0 "RN?" V 4200 8200 50  0000 C CNN
+F 1 "33 ×4" V 4700 8200 50  0000 C CNN
+F 2 "" V 4775 8200 50  0001 C CNN
+F 3 "~" H 4500 8200 50  0001 C CNN
+	1    4500 8200
+	0    1    1    0   
+$EndComp
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 6233CA32
+P 3000 9200
+F 0 "RN?" V 2700 9200 50  0000 C CNN
+F 1 "68 ×4" V 3200 9200 50  0000 C CNN
+F 2 "" V 3275 9200 50  0001 C CNN
+F 3 "~" H 3000 9200 50  0001 C CNN
+	1    3000 9200
+	0    1    1    0   
+$EndComp
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 623874D8
+P 4500 9200
+F 0 "RN?" V 4200 9200 50  0000 C CNN
+F 1 "68 ×4" V 4700 9200 50  0000 C CNN
+F 2 "" V 4775 9200 50  0001 C CNN
+F 3 "~" H 4500 9200 50  0001 C CNN
+	1    4500 9200
+	0    1    1    0   
+$EndComp
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 623D2AD5
+P 6000 9200
+F 0 "RN?" V 5700 9200 50  0000 C CNN
+F 1 "68 ×4" V 6200 9200 50  0000 C CNN
+F 2 "" V 6275 9200 50  0001 C CNN
+F 3 "~" H 6000 9200 50  0001 C CNN
+	1    6000 9200
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

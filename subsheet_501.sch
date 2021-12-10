@@ -317,84 +317,30 @@ Wire Wire Line
 	4300 7000 4100 7000
 Wire Wire Line
 	2400 6100 2900 6100
-$Comp
-L Device:R_Network08_US P?
-U 1 1 60CAE8DF
-P 6400 4250
-AR Path="/6089D0C6/60CAE8DF" Ref="P?"  Part="1" 
-AR Path="/60C451BA/60CAE8DF" Ref="P?"  Part="1" 
-AR Path="/60C60FDB/60CAE8DF" Ref="P502"  Part="1" 
-F 0 "P502" V 5900 4250 50  0000 C CNN
-F 1 "4K7 ×8" V 6800 4250 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 6875 4250 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6400 4250 50  0001 C CNN
-	1    6400 4250
-	0    1    1    0   
-$EndComp
-Text Label 6750 3850 2    50   ~ 0
-VCC
-Wire Wire Line
-	6600 3850 6750 3850
-$Comp
-L Device:R_Network08_US P?
-U 1 1 60CAE8EF
-P 6400 2000
-AR Path="/6089D0C6/60CAE8EF" Ref="P?"  Part="1" 
-AR Path="/60C451BA/60CAE8EF" Ref="P?"  Part="1" 
-AR Path="/60C60FDB/60CAE8EF" Ref="P500"  Part="1" 
-F 0 "P500" V 5900 2000 50  0000 C CNN
-F 1 "4K7 ×8" V 6800 2000 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 6875 2000 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6400 2000 50  0001 C CNN
-	1    6400 2000
-	0    1    1    0   
-$EndComp
-Text Label 6750 1600 2    50   ~ 0
-VCC
-Wire Wire Line
-	6600 1600 6750 1600
-$Comp
-L Device:R_Network08_US P?
-U 1 1 60CAE8F7
-P 6400 6500
-AR Path="/6089D0C6/60CAE8F7" Ref="P?"  Part="1" 
-AR Path="/60C451BA/60CAE8F7" Ref="P?"  Part="1" 
-AR Path="/60C60FDB/60CAE8F7" Ref="P501"  Part="1" 
-F 0 "P501" V 5900 6500 50  0000 C CNN
-F 1 "4K7 ×8" V 6800 6500 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 6875 6500 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6400 6500 50  0001 C CNN
-	1    6400 6500
-	0    1    1    0   
-$EndComp
-Text Label 6750 6100 2    50   ~ 0
-VCC
-Wire Wire Line
-	6600 6100 6750 6100
-Text Label 5700 1600 0    50   ~ 0
+Text Label 5800 1500 0    50   ~ 0
 pull_500_2
-Text Label 5700 1800 0    50   ~ 0
+Text Label 5800 1700 0    50   ~ 0
 pull_500_4
-Text Label 5700 2000 0    50   ~ 0
+Text Label 5800 2200 0    50   ~ 0
 pull_500_6
-Text Label 5700 2200 0    50   ~ 0
+Text Label 5800 2400 0    50   ~ 0
 pull_500_8
 Wire Wire Line
-	5700 1600 6200 1600
+	5800 1500 6300 1500
 Wire Wire Line
-	5700 1700 6200 1700
+	5800 1600 6300 1600
 Wire Wire Line
-	5700 1800 6200 1800
+	5800 1700 6300 1700
 Wire Wire Line
-	5700 1900 6200 1900
+	5800 1800 6300 1800
 Wire Wire Line
-	5700 2000 6200 2000
+	5800 2200 6300 2200
 Wire Wire Line
-	5700 2100 6200 2100
+	5800 2300 6300 2300
 Wire Wire Line
-	5700 2200 6200 2200
+	5800 2400 6300 2400
 Wire Wire Line
-	5700 2300 6200 2300
+	5800 2500 6300 2500
 Text GLabel 6750 1000 2    50   BiDi ~ 0
 DATA[0..15]
 Wire Bus Line
@@ -461,78 +407,78 @@ Text GLabel 2700 6600 0    50   Input ~ 0
 JOY0_12
 Text GLabel 2700 6800 0    50   Input ~ 0
 JOY0_11
-Text GLabel 5700 1700 0    50   Input ~ 0
+Text GLabel 5800 1600 0    50   Input ~ 0
 XPEN
-Text GLabel 5700 1900 0    50   Input ~ 0
+Text GLabel 5800 1800 0    50   Input ~ 0
 JOY0_10
-Text GLabel 5700 2100 0    50   Input ~ 0
+Text GLabel 5800 2300 0    50   Input ~ 0
 JOY1_6
-Text GLabel 5700 2300 0    50   Input ~ 0
+Text GLabel 5800 2500 0    50   Input ~ 0
 JOY1_10
-Text GLabel 6050 6100 0    50   Input ~ 0
+Text GLabel 6150 5500 0    50   Input ~ 0
 JOY0_14
-Text GLabel 6050 6300 0    50   Input ~ 0
+Text GLabel 6150 5700 0    50   Input ~ 0
 JOY0_13
-Text GLabel 6050 6500 0    50   Input ~ 0
+Text GLabel 6150 6200 0    50   Input ~ 0
 JOY0_12
-Text GLabel 6050 6700 0    50   Input ~ 0
+Text GLabel 6150 6400 0    50   Input ~ 0
 JOY0_11
-Text GLabel 5600 6800 0    50   Input ~ 0
+Text GLabel 5700 6500 0    50   Input ~ 0
 JOY1_14
-Text GLabel 5600 6600 0    50   Input ~ 0
+Text GLabel 5700 6300 0    50   Input ~ 0
 JOY1_13
-Text GLabel 5600 6400 0    50   Input ~ 0
+Text GLabel 5700 5800 0    50   Input ~ 0
 JOY1_12
-Text GLabel 5600 6200 0    50   Input ~ 0
+Text GLabel 5700 5600 0    50   Input ~ 0
 JOY1_11
 Wire Wire Line
-	6050 6100 6200 6100
+	6150 5500 6300 5500
 Wire Wire Line
-	6050 6300 6200 6300
+	6150 5700 6300 5700
 Wire Wire Line
-	6050 6500 6200 6500
+	6150 6200 6300 6200
 Wire Wire Line
-	6050 6700 6200 6700
+	6150 6400 6300 6400
 Wire Wire Line
-	5600 6200 6200 6200
+	5700 5600 6300 5600
 Wire Wire Line
-	5600 6400 6200 6400
+	5700 5800 6300 5800
 Wire Wire Line
-	5600 6600 6200 6600
+	5700 6300 6300 6300
 Wire Wire Line
-	5600 6800 6200 6800
-Text GLabel 6050 3850 0    50   BiDi ~ 0
+	5700 6500 6300 6500
+Text GLabel 6150 3000 0    50   BiDi ~ 0
 JOY0_4
-Text GLabel 6050 4050 0    50   BiDi ~ 0
+Text GLabel 6150 3200 0    50   BiDi ~ 0
 JOY0_3
-Text GLabel 6050 4250 0    50   BiDi ~ 0
+Text GLabel 6150 3700 0    50   BiDi ~ 0
 JOY0_2
-Text GLabel 6050 4450 0    50   BiDi ~ 0
+Text GLabel 6150 3900 0    50   BiDi ~ 0
 JOY0_1
-Text GLabel 5650 3950 0    50   BiDi ~ 0
+Text GLabel 5750 3100 0    50   BiDi ~ 0
 JOY1_1
-Text GLabel 5650 4150 0    50   BiDi ~ 0
+Text GLabel 5750 3300 0    50   BiDi ~ 0
 JOY1_2
-Text GLabel 5650 4350 0    50   BiDi ~ 0
+Text GLabel 5750 3800 0    50   BiDi ~ 0
 JOY1_3
-Text GLabel 5650 4550 0    50   BiDi ~ 0
+Text GLabel 5750 4000 0    50   BiDi ~ 0
 JOY1_4
 Wire Wire Line
-	6050 3850 6200 3850
+	6150 3000 6300 3000
 Wire Wire Line
-	6050 4050 6200 4050
+	6150 3200 6300 3200
 Wire Wire Line
-	6050 4250 6200 4250
+	6150 3700 6300 3700
 Wire Wire Line
-	6050 4450 6200 4450
+	6150 3900 6300 3900
 Wire Wire Line
-	5650 3950 6200 3950
+	5750 3100 6300 3100
 Wire Wire Line
-	5650 4150 6200 4150
+	5750 3300 6300 3300
 Wire Wire Line
-	5650 4350 6200 4350
+	5750 3800 6300 3800
 Wire Wire Line
-	5650 4550 6200 4550
+	5750 4000 6300 4000
 $Comp
 L Device:C C?
 U 1 1 6106129E
@@ -653,16 +599,16 @@ Wire Wire Line
 	1750 6400 1750 6600
 Wire Wire Line
 	1750 6900 1750 7100
-Text Notes 5100 7300 0    50   ~ 0
+Text Notes 5200 7000 0    50   ~ 0
 JOY1_11 to JOY1_14 are in reversed order,\nto match the wiring on my motherboard.\n
 Wire Notes Line
-	5200 6200 5050 6200
+	5300 5600 5150 5600
 Wire Notes Line
-	5200 6400 5050 6400
+	5300 5800 5150 5800
 Wire Notes Line
-	5200 6600 5050 6600
+	5300 6300 5150 6300
 Wire Notes Line
-	5200 6800 5050 6800
+	5300 6500 5150 6500
 Text Label 4300 4800 2    50   ~ 0
 D7
 Text Label 4300 4900 2    50   ~ 0
@@ -671,30 +617,220 @@ Text Label 4300 5200 2    50   ~ 0
 D5
 Text Label 4300 5300 2    50   ~ 0
 D4
-Text Notes 5000 5700 0    50   ~ 0
+Text Notes 5000 5000 0    50   ~ 0
 D4 to D7 are in reversed order,\nto match the wiring on my motherboard.\n
 Wire Notes Line
-	5050 7350 6850 7350
+	5150 7050 6950 7050
 Wire Notes Line
-	5050 6200 5050 7350
+	6950 6800 6950 7050
 Wire Notes Line
-	6850 7100 6850 7350
+	5150 6800 6950 6800
 Wire Notes Line
-	5050 7100 6850 7100
+	6600 5050 6600 4800
 Wire Notes Line
-	6600 5750 6600 5500
-Wire Notes Line
-	6600 5500 4950 5500
-Wire Notes Line
-	4950 5750 6600 5750
-Wire Notes Line
-	4300 4800 4950 4800
+	4950 5050 6600 5050
 Wire Notes Line
 	4300 4900 4950 4900
 Wire Notes Line
 	4300 5200 4950 5200
 Wire Notes Line
 	4300 5300 4950 5300
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 624905E3
+P 6500 3200
+F 0 "RN?" V 6200 3200 50  0000 C CNN
+F 1 "4K7 ×4" V 6700 3200 50  0000 C CNN
+F 2 "" V 6775 3200 50  0001 C CNN
+F 3 "~" H 6500 3200 50  0001 C CNN
+	1    6500 3200
+	0    1    1    0   
+$EndComp
+Text Label 7000 3000 2    50   ~ 0
+VCC
+Wire Wire Line
+	6700 3000 6800 3000
+Wire Wire Line
+	6700 3300 6800 3300
+Wire Wire Line
+	6800 3300 6800 3200
+Connection ~ 6800 3000
+Wire Wire Line
+	6800 3000 7000 3000
+Wire Wire Line
+	6700 3200 6800 3200
+Connection ~ 6800 3200
+Wire Wire Line
+	6800 3200 6800 3100
+Wire Wire Line
+	6700 3100 6800 3100
+Connection ~ 6800 3100
+Wire Wire Line
+	6800 3100 6800 3000
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 6249D1FA
+P 6500 3900
+F 0 "RN?" V 6200 3900 50  0000 C CNN
+F 1 "4K7 ×4" V 6700 3900 50  0000 C CNN
+F 2 "" V 6775 3900 50  0001 C CNN
+F 3 "~" H 6500 3900 50  0001 C CNN
+	1    6500 3900
+	0    1    1    0   
+$EndComp
+Text Label 7000 3700 2    50   ~ 0
+VCC
+Wire Wire Line
+	6700 3700 6800 3700
+Wire Wire Line
+	6700 4000 6800 4000
+Wire Wire Line
+	6800 4000 6800 3900
+Connection ~ 6800 3700
+Wire Wire Line
+	6800 3700 7000 3700
+Wire Wire Line
+	6700 3900 6800 3900
+Connection ~ 6800 3900
+Wire Wire Line
+	6800 3900 6800 3800
+Wire Wire Line
+	6700 3800 6800 3800
+Connection ~ 6800 3800
+Wire Wire Line
+	6800 3800 6800 3700
 Wire Notes Line
-	4950 4800 4950 5750
+	4300 4800 6600 4800
+Wire Notes Line
+	4950 5300 4950 4800
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 624C36D6
+P 6500 5700
+F 0 "RN?" V 6200 5700 50  0000 C CNN
+F 1 "4K7 ×4" V 6700 5700 50  0000 C CNN
+F 2 "" V 6775 5700 50  0001 C CNN
+F 3 "~" H 6500 5700 50  0001 C CNN
+	1    6500 5700
+	0    1    1    0   
+$EndComp
+Text Label 7000 5500 2    50   ~ 0
+VCC
+Wire Wire Line
+	6700 5500 6800 5500
+Wire Wire Line
+	6700 5800 6800 5800
+Wire Wire Line
+	6800 5800 6800 5700
+Connection ~ 6800 5500
+Wire Wire Line
+	6800 5500 7000 5500
+Wire Wire Line
+	6700 5700 6800 5700
+Connection ~ 6800 5700
+Wire Wire Line
+	6800 5700 6800 5600
+Wire Wire Line
+	6700 5600 6800 5600
+Connection ~ 6800 5600
+Wire Wire Line
+	6800 5600 6800 5500
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 624D7AF3
+P 6500 6400
+F 0 "RN?" V 6200 6400 50  0000 C CNN
+F 1 "4K7 ×4" V 6700 6400 50  0000 C CNN
+F 2 "" V 6775 6400 50  0001 C CNN
+F 3 "~" H 6500 6400 50  0001 C CNN
+	1    6500 6400
+	0    1    1    0   
+$EndComp
+Text Label 7000 6200 2    50   ~ 0
+VCC
+Wire Wire Line
+	6700 6200 6800 6200
+Wire Wire Line
+	6700 6500 6800 6500
+Wire Wire Line
+	6800 6500 6800 6400
+Connection ~ 6800 6200
+Wire Wire Line
+	6800 6200 7000 6200
+Wire Wire Line
+	6700 6400 6800 6400
+Connection ~ 6800 6400
+Wire Wire Line
+	6800 6400 6800 6300
+Wire Wire Line
+	6700 6300 6800 6300
+Connection ~ 6800 6300
+Wire Wire Line
+	6800 6300 6800 6200
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 62508706
+P 6500 2400
+F 0 "RN?" V 6200 2400 50  0000 C CNN
+F 1 "4K7 ×4" V 6700 2400 50  0000 C CNN
+F 2 "" V 6775 2400 50  0001 C CNN
+F 3 "~" H 6500 2400 50  0001 C CNN
+	1    6500 2400
+	0    1    1    0   
+$EndComp
+Text Label 7000 2200 2    50   ~ 0
+VCC
+Wire Wire Line
+	6700 2200 6800 2200
+Wire Wire Line
+	6700 2500 6800 2500
+Wire Wire Line
+	6800 2500 6800 2400
+Connection ~ 6800 2200
+Wire Wire Line
+	6800 2200 7000 2200
+Wire Wire Line
+	6700 2400 6800 2400
+Connection ~ 6800 2400
+Wire Wire Line
+	6800 2400 6800 2300
+Wire Wire Line
+	6700 2300 6800 2300
+Connection ~ 6800 2300
+Wire Wire Line
+	6800 2300 6800 2200
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 62529C81
+P 6500 1700
+F 0 "RN?" V 6200 1700 50  0000 C CNN
+F 1 "4K7 ×4" V 6700 1700 50  0000 C CNN
+F 2 "" V 6775 1700 50  0001 C CNN
+F 3 "~" H 6500 1700 50  0001 C CNN
+	1    6500 1700
+	0    1    1    0   
+$EndComp
+Text Label 7000 1500 2    50   ~ 0
+VCC
+Wire Wire Line
+	6700 1500 6800 1500
+Wire Wire Line
+	6700 1800 6800 1800
+Wire Wire Line
+	6800 1800 6800 1700
+Connection ~ 6800 1500
+Wire Wire Line
+	6800 1500 7000 1500
+Wire Wire Line
+	6700 1700 6800 1700
+Connection ~ 6800 1700
+Wire Wire Line
+	6800 1700 6800 1600
+Wire Wire Line
+	6700 1600 6800 1600
+Connection ~ 6800 1600
+Wire Wire Line
+	6800 1600 6800 1500
+Wire Notes Line
+	5150 7050 5150 5600
 $EndSCHEMATC

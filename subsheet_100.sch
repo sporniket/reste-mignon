@@ -208,392 +208,260 @@ Wire Wire Line
 	4600 5300 4600 5150
 Wire Wire Line
 	4600 4700 4600 4850
-$Comp
-L Device:R_Network08_US P100
-U 1 1 607F5888
-P 2100 8350
-F 0 "P100" V 1600 8350 50  0000 C CNN
-F 1 "1K2 ×8" V 2500 8350 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 2575 8350 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2100 8350 50  0001 C CNN
-	1    2100 8350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Network08_US P101
-U 1 1 607F7061
-P 2100 9450
-F 0 "P101" V 1600 9450 50  0000 C CNN
-F 1 "4K7 ×8" V 2500 9450 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 2575 9450 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2100 9450 50  0001 C CNN
-	1    2100 9450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Network08_US P102
-U 1 1 607F8D98
-P 3350 9450
-F 0 "P102" V 2850 9450 50  0000 C CNN
-F 1 "4K7 ×8" V 3750 9450 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 3825 9450 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3350 9450 50  0001 C CNN
-	1    3350 9450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Network08_US P103
-U 1 1 607F991C
-P 4600 9450
-F 0 "P103" V 4100 9450 50  0000 C CNN
-F 1 "4K7 ×8" V 5000 9450 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 5075 9450 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4600 9450 50  0001 C CNN
-	1    4600 9450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Network08_US P104
-U 1 1 607FB176
-P 3350 8350
-F 0 "P104" V 2850 8350 50  0000 C CNN
-F 1 "10K ×8" V 3750 8350 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 3825 8350 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3350 8350 50  0001 C CNN
-	1    3350 8350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Network08_US P105
-U 1 1 60815C70
-P 4600 8350
-F 0 "P105" V 4100 8350 50  0000 C CNN
-F 1 "10K ×8" V 5000 8350 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 5075 8350 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4600 8350 50  0001 C CNN
-	1    4600 8350
-	0    1    1    0   
-$EndComp
-Text Label 2450 7950 2    50   ~ 0
+Text Label 2500 6050 2    50   ~ 0
 VCC
-Text Label 2450 9050 2    50   ~ 0
-VCC
-Text Label 3700 9050 2    50   ~ 0
-VCC
-Text Label 4950 9050 2    50   ~ 0
-VCC
-Text Label 3700 7950 2    50   ~ 0
-VCC
-Text Label 4950 7950 2    50   ~ 0
-VCC
-Wire Wire Line
-	2300 7950 2450 7950
-Wire Wire Line
-	2300 9050 2450 9050
-Wire Wire Line
-	3550 9050 3700 9050
-Wire Wire Line
-	4800 9050 4950 9050
-Wire Wire Line
-	3550 7950 3700 7950
-Wire Wire Line
-	4800 7950 4950 7950
-Text Label 4200 7950 0    50   ~ 0
+Text Label 1600 7000 0    50   ~ 0
 D0
-Text Label 4200 8050 0    50   ~ 0
+Text Label 1600 7100 0    50   ~ 0
 D1
-Text Label 4200 8150 0    50   ~ 0
+Text Label 1600 7200 0    50   ~ 0
 D2
-Text Label 4200 8250 0    50   ~ 0
+Text Label 1600 7300 0    50   ~ 0
 D3
-Text Label 4200 8350 0    50   ~ 0
+Text Label 3100 7000 0    50   ~ 0
 D4
-Text Label 4200 8450 0    50   ~ 0
+Text Label 3100 7100 0    50   ~ 0
 D5
-Text Label 4200 8550 0    50   ~ 0
+Text Label 3100 7200 0    50   ~ 0
 D6
-Text Label 4200 8650 0    50   ~ 0
+Text Label 3100 7300 0    50   ~ 0
 D7
 Wire Wire Line
-	4200 7950 4400 7950
+	1600 7000 1800 7000
 Wire Wire Line
-	4200 8050 4400 8050
+	1600 7100 1800 7100
 Wire Wire Line
-	4200 8150 4400 8150
+	1600 7200 1800 7200
 Wire Wire Line
-	4200 8250 4400 8250
+	1600 7300 1800 7300
 Wire Wire Line
-	4200 8350 4400 8350
+	3100 7000 3300 7000
 Wire Wire Line
-	4200 8450 4400 8450
+	3100 7100 3300 7100
 Wire Wire Line
-	4200 8550 4400 8550
+	3100 7200 3300 7200
 Wire Wire Line
-	4200 8650 4400 8650
-Text Label 2950 7950 0    50   ~ 0
+	3100 7300 3300 7300
+Text Label 4600 7000 0    50   ~ 0
 D8
-Text Label 2950 8050 0    50   ~ 0
+Text Label 4600 7100 0    50   ~ 0
 D9
-Text Label 2950 8150 0    50   ~ 0
+Text Label 4600 7200 0    50   ~ 0
 D10
-Text Label 2950 8250 0    50   ~ 0
+Text Label 4600 7300 0    50   ~ 0
 D11
-Text Label 2950 8350 0    50   ~ 0
+Text Label 6100 7000 0    50   ~ 0
 D12
-Text Label 2950 8450 0    50   ~ 0
+Text Label 6100 7100 0    50   ~ 0
 D13
-Text Label 2950 8550 0    50   ~ 0
+Text Label 6100 7200 0    50   ~ 0
 D14
-Text Label 2950 8650 0    50   ~ 0
+Text Label 6100 7300 0    50   ~ 0
 D15
-Text Label 4200 9050 0    50   ~ 0
+Text Label 1600 8000 0    50   ~ 0
 A1
-Text Label 4200 9150 0    50   ~ 0
+Text Label 1600 8100 0    50   ~ 0
 A2
-Text Label 4200 9250 0    50   ~ 0
+Text Label 1600 8200 0    50   ~ 0
 A3
-Text Label 4200 9350 0    50   ~ 0
+Text Label 1600 8300 0    50   ~ 0
 A4
-Text Label 4200 9450 0    50   ~ 0
+Text Label 3100 8000 0    50   ~ 0
 A5
-Text Label 4200 9550 0    50   ~ 0
+Text Label 3100 8100 0    50   ~ 0
 A6
-Text Label 4200 9650 0    50   ~ 0
+Text Label 3100 8200 0    50   ~ 0
 A7
-Text Label 4200 9750 0    50   ~ 0
+Text Label 3100 8300 0    50   ~ 0
 A8
-Text Label 2950 9050 0    50   ~ 0
+Text Label 4600 8000 0    50   ~ 0
 A9
-Text Label 2950 9150 0    50   ~ 0
+Text Label 4600 8100 0    50   ~ 0
 A10
-Text Label 2950 9250 0    50   ~ 0
+Text Label 4600 8200 0    50   ~ 0
 A11
-Text Label 2950 9350 0    50   ~ 0
+Text Label 4600 8300 0    50   ~ 0
 A12
-Text Label 2950 9450 0    50   ~ 0
+Text Label 6100 8050 0    50   ~ 0
 A13
-Text Label 2950 9550 0    50   ~ 0
+Text Label 6100 8150 0    50   ~ 0
 A14
-Text Label 2950 9650 0    50   ~ 0
+Text Label 6100 8250 0    50   ~ 0
 A15
-Text Label 2950 9750 0    50   ~ 0
+Text Label 6100 8350 0    50   ~ 0
 A16
-Text Label 1700 9750 0    50   ~ 0
+Text Label 1600 9000 0    50   ~ 0
 A17
-Text Label 1700 9650 0    50   ~ 0
+Text Label 1600 9100 0    50   ~ 0
 A18
-Text Label 1700 9550 0    50   ~ 0
+Text Label 1600 9200 0    50   ~ 0
 A19
-Text Label 1700 9450 0    50   ~ 0
+Text Label 1600 9300 0    50   ~ 0
 A20
-Text Label 1700 9350 0    50   ~ 0
+Text Label 3100 9000 0    50   ~ 0
 A21
-Text Label 1700 9250 0    50   ~ 0
+Text Label 3100 9100 0    50   ~ 0
 A22
-Text Label 1700 9150 0    50   ~ 0
-A23
 Wire Wire Line
-	1700 9750 1900 9750
+	1600 9000 1800 9000
 Wire Wire Line
-	1700 9150 1900 9150
+	3100 9100 3300 9100
 Wire Wire Line
-	1700 9250 1900 9250
+	3100 9000 3300 9000
 Wire Wire Line
-	1700 9350 1900 9350
+	1600 9300 1800 9300
 Wire Wire Line
-	1700 9450 1900 9450
+	1600 9200 1800 9200
 Wire Wire Line
-	1700 9550 1900 9550
+	1600 9100 1800 9100
 Wire Wire Line
-	1700 9650 1900 9650
+	4600 8000 4800 8000
 Wire Wire Line
-	2950 9050 3150 9050
+	4600 8100 4800 8100
 Wire Wire Line
-	2950 9150 3150 9150
+	4600 8200 4800 8200
 Wire Wire Line
-	2950 9250 3150 9250
+	4600 8300 4800 8300
 Wire Wire Line
-	2950 9350 3150 9350
+	6100 8050 6300 8050
 Wire Wire Line
-	2950 9450 3150 9450
+	6100 8150 6300 8150
 Wire Wire Line
-	2950 9550 3150 9550
+	6100 8250 6300 8250
 Wire Wire Line
-	2950 9650 3150 9650
+	6100 8350 6300 8350
 Wire Wire Line
-	2950 9750 3150 9750
+	1600 8000 1800 8000
 Wire Wire Line
-	4200 9050 4400 9050
+	1600 8100 1800 8100
 Wire Wire Line
-	4200 9150 4400 9150
+	1600 8200 1800 8200
 Wire Wire Line
-	4200 9250 4400 9250
+	1600 8300 1800 8300
 Wire Wire Line
-	4200 9350 4400 9350
+	3100 8000 3300 8000
 Wire Wire Line
-	4200 9450 4400 9450
+	3100 8100 3300 8100
 Wire Wire Line
-	4200 9550 4400 9550
+	3100 8200 3300 8200
 Wire Wire Line
-	4200 9650 4400 9650
+	3100 8300 3300 8300
 Wire Wire Line
-	4200 9750 4400 9750
+	4600 7000 4800 7000
 Wire Wire Line
-	2950 7950 3150 7950
+	4600 7100 4800 7100
 Wire Wire Line
-	2950 8050 3150 8050
+	4600 7200 4800 7200
 Wire Wire Line
-	2950 8150 3150 8150
+	4600 7300 4800 7300
 Wire Wire Line
-	2950 8250 3150 8250
+	6100 7000 6300 7000
 Wire Wire Line
-	2950 8350 3150 8350
+	6100 7100 6300 7100
 Wire Wire Line
-	2950 8450 3150 8450
+	6100 7200 6300 7200
 Wire Wire Line
-	2950 8550 3150 8550
-Wire Wire Line
-	2950 8650 3150 8650
-Text Label 1400 7950 0    50   ~ 0
+	6100 7300 6300 7300
+Text Label 1300 6050 0    50   ~ 0
 XHALT
 Wire Wire Line
-	1400 7950 1900 7950
-Text Label 1400 8050 0    50   ~ 0
+	1300 6050 1800 6050
+Text Label 1300 6150 0    50   ~ 0
 XBERR
-Text Label 1400 8150 0    50   ~ 0
+Text Label 1300 6250 0    50   ~ 0
 XBGK
-Text Label 1400 8250 0    50   ~ 0
+Text Label 1300 6350 0    50   ~ 0
 XBR
-Text Label 1400 8350 0    50   ~ 0
+Text Label 2800 6050 0    50   ~ 0
 RXW
-Text Label 1400 8450 0    50   ~ 0
+Text Label 2800 6150 0    50   ~ 0
 XLDS
-Text Label 1400 8550 0    50   ~ 0
+Text Label 2800 6250 0    50   ~ 0
 XUDS
-Text Label 1400 8650 0    50   ~ 0
+Text Label 2800 6350 0    50   ~ 0
 XAS
 Wire Wire Line
-	1400 8050 1900 8050
+	1300 6150 1800 6150
 Wire Wire Line
-	1400 8150 1900 8150
+	1300 6250 1800 6250
 Wire Wire Line
-	1400 8250 1900 8250
+	1300 6350 1800 6350
 Wire Wire Line
-	1400 8350 1900 8350
+	2800 6050 3300 6050
 Wire Wire Line
-	1400 8450 1900 8450
+	2800 6150 3300 6150
 Wire Wire Line
-	1400 8550 1900 8550
+	2800 6250 3300 6250
 Wire Wire Line
-	1400 8650 1900 8650
-NoConn ~ 1900 9050
+	2800 6350 3300 6350
 $Comp
 L Device:R_US R102
 U 1 1 60907E08
-P 6600 7950
-F 0 "R102" V 6700 7950 50  0000 C CNN
-F 1 "1K" V 6500 7950 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" V 6640 7940 50  0001 C CNN
-F 3 "~" H 6600 7950 50  0001 C CNN
-	1    6600 7950
+P 5000 6000
+F 0 "R102" V 5100 6000 50  0000 C CNN
+F 1 "1K" V 4900 6000 50  0000 C CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" V 5040 5990 50  0001 C CNN
+F 3 "~" H 5000 6000 50  0001 C CNN
+	1    5000 6000
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R_US R103
-U 1 1 6090DB64
-P 5600 7950
-F 0 "R103" V 5700 7950 50  0000 C CNN
-F 1 "10K" V 5500 7950 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" V 5640 7940 50  0001 C CNN
-F 3 "~" H 5600 7950 50  0001 C CNN
-	1    5600 7950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R104
-U 1 1 6090DFB5
-P 5600 8350
-F 0 "R104" V 5700 8350 50  0000 C CNN
-F 1 "10K" V 5500 8350 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" V 5640 8340 50  0001 C CNN
-F 3 "~" H 5600 8350 50  0001 C CNN
-	1    5600 8350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R105
-U 1 1 6090EA19
-P 5600 8750
-F 0 "R105" V 5700 8750 50  0000 C CNN
-F 1 "10K" V 5500 8750 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" V 5640 8740 50  0001 C CNN
-F 3 "~" H 5600 8750 50  0001 C CNN
-	1    5600 8750
-	0    1    1    0   
-$EndComp
-Text Label 5950 7950 2    50   ~ 0
+Text Label 5350 6000 2    50   ~ 0
 VCC
-Text Label 5950 8350 2    50   ~ 0
-VCC
-Text Label 6950 7950 2    50   ~ 0
-VCC
-Text Label 5950 8750 2    50   ~ 0
-VCC
-Text Label 6100 7950 0    50   ~ 0
+Text Label 4500 6000 0    50   ~ 0
 XDTACK
-Text Label 5250 7950 0    50   ~ 0
+Text Label 4600 9200 0    50   ~ 0
 FC2
-Text Label 5250 8350 0    50   ~ 0
+Text Label 4600 9100 0    50   ~ 0
 FC1
-Text Label 5250 8750 0    50   ~ 0
+Text Label 4600 9000 0    50   ~ 0
 FC0
 $Comp
 L Device:R_US R107
 U 1 1 6093D9ED
-P 6600 8350
-F 0 "R107" V 6700 8350 50  0000 C CNN
-F 1 "1K" V 6500 8350 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" V 6640 8340 50  0001 C CNN
-F 3 "~" H 6600 8350 50  0001 C CNN
-	1    6600 8350
+P 5000 6400
+F 0 "R107" V 5100 6400 50  0000 C CNN
+F 1 "1K" V 4900 6400 50  0000 C CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" V 5040 6390 50  0001 C CNN
+F 3 "~" H 5000 6400 50  0001 C CNN
+	1    5000 6400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_US R109
 U 1 1 6093E40C
-P 6600 8750
-F 0 "R109" V 6700 8750 50  0000 C CNN
-F 1 "2K2" V 6500 8750 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" V 6640 8740 50  0001 C CNN
-F 3 "~" H 6600 8750 50  0001 C CNN
-	1    6600 8750
+P 6500 6000
+F 0 "R109" V 6600 6000 50  0000 C CNN
+F 1 "2K2" V 6400 6000 50  0000 C CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" V 6540 5990 50  0001 C CNN
+F 3 "~" H 6500 6000 50  0001 C CNN
+	1    6500 6000
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_US R110
 U 1 1 6093E522
-P 6600 9150
-F 0 "R110" V 6700 9150 50  0000 C CNN
-F 1 "4K7" V 6500 9150 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" V 6640 9140 50  0001 C CNN
-F 3 "~" H 6600 9150 50  0001 C CNN
-	1    6600 9150
+P 6500 6400
+F 0 "R110" V 6600 6400 50  0000 C CNN
+F 1 "4K7" V 6400 6400 50  0000 C CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" V 6540 6390 50  0001 C CNN
+F 3 "~" H 6500 6400 50  0001 C CNN
+	1    6500 6400
 	0    1    1    0   
 $EndComp
-Text Label 6950 8350 2    50   ~ 0
+Text Label 5350 6400 2    50   ~ 0
 VCC
-Text Label 6950 8750 2    50   ~ 0
+Text Label 6850 6000 2    50   ~ 0
 VCC
-Text Label 6950 9150 2    50   ~ 0
+Text Label 6850 6400 2    50   ~ 0
 VCC
-Text Label 6100 8350 0    50   ~ 0
+Text Label 4500 6400 0    50   ~ 0
 XRESET
-Text Label 6200 8750 0    50   ~ 0
+Text Label 6100 6000 0    50   ~ 0
 XVPA
-Text Label 6200 9150 0    50   ~ 0
+Text Label 6100 6400 0    50   ~ 0
 XVMA
 Wire Wire Line
-	6450 8350 6100 8350
+	4850 6400 4500 6400
 Text GLabel 1000 3800 0    50   Input ~ 0
 XBERR
 Wire Wire Line
@@ -700,31 +568,25 @@ Wire Wire Line
 Wire Wire Line
 	3500 1550 3500 1750
 Wire Wire Line
-	5250 7950 5450 7950
+	4600 9200 4800 9200
 Wire Wire Line
-	5250 8350 5450 8350
+	4600 9100 4800 9100
 Wire Wire Line
-	5250 8750 5450 8750
+	4600 9000 4800 9000
 Wire Wire Line
-	5750 7950 5950 7950
+	4500 6000 4850 6000
 Wire Wire Line
-	5750 8350 5950 8350
+	6100 6000 6350 6000
 Wire Wire Line
-	5750 8750 5950 8750
+	6100 6400 6350 6400
 Wire Wire Line
-	6100 7950 6450 7950
+	5150 6000 5350 6000
 Wire Wire Line
-	6200 8750 6450 8750
+	5150 6400 5350 6400
 Wire Wire Line
-	6200 9150 6450 9150
+	6650 6000 6850 6000
 Wire Wire Line
-	6750 7950 6950 7950
-Wire Wire Line
-	6750 8350 6950 8350
-Wire Wire Line
-	6750 8750 6950 8750
-Wire Wire Line
-	6750 9150 6950 9150
+	6650 6400 6850 6400
 Wire Wire Line
 	2400 4650 2400 4850
 Wire Wire Line
@@ -1038,6 +900,426 @@ F 3 "https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf" H 5800 5650 50 
 	1    6250 3600
 	1    0    0    -1  
 $EndComp
-Text Notes 500  8450 0    39   ~ 0
+Text Notes 550  6650 0    39   ~ 0
 XBGK when coming to \nBlitter is pulled-up\nwith 4K7, but in my STE\nit was not populated \nanyway (no external\nBlitter), so pulled-up \nwith 1K2 should be ok
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 61B5A520
+P 2000 6250
+F 0 "RN?" V 1700 6250 50  0000 C CNN
+F 1 "1K2 ×4" V 2200 6250 50  0000 C CNN
+F 2 "" V 2275 6250 50  0001 C CNN
+F 3 "~" H 2000 6250 50  0001 C CNN
+	1    2000 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 61B5C554
+P 2000 7200
+F 0 "RN?" V 1700 7200 50  0000 C CNN
+F 1 "10K ×4" V 2200 7200 50  0000 C CNN
+F 2 "" V 2275 7200 50  0001 C CNN
+F 3 "~" H 2000 7200 50  0001 C CNN
+	1    2000 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 61B5F292
+P 3500 6250
+F 0 "RN?" V 3200 6250 50  0000 C CNN
+F 1 "1K2 ×4" V 3700 6250 50  0000 C CNN
+F 2 "" V 3775 6250 50  0001 C CNN
+F 3 "~" H 3500 6250 50  0001 C CNN
+	1    3500 6250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 6050 2300 6050
+Wire Wire Line
+	2200 6350 2300 6350
+Wire Wire Line
+	2300 6350 2300 6250
+Connection ~ 2300 6050
+Wire Wire Line
+	2300 6050 2500 6050
+Wire Wire Line
+	2200 6250 2300 6250
+Connection ~ 2300 6250
+Wire Wire Line
+	2300 6250 2300 6150
+Wire Wire Line
+	2200 6150 2300 6150
+Connection ~ 2300 6150
+Wire Wire Line
+	2300 6150 2300 6050
+Text Label 4000 6050 2    50   ~ 0
+VCC
+Wire Wire Line
+	3700 6050 3800 6050
+Wire Wire Line
+	3700 6350 3800 6350
+Wire Wire Line
+	3800 6350 3800 6250
+Connection ~ 3800 6050
+Wire Wire Line
+	3800 6050 4000 6050
+Wire Wire Line
+	3700 6250 3800 6250
+Connection ~ 3800 6250
+Wire Wire Line
+	3800 6250 3800 6150
+Wire Wire Line
+	3700 6150 3800 6150
+Connection ~ 3800 6150
+Wire Wire Line
+	3800 6150 3800 6050
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 61BD00C3
+P 3500 7200
+F 0 "RN?" V 3200 7200 50  0000 C CNN
+F 1 "10K ×4" V 3700 7200 50  0000 C CNN
+F 2 "" V 3775 7200 50  0001 C CNN
+F 3 "~" H 3500 7200 50  0001 C CNN
+	1    3500 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 61BD08B3
+P 5000 7200
+F 0 "RN?" V 4700 7200 50  0000 C CNN
+F 1 "10K ×4" V 5200 7200 50  0000 C CNN
+F 2 "" V 5275 7200 50  0001 C CNN
+F 3 "~" H 5000 7200 50  0001 C CNN
+	1    5000 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 61BD1305
+P 6500 7200
+F 0 "RN?" V 6200 7200 50  0000 C CNN
+F 1 "10K ×4" V 6700 7200 50  0000 C CNN
+F 2 "" V 6775 7200 50  0001 C CNN
+F 3 "~" H 6500 7200 50  0001 C CNN
+	1    6500 7200
+	0    1    1    0   
+$EndComp
+Text Label 2500 7000 2    50   ~ 0
+VCC
+Wire Wire Line
+	2200 7000 2300 7000
+Wire Wire Line
+	2200 7300 2300 7300
+Wire Wire Line
+	2300 7300 2300 7200
+Connection ~ 2300 7000
+Wire Wire Line
+	2300 7000 2500 7000
+Wire Wire Line
+	2200 7200 2300 7200
+Connection ~ 2300 7200
+Wire Wire Line
+	2300 7200 2300 7100
+Wire Wire Line
+	2200 7100 2300 7100
+Connection ~ 2300 7100
+Wire Wire Line
+	2300 7100 2300 7000
+Text Label 4000 7000 2    50   ~ 0
+VCC
+Wire Wire Line
+	3700 7000 3800 7000
+Wire Wire Line
+	3700 7300 3800 7300
+Wire Wire Line
+	3800 7300 3800 7200
+Connection ~ 3800 7000
+Wire Wire Line
+	3800 7000 4000 7000
+Wire Wire Line
+	3700 7200 3800 7200
+Connection ~ 3800 7200
+Wire Wire Line
+	3800 7200 3800 7100
+Wire Wire Line
+	3700 7100 3800 7100
+Connection ~ 3800 7100
+Wire Wire Line
+	3800 7100 3800 7000
+Text Label 5500 7000 2    50   ~ 0
+VCC
+Wire Wire Line
+	5200 7000 5300 7000
+Wire Wire Line
+	5200 7300 5300 7300
+Wire Wire Line
+	5300 7300 5300 7200
+Connection ~ 5300 7000
+Wire Wire Line
+	5300 7000 5500 7000
+Wire Wire Line
+	5200 7200 5300 7200
+Connection ~ 5300 7200
+Wire Wire Line
+	5300 7200 5300 7100
+Wire Wire Line
+	5200 7100 5300 7100
+Connection ~ 5300 7100
+Wire Wire Line
+	5300 7100 5300 7000
+Text Label 7000 7000 2    50   ~ 0
+VCC
+Wire Wire Line
+	6700 7000 6800 7000
+Wire Wire Line
+	6700 7300 6800 7300
+Wire Wire Line
+	6800 7300 6800 7200
+Connection ~ 6800 7000
+Wire Wire Line
+	6800 7000 7000 7000
+Wire Wire Line
+	6700 7200 6800 7200
+Connection ~ 6800 7200
+Wire Wire Line
+	6800 7200 6800 7100
+Wire Wire Line
+	6700 7100 6800 7100
+Connection ~ 6800 7100
+Wire Wire Line
+	6800 7100 6800 7000
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 61CC273F
+P 2000 8200
+F 0 "RN?" V 1700 8200 50  0000 C CNN
+F 1 "4K7 ×4" V 2200 8200 50  0000 C CNN
+F 2 "" V 2275 8200 50  0001 C CNN
+F 3 "~" H 2000 8200 50  0001 C CNN
+	1    2000 8200
+	0    1    1    0   
+$EndComp
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 61CDAA84
+P 3500 8200
+F 0 "RN?" V 3200 8200 50  0000 C CNN
+F 1 "4K7 ×4" V 3700 8200 50  0000 C CNN
+F 2 "" V 3775 8200 50  0001 C CNN
+F 3 "~" H 3500 8200 50  0001 C CNN
+	1    3500 8200
+	0    1    1    0   
+$EndComp
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 61CDBA85
+P 5000 8200
+F 0 "RN?" V 4700 8200 50  0000 C CNN
+F 1 "4K7 ×4" V 5200 8200 50  0000 C CNN
+F 2 "" V 5275 8200 50  0001 C CNN
+F 3 "~" H 5000 8200 50  0001 C CNN
+	1    5000 8200
+	0    1    1    0   
+$EndComp
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 61CDC731
+P 6500 8250
+F 0 "RN?" V 6200 8250 50  0000 C CNN
+F 1 "4K7 ×4" V 6700 8250 50  0000 C CNN
+F 2 "" V 6775 8250 50  0001 C CNN
+F 3 "~" H 6500 8250 50  0001 C CNN
+	1    6500 8250
+	0    1    1    0   
+$EndComp
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 61D5A646
+P 2000 9200
+F 0 "RN?" V 1700 9200 50  0000 C CNN
+F 1 "4K7 ×4" V 2200 9200 50  0000 C CNN
+F 2 "" V 2275 9200 50  0001 C CNN
+F 3 "~" H 2000 9200 50  0001 C CNN
+	1    2000 9200
+	0    1    1    0   
+$EndComp
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 61D5B85C
+P 3500 9200
+F 0 "RN?" V 3200 9200 50  0000 C CNN
+F 1 "4K7 ×4" V 3700 9200 50  0000 C CNN
+F 2 "" V 3775 9200 50  0001 C CNN
+F 3 "~" H 3500 9200 50  0001 C CNN
+	1    3500 9200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3100 9200 3300 9200
+Text Label 3100 9200 0    50   ~ 0
+A23
+Text Label 2500 8000 2    50   ~ 0
+VCC
+Wire Wire Line
+	2200 8000 2300 8000
+Wire Wire Line
+	2200 8300 2300 8300
+Wire Wire Line
+	2300 8300 2300 8200
+Connection ~ 2300 8000
+Wire Wire Line
+	2300 8000 2500 8000
+Wire Wire Line
+	2200 8200 2300 8200
+Connection ~ 2300 8200
+Wire Wire Line
+	2300 8200 2300 8100
+Wire Wire Line
+	2200 8100 2300 8100
+Connection ~ 2300 8100
+Wire Wire Line
+	2300 8100 2300 8000
+Text Label 4000 8000 2    50   ~ 0
+VCC
+Wire Wire Line
+	3700 8000 3800 8000
+Wire Wire Line
+	3700 8300 3800 8300
+Wire Wire Line
+	3800 8300 3800 8200
+Connection ~ 3800 8000
+Wire Wire Line
+	3800 8000 4000 8000
+Wire Wire Line
+	3700 8200 3800 8200
+Connection ~ 3800 8200
+Wire Wire Line
+	3800 8200 3800 8100
+Wire Wire Line
+	3700 8100 3800 8100
+Connection ~ 3800 8100
+Wire Wire Line
+	3800 8100 3800 8000
+Text Label 5500 8000 2    50   ~ 0
+VCC
+Wire Wire Line
+	5200 8000 5300 8000
+Wire Wire Line
+	5200 8300 5300 8300
+Wire Wire Line
+	5300 8300 5300 8200
+Connection ~ 5300 8000
+Wire Wire Line
+	5300 8000 5500 8000
+Wire Wire Line
+	5200 8200 5300 8200
+Connection ~ 5300 8200
+Wire Wire Line
+	5300 8200 5300 8100
+Wire Wire Line
+	5200 8100 5300 8100
+Connection ~ 5300 8100
+Wire Wire Line
+	5300 8100 5300 8000
+Text Label 7000 8050 2    50   ~ 0
+VCC
+Wire Wire Line
+	6700 8050 6800 8050
+Wire Wire Line
+	6700 8350 6800 8350
+Wire Wire Line
+	6800 8350 6800 8250
+Connection ~ 6800 8050
+Wire Wire Line
+	6800 8050 7000 8050
+Wire Wire Line
+	6700 8250 6800 8250
+Connection ~ 6800 8250
+Wire Wire Line
+	6800 8250 6800 8150
+Wire Wire Line
+	6700 8150 6800 8150
+Connection ~ 6800 8150
+Wire Wire Line
+	6800 8150 6800 8050
+Text Label 2500 9000 2    50   ~ 0
+VCC
+Wire Wire Line
+	2200 9000 2300 9000
+Wire Wire Line
+	2200 9300 2300 9300
+Wire Wire Line
+	2300 9300 2300 9200
+Connection ~ 2300 9000
+Wire Wire Line
+	2300 9000 2500 9000
+Wire Wire Line
+	2200 9200 2300 9200
+Connection ~ 2300 9200
+Wire Wire Line
+	2300 9200 2300 9100
+Wire Wire Line
+	2200 9100 2300 9100
+Connection ~ 2300 9100
+Wire Wire Line
+	2300 9100 2300 9000
+Text Label 4000 9000 2    50   ~ 0
+VCC
+Wire Wire Line
+	3700 9000 3800 9000
+Wire Wire Line
+	3700 9300 3800 9300
+Wire Wire Line
+	3800 9300 3800 9200
+Connection ~ 3800 9000
+Wire Wire Line
+	3800 9000 4000 9000
+Wire Wire Line
+	3700 9200 3800 9200
+Connection ~ 3800 9200
+Wire Wire Line
+	3800 9200 3800 9100
+Wire Wire Line
+	3700 9100 3800 9100
+Connection ~ 3800 9100
+Wire Wire Line
+	3800 9100 3800 9000
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 61ED1BB1
+P 5000 9200
+F 0 "RN?" V 4700 9200 50  0000 C CNN
+F 1 "10K ×4" V 5200 9200 50  0000 C CNN
+F 2 "" V 5275 9200 50  0001 C CNN
+F 3 "~" H 5000 9200 50  0001 C CNN
+	1    5000 9200
+	0    1    1    0   
+$EndComp
+Text Label 5500 9000 2    50   ~ 0
+VCC
+Wire Wire Line
+	5200 9000 5300 9000
+Wire Wire Line
+	5200 9300 5300 9300
+Wire Wire Line
+	5300 9300 5300 9200
+Connection ~ 5300 9000
+Wire Wire Line
+	5300 9000 5500 9000
+Wire Wire Line
+	5200 9200 5300 9200
+Connection ~ 5300 9200
+Wire Wire Line
+	5300 9200 5300 9100
+Wire Wire Line
+	5200 9100 5300 9100
+Connection ~ 5300 9100
+Wire Wire Line
+	5300 9100 5300 9000
+Text Notes 700  7650 0    50   ~ 0
+Maybe put all the 10K pull-up at 4K7 ?
 $EndSCHEMATC

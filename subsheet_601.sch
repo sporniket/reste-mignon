@@ -30,53 +30,38 @@ F 3 "" H 5000 3400 50  0001 L TNN
 	1    5300 2450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Network08_US P600
-U 1 1 60D5E0A1
-P 5400 4400
-F 0 "P600" V 4900 4400 50  0000 C CNN
-F 1 "10K ×8" V 5800 4400 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 5875 4400 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5400 4400 50  0001 C CNN
-	1    5400 4400
-	0    1    1    0   
-$EndComp
-Text Label 5800 4000 2    50   ~ 0
-VCC
-Text Label 5000 4000 0    50   ~ 0
+Text Label 4900 4000 0    50   ~ 0
 e0
-Text Label 5000 4100 0    50   ~ 0
+Text Label 4900 4100 0    50   ~ 0
 e1
-Text Label 5000 4200 0    50   ~ 0
+Text Label 4900 4200 0    50   ~ 0
 e2
-Text Label 5000 4300 0    50   ~ 0
+Text Label 4900 4300 0    50   ~ 0
 e3
-Text Label 5000 4400 0    50   ~ 0
+Text Label 4900 4700 0    50   ~ 0
 e4
-Text Label 5000 4500 0    50   ~ 0
+Text Label 4900 4800 0    50   ~ 0
 e5
-Text Label 5000 4600 0    50   ~ 0
+Text Label 4900 4900 0    50   ~ 0
 e6
-Text Label 5000 4700 0    50   ~ 0
+Text Label 4900 5000 0    50   ~ 0
 e7
 Wire Wire Line
-	5000 4000 5200 4000
+	4900 4000 5100 4000
 Wire Wire Line
-	5000 4100 5200 4100
+	4900 4100 5100 4100
 Wire Wire Line
-	5000 4200 5200 4200
+	4900 4200 5100 4200
 Wire Wire Line
-	5000 4300 5200 4300
+	4900 4300 5100 4300
 Wire Wire Line
-	5000 4400 5200 4400
+	4900 4700 5100 4700
 Wire Wire Line
-	5000 4500 5200 4500
+	4900 4800 5100 4800
 Wire Wire Line
-	5000 4600 5200 4600
+	4900 4900 5100 4900
 Wire Wire Line
-	5000 4700 5200 4700
-Wire Wire Line
-	5600 4000 5800 4000
+	4900 5000 5100 5000
 $Comp
 L Jumper:SolderJumper_2_Open E0
 U 1 1 60D60721
@@ -332,4 +317,68 @@ Wire Wire Line
 	7000 2150 7000 2350
 Wire Wire Line
 	7000 2650 7000 2850
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 62582FB7
+P 5300 4200
+F 0 "RN?" V 5000 4200 50  0000 C CNN
+F 1 "10K ×8" V 5500 4200 50  0000 C CNN
+F 2 "" V 5575 4200 50  0001 C CNN
+F 3 "~" H 5300 4200 50  0001 C CNN
+	1    5300 4200
+	0    1    1    0   
+$EndComp
+Text Label 5800 4000 2    50   ~ 0
+VCC
+Wire Wire Line
+	5500 4000 5600 4000
+Wire Wire Line
+	5500 4300 5600 4300
+Wire Wire Line
+	5600 4300 5600 4200
+Connection ~ 5600 4000
+Wire Wire Line
+	5600 4000 5800 4000
+Wire Wire Line
+	5500 4200 5600 4200
+Connection ~ 5600 4200
+Wire Wire Line
+	5600 4200 5600 4100
+Wire Wire Line
+	5500 4100 5600 4100
+Connection ~ 5600 4100
+Wire Wire Line
+	5600 4100 5600 4000
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 625854E7
+P 5300 4900
+F 0 "RN?" V 5000 4900 50  0000 C CNN
+F 1 "10K ×8" V 5500 4900 50  0000 C CNN
+F 2 "" V 5575 4900 50  0001 C CNN
+F 3 "~" H 5300 4900 50  0001 C CNN
+	1    5300 4900
+	0    1    1    0   
+$EndComp
+Text Label 5800 4700 2    50   ~ 0
+VCC
+Wire Wire Line
+	5500 4700 5600 4700
+Wire Wire Line
+	5500 5000 5600 5000
+Wire Wire Line
+	5600 5000 5600 4900
+Connection ~ 5600 4700
+Wire Wire Line
+	5600 4700 5800 4700
+Wire Wire Line
+	5500 4900 5600 4900
+Connection ~ 5600 4900
+Wire Wire Line
+	5600 4900 5600 4800
+Wire Wire Line
+	5500 4800 5600 4800
+Connection ~ 5600 4800
+Wire Wire Line
+	5600 4800 5600 4700
 $EndSCHEMATC

@@ -544,10 +544,6 @@ Text Label 5900 1800 2    50   ~ 0
 vid6_green
 Text Label 5900 1900 2    50   ~ 0
 vid7_red
-Text Label 5900 2000 0    50   ~ 0
-vid8
-Text Label 5900 2100 0    50   ~ 0
-vid9
 Text Label 5900 2200 2    50   ~ 0
 vid10_blue
 Text Label 5900 2300 2    50   ~ 0
@@ -621,8 +617,6 @@ F 3 "~" H 5150 2100 50  0001 C CNN
 	1    5150 2100
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4400 2600 4650 2600
 $Comp
 L Device:R_Small_US R?
 U 1 1 60BFDA3D
@@ -641,8 +635,6 @@ F 3 "~" H 5150 2400 50  0001 C CNN
 	1    5150 2400
 	0    1    1    0   
 $EndComp
-Text Label 4650 2600 2    50   ~ 0
-vid12
 Text GLabel 4700 2400 0    50   Input ~ 0
 VSYNC
 Wire Wire Line
@@ -653,8 +645,6 @@ Text Label 3400 1500 0    50   ~ 0
 genlock
 Wire Wire Line
 	3800 900  3800 1100
-Text Label 5900 2400 0    50   ~ 0
-vid12
 $Comp
 L 74x257:74S257_PHY U405
 U 1 1 60B8DD0E

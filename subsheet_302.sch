@@ -89,178 +89,21 @@ Wire Wire Line
 	700  4150 700  4350
 $Comp
 L Device:R_Small_US R?
-U 1 1 60ADDCD6
-P 5000 2000
-AR Path="/608A2359/60ADDCD6" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60ADDCD6" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60ADDCD6" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60ADDCD6" Ref="R304"  Part="1" 
-F 0 "R304" V 4900 2000 50  0000 C CNN
-F 1 "1K" V 5100 2000 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5000 2000 50  0001 C CNN
-F 3 "~" H 5000 2000 50  0001 C CNN
-	1    5000 2000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4500 2000 4900 2000
-Wire Wire Line
-	5100 2000 5500 2000
-$Comp
-L Device:R_Small_US R?
 U 1 1 60ADDCDE
-P 6250 2500
+P 4500 2600
 AR Path="/608A2359/60ADDCDE" Ref="R?"  Part="1" 
 AR Path="/60A1445F/60ADDCDE" Ref="R?"  Part="1" 
 AR Path="/60A73CDE/60ADDCDE" Ref="R?"  Part="1" 
 AR Path="/60AD8617/60ADDCDE" Ref="R307"  Part="1" 
-F 0 "R307" V 6150 2500 50  0000 C CNN
-F 1 "220" V 6350 2500 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6250 2500 50  0001 C CNN
-F 3 "~" H 6250 2500 50  0001 C CNN
-	1    6250 2500
+F 0 "R307" V 4400 2600 50  0000 C CNN
+F 1 "220" V 4600 2600 50  0000 C CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4500 2600 50  0001 C CNN
+F 3 "~" H 4500 2600 50  0001 C CNN
+	1    4500 2600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5750 2500 6150 2500
-Wire Wire Line
-	6350 2500 6750 2500
-$Comp
-L Device:R_Small_US R?
-U 1 1 60ADE0BE
-P 6250 2000
-AR Path="/608A2359/60ADE0BE" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60ADE0BE" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60ADE0BE" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60ADE0BE" Ref="R305"  Part="1" 
-F 0 "R305" V 6150 2000 50  0000 C CNN
-F 1 "1K" V 6350 2000 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6250 2000 50  0001 C CNN
-F 3 "~" H 6250 2000 50  0001 C CNN
-	1    6250 2000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5750 2000 6150 2000
-Wire Wire Line
-	6350 2000 6750 2000
-$Comp
-L Device:R_Small_US R?
-U 1 1 60ADE49C
-P 5000 2500
-AR Path="/608A2359/60ADE49C" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60ADE49C" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60ADE49C" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60ADE49C" Ref="R306"  Part="1" 
-F 0 "R306" V 4900 2500 50  0000 C CNN
-F 1 "1K" V 5100 2500 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5000 2500 50  0001 C CNN
-F 3 "~" H 5000 2500 50  0001 C CNN
-	1    5000 2500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4500 2500 4900 2500
-Wire Wire Line
-	5100 2500 5500 2500
-$Comp
-L Device:R_Small_US R?
-U 1 1 60ADF306
-P 6200 3700
-AR Path="/608A2359/60ADF306" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60ADF306" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60ADF306" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60ADF306" Ref="R301"  Part="1" 
-F 0 "R301" V 6100 3700 50  0000 C CNN
-F 1 "1K" V 6300 3700 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6200 3700 50  0001 C CNN
-F 3 "~" H 6200 3700 50  0001 C CNN
-	1    6200 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60ADF30E
-P 4900 3700
-AR Path="/608A2359/60ADF30E" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60ADF30E" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60ADF30E" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60ADF30E" Ref="R300"  Part="1" 
-F 0 "R300" V 4800 3700 50  0000 C CNN
-F 1 "1K" V 5000 3700 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4900 3700 50  0001 C CNN
-F 3 "~" H 4900 3700 50  0001 C CNN
-	1    4900 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60ADFA6A
-P 5100 4200
-AR Path="/608A2359/60ADFA6A" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60ADFA6A" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60ADFA6A" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60ADFA6A" Ref="R308"  Part="1" 
-F 0 "R308" V 5000 4200 50  0000 C CNN
-F 1 "47" V 5200 4200 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5100 4200 50  0001 C CNN
-F 3 "~" H 5100 4200 50  0001 C CNN
-	1    5100 4200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4600 4200 5000 4200
-$Comp
-L Device:R_Small_US R?
-U 1 1 60ADFDD6
-P 5100 4700
-AR Path="/608A2359/60ADFDD6" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60ADFDD6" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60ADFDD6" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60ADFDD6" Ref="R310"  Part="1" 
-F 0 "R310" V 5000 4700 50  0000 C CNN
-F 1 "47" V 5200 4700 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5100 4700 50  0001 C CNN
-F 3 "~" H 5100 4700 50  0001 C CNN
-	1    5100 4700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4600 4700 5000 4700
-$Comp
-L Device:R_Small_US R?
-U 1 1 60AE01A7
-P 6400 4200
-AR Path="/608A2359/60AE01A7" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60AE01A7" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60AE01A7" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60AE01A7" Ref="R309"  Part="1" 
-F 0 "R309" V 6300 4200 50  0000 C CNN
-F 1 "47" V 6500 4200 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6400 4200 50  0001 C CNN
-F 3 "~" H 6400 4200 50  0001 C CNN
-	1    6400 4200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5900 4200 6300 4200
-$Comp
-L Device:R_Small_US R?
-U 1 1 60AE0530
-P 6400 4700
-AR Path="/608A2359/60AE0530" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60AE0530" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60AE0530" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60AE0530" Ref="R311"  Part="1" 
-F 0 "R311" V 6300 4700 50  0000 C CNN
-F 1 "47" V 6500 4700 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6400 4700 50  0001 C CNN
-F 3 "~" H 6400 4700 50  0001 C CNN
-	1    6400 4700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5900 4700 6300 4700
+	4600 2600 5000 2600
 Text GLabel 6750 1000 2    50   BiDi ~ 0
 CDATA[0..7]
 Wire Bus Line
@@ -375,19 +218,11 @@ Wire Wire Line
 Wire Wire Line
 	3500 1900 3750 1900
 Wire Wire Line
-	3500 2000 3750 2000
-Wire Wire Line
-	3500 2100 3750 2100
-Wire Wire Line
-	3500 2200 3750 2200
-Wire Wire Line
 	3500 2300 3750 2300
 Wire Wire Line
 	3500 2400 3750 2400
 Wire Wire Line
 	3500 2500 3750 2500
-Wire Wire Line
-	3500 2600 3750 2600
 Wire Wire Line
 	3500 2800 3750 2800
 Wire Wire Line
@@ -444,22 +279,8 @@ Wire Wire Line
 	3200 4200 3450 4200
 Wire Wire Line
 	3200 4300 3450 4300
-Text Label 5500 2000 2    50   ~ 0
+Text Label 5000 2600 2    50   ~ 0
 VCC
-Text Label 6750 2000 2    50   ~ 0
-VCC
-Text Label 5500 2500 2    50   ~ 0
-VCC
-Text Label 6750 2500 2    50   ~ 0
-VCC
-Text Label 4500 2000 0    50   ~ 0
-wprt
-Text Label 5750 2000 0    50   ~ 0
-tr00
-Text Label 4500 2500 0    50   ~ 0
-ip
-Text Label 5750 2500 0    50   ~ 0
-rd
 Text GLabel 3500 3800 2    50   Input ~ 0
 ACSI_19_HDRQ
 Text GLabel 3500 3900 2    50   Output ~ 0
@@ -468,46 +289,14 @@ Wire Wire Line
 	3200 3800 3500 3800
 Wire Wire Line
 	3200 3900 3500 3900
-Text GLabel 5200 3700 2    50   Input ~ 0
+Text GLabel 5600 3800 0    50   Input ~ 0
 ACSI_19_HDRQ
-Text GLabel 6500 3700 2    50   Output ~ 0
+Text GLabel 5600 3900 0    50   Output ~ 0
 DMA_HDRQ
-Text Label 4600 3700 0    50   ~ 0
-VCC
-Text Label 5900 3700 0    50   ~ 0
-VCC
 Wire Wire Line
-	4600 3700 4800 3700
+	5800 3800 5600 3800
 Wire Wire Line
-	5900 3700 6100 3700
-Wire Wire Line
-	5000 3700 5200 3700
-Wire Wire Line
-	6300 3700 6500 3700
-Text Label 4600 4200 0    50   ~ 0
-not_wg
-Text Label 5900 4200 0    50   ~ 0
-not_wd
-Text Label 4600 4700 0    50   ~ 0
-not_step
-Text Label 5900 4700 0    50   ~ 0
-not_dirc
-Text Label 6950 4700 2    50   ~ 0
-DRV_DOIN
-Text Label 5650 4700 2    50   ~ 0
-DRV_STEP
-Text Label 6950 4200 2    50   ~ 0
-DRV_WDATA
-Text Label 5650 4200 2    50   ~ 0
-DRV_WGATE
-Wire Wire Line
-	5200 4200 5650 4200
-Wire Wire Line
-	5200 4700 5650 4700
-Wire Wire Line
-	6500 4200 6950 4200
-Wire Wire Line
-	6500 4700 6950 4700
+	5800 3900 5600 3900
 Text Label 5950 7700 0    50   ~ 0
 VCC
 Text Label 5950 8000 0    50   ~ 0
@@ -521,85 +310,6 @@ Wire Wire Line
 Wire Wire Line
 	6200 7800 6300 7800
 Wire Wire Line
-	4100 6850 4300 6850
-Wire Wire Line
-	4100 6750 4300 6750
-Wire Wire Line
-	4100 6650 4300 6650
-Wire Wire Line
-	4100 6550 4300 6550
-Wire Wire Line
-	4100 6450 4300 6450
-Wire Wire Line
-	4100 6350 4300 6350
-Wire Wire Line
-	4100 6250 4300 6250
-Wire Wire Line
-	4100 6150 4300 6150
-Wire Wire Line
-	4100 5850 4300 5850
-Wire Wire Line
-	4100 5750 4300 5750
-Wire Wire Line
-	4100 5550 4300 5550
-Text Label 4100 6150 2    50   ~ 0
-GND
-Text Label 4100 5750 0    50   ~ 0
-GND
-Text Label 4100 5550 2    50   ~ 0
-rd
-Text GLabel 4000 5650 0    50   Input ~ 0
-S0SEL
-Text Label 4100 5850 2    50   ~ 0
-ip
-Text Label 4100 6250 2    50   ~ 0
-DRV_MON
-Text Label 4100 6350 2    50   ~ 0
-DRV_DOIN
-Text Label 4100 6450 2    50   ~ 0
-DRV_STEP
-Text Label 4100 6550 2    50   ~ 0
-DRV_WDATA
-Text Label 4100 6650 2    50   ~ 0
-DRV_WGATE
-Text Label 4100 6750 2    50   ~ 0
-tr00
-Text Label 4100 6850 2    50   ~ 0
-wprt
-Wire Wire Line
-	1450 6400 1650 6400
-Text Label 1450 6400 0    50   ~ 0
-VCC
-Text Notes 1050 6200 0    50   ~ 0
-Factory setting : VCC
-Text Notes 1750 5800 2    50   ~ 0
-Factory setting : D1SEL
-Wire Wire Line
-	2100 5850 2300 5850
-Wire Wire Line
-	2100 5650 2300 5650
-Text GLabel 2100 5850 0    50   Input ~ 0
-D1SEL
-Wire Wire Line
-	1850 6400 2300 6400
-Wire Wire Line
-	2200 6200 2300 6200
-Text GLabel 2100 5650 0    50   Input ~ 0
-D0SEL
-Text GLabel 2200 6200 0    50   Input ~ 0
-D1SEL
-$Comp
-L Switch:SW_SPDT W300
-U 1 1 60B2BFAE
-P 2500 6300
-F 0 "W300" H 2500 6470 50  0000 C CNN
-F 1 "SW_SPDT" H 2500 6100 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 6300 50  0001 C CNN
-F 3 "~" H 2500 6300 50  0001 C CNN
-	1    2500 6300
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
 	4750 9200 5050 9200
 Wire Wire Line
 	4750 8200 5050 8200
@@ -611,14 +321,6 @@ Wire Wire Line
 	4750 9000 5000 9000
 Wire Wire Line
 	4750 8900 5000 8900
-Wire Wire Line
-	4750 8800 5000 8800
-Wire Wire Line
-	4750 8700 5000 8700
-Wire Wire Line
-	4750 8600 5000 8600
-Wire Wire Line
-	4750 8500 5000 8500
 Wire Wire Line
 	4750 8400 5000 8400
 Wire Wire Line
@@ -749,43 +451,6 @@ F 3 "~" H 4450 8500 50  0001 C CNN
 	1    4450 8500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic_Shielded:Conn_01x14_Shielded J304
-U 1 1 60B2F41A
-P 4500 6150
-F 0 "J304" H 4500 6850 50  0000 C CNN
-F 1 "DIN-14S — External FDD Port" H 4500 6950 50  0000 C CNN
-F 2 "atari-interconnect:socket-din-14" H 4500 6150 50  0001 C CNN
-F 3 "~" H 4500 6150 50  0001 C CNN
-	1    4500 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_SPDT W301
-U 1 1 60B2D90B
-P 2500 5750
-F 0 "W301" H 2500 5920 50  0000 C CNN
-F 1 "SW_SPDT" H 2500 5550 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 5750 50  0001 C CNN
-F 3 "~" H 2500 5750 50  0001 C CNN
-	1    2500 5750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 60ADF316
-P 1750 6400
-AR Path="/608A2359/60ADF316" Ref="R?"  Part="1" 
-AR Path="/60A1445F/60ADF316" Ref="R?"  Part="1" 
-AR Path="/60A73CDE/60ADF316" Ref="R?"  Part="1" 
-AR Path="/60AD8617/60ADF316" Ref="R302"  Part="1" 
-F 0 "R302" V 1650 6400 50  0000 C CNN
-F 1 "1K" V 1850 6400 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 1750 6400 50  0001 C CNN
-F 3 "~" H 1750 6400 50  0001 C CNN
-	1    1750 6400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5950 8000 6300 8000
 Wire Wire Line
@@ -793,10 +458,6 @@ Wire Wire Line
 Connection ~ 6200 7900
 Wire Wire Line
 	5950 7700 6300 7700
-Text Label 4500 7250 1    50   ~ 0
-GND
-Wire Wire Line
-	4500 7250 4500 7050
 Text Notes 650  1200 0    50   ~ 0
 - When the computer reports incorrectly that a disk is write protected\n- When experiencing disk IO problems with a booster or modern storage on ACSI (CF/SD cards...)\n\nThen add a  8×10K resistor bus (9 pins) as a pull ups on the data bus \n(pins 5 to 12 of the WD1772). VCC is taken from C305.\n\nSee https://www.exxoshost.co.uk/forum/viewtopic.php?f=17&t=1417
 Wire Notes Line
@@ -908,10 +569,6 @@ Wire Notes Line
 Wire Notes Line
 	4300 4300 3450 4300
 Wire Notes Line
-	4150 4050 4150 4200
-Wire Notes Line
-	4150 4200 3450 4200
-Wire Notes Line
 	4150 3900 4150 3700
 Wire Notes Line
 	1200 4550 3950 4550
@@ -934,17 +591,248 @@ Wire Notes Line
 Wire Notes Line
 	600  1250 4500 1250
 Wire Wire Line
-	4000 5650 4300 5650
-Wire Wire Line
 	3400 6050 3400 6300
+Wire Wire Line
+	3300 5950 3300 5750
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 620C85E3
+P 5700 8700
+F 0 "RN?" V 5400 8700 50  0000 C CNN
+F 1 "47 ×4" V 5900 8700 50  0000 C CNN
+F 2 "" V 5975 8700 50  0001 C CNN
+F 3 "~" H 5700 8700 50  0001 C CNN
+	1    5700 8700
+	0    1    1    0   
+$EndComp
+Text Label 6300 8500 2    50   ~ 0
+not_dirc
+Text Label 6300 8600 2    50   ~ 0
+not_step
+Text Label 6300 8700 2    50   ~ 0
+not_wd
+Text Label 6300 8800 2    50   ~ 0
+not_wg
+Wire Wire Line
+	6300 8500 5900 8500
+Wire Wire Line
+	6300 8700 5900 8700
+Wire Wire Line
+	6300 8600 5900 8600
+Wire Wire Line
+	6300 8800 5900 8800
+Wire Wire Line
+	3300 5950 4300 5950
 Wire Wire Line
 	3400 6050 4300 6050
 Wire Wire Line
-	2700 5750 3300 5750
+	4000 5650 4300 5650
+Wire Wire Line
+	4500 7250 4500 7050
+Text Label 4500 7250 1    50   ~ 0
+GND
+$Comp
+L Connector_Generic_Shielded:Conn_01x14_Shielded J304
+U 1 1 60B2F41A
+P 4500 6150
+F 0 "J304" H 4500 6850 50  0000 C CNN
+F 1 "DIN-14S — External FDD Port" H 4500 6950 50  0000 C CNN
+F 2 "atari-interconnect:socket-din-14" H 4500 6150 50  0001 C CNN
+F 3 "~" H 4500 6150 50  0001 C CNN
+	1    4500 6150
+	1    0    0    -1  
+$EndComp
+Text Label 4100 6850 2    50   ~ 0
+wprt
+Text Label 4100 6750 2    50   ~ 0
+tr00
+Text Label 4100 6650 2    50   ~ 0
+DRV_WGATE
+Text Label 4100 6550 2    50   ~ 0
+DRV_WDATA
+Text Label 4100 6450 2    50   ~ 0
+DRV_STEP
+Text Label 4100 6350 2    50   ~ 0
+DRV_DOIN
+Text Label 4100 6250 2    50   ~ 0
+DRV_MON
+Text Label 4100 5850 2    50   ~ 0
+ip
+Text GLabel 4000 5650 0    50   Input ~ 0
+S0SEL
+Text Label 4100 5550 2    50   ~ 0
+rd
+Text Label 4100 5750 0    50   ~ 0
+GND
+Text Label 4100 6150 2    50   ~ 0
+GND
+Wire Wire Line
+	4100 5550 4300 5550
+Wire Wire Line
+	4100 5750 4300 5750
+Wire Wire Line
+	4100 5850 4300 5850
+Wire Wire Line
+	4100 6150 4300 6150
+Wire Wire Line
+	4100 6250 4300 6250
+Wire Wire Line
+	4100 6350 4300 6350
+Wire Wire Line
+	4100 6450 4300 6450
+Wire Wire Line
+	4100 6550 4300 6550
+Wire Wire Line
+	4100 6650 4300 6650
+Wire Wire Line
+	4100 6750 4300 6750
+Wire Wire Line
+	4100 6850 4300 6850
 Wire Wire Line
 	2700 6300 3400 6300
 Wire Wire Line
-	3300 5950 3300 5750
+	2700 5750 3300 5750
+$Comp
+L Device:R_Small_US R?
+U 1 1 60ADF316
+P 1750 6400
+AR Path="/608A2359/60ADF316" Ref="R?"  Part="1" 
+AR Path="/60A1445F/60ADF316" Ref="R?"  Part="1" 
+AR Path="/60A73CDE/60ADF316" Ref="R?"  Part="1" 
+AR Path="/60AD8617/60ADF316" Ref="R302"  Part="1" 
+F 0 "R302" V 1650 6400 50  0000 C CNN
+F 1 "1K" V 1850 6400 50  0000 C CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 1750 6400 50  0001 C CNN
+F 3 "~" H 1750 6400 50  0001 C CNN
+	1    1750 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPDT W301
+U 1 1 60B2D90B
+P 2500 5750
+F 0 "W301" H 2500 5920 50  0000 C CNN
+F 1 "SW_SPDT" H 2500 5550 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 5750 50  0001 C CNN
+F 3 "~" H 2500 5750 50  0001 C CNN
+	1    2500 5750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT W300
+U 1 1 60B2BFAE
+P 2500 6300
+F 0 "W300" H 2500 6470 50  0000 C CNN
+F 1 "SW_SPDT" H 2500 6100 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 6300 50  0001 C CNN
+F 3 "~" H 2500 6300 50  0001 C CNN
+	1    2500 6300
+	-1   0    0    -1  
+$EndComp
+Text GLabel 2200 6200 0    50   Input ~ 0
+D1SEL
+Text GLabel 2100 5650 0    50   Input ~ 0
+D0SEL
 Wire Wire Line
-	3300 5950 4300 5950
+	2200 6200 2300 6200
+Wire Wire Line
+	1850 6400 2300 6400
+Text GLabel 2100 5850 0    50   Input ~ 0
+D1SEL
+Wire Wire Line
+	2100 5650 2300 5650
+Wire Wire Line
+	2100 5850 2300 5850
+Text Notes 1750 5800 2    50   ~ 0
+Factory setting : D1SEL
+Text Notes 1050 6200 0    50   ~ 0
+Factory setting : VCC
+Text Label 1450 6400 0    50   ~ 0
+VCC
+Wire Wire Line
+	1450 6400 1650 6400
+Wire Wire Line
+	4750 8500 5500 8500
+Wire Wire Line
+	4750 8600 5500 8600
+Wire Wire Line
+	4750 8700 5500 8700
+Wire Wire Line
+	4750 8800 5500 8800
+Wire Notes Line
+	3450 4100 4150 4100
+Wire Notes Line
+	4150 4050 4150 4100
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 622098CD
+P 4500 2200
+F 0 "RN?" V 4200 2200 50  0000 C CNN
+F 1 "1K ×4" V 4700 2200 50  0000 C CNN
+F 2 "" V 4775 2200 50  0001 C CNN
+F 3 "~" H 4500 2200 50  0001 C CNN
+	1    4500 2200
+	0    1    1    0   
+$EndComp
+Text Label 5000 2000 2    50   ~ 0
+VCC
+Wire Wire Line
+	4700 2000 4800 2000
+Wire Wire Line
+	4700 2300 4800 2300
+Wire Wire Line
+	4800 2300 4800 2200
+Connection ~ 4800 2000
+Wire Wire Line
+	4800 2000 5000 2000
+Wire Wire Line
+	4700 2200 4800 2200
+Connection ~ 4800 2200
+Wire Wire Line
+	4800 2200 4800 2100
+Wire Wire Line
+	4700 2100 4800 2100
+Connection ~ 4800 2100
+Wire Wire Line
+	4800 2100 4800 2000
+Wire Wire Line
+	3500 2000 4300 2000
+Wire Wire Line
+	3500 2100 4300 2100
+Wire Wire Line
+	3500 2200 4300 2200
+Wire Wire Line
+	3500 2600 4400 2600
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 6225DB28
+P 6000 4000
+F 0 "RN?" V 5700 4000 50  0000 C CNN
+F 1 "1K ×4" V 6200 4000 50  0000 C CNN
+F 2 "" V 6275 4000 50  0001 C CNN
+F 3 "~" H 6000 4000 50  0001 C CNN
+	1    6000 4000
+	0    1    1    0   
+$EndComp
+Text Label 6500 3800 2    50   ~ 0
+VCC
+Wire Wire Line
+	6200 3800 6300 3800
+Wire Wire Line
+	6200 4100 6300 4100
+Wire Wire Line
+	6300 4100 6300 4000
+Connection ~ 6300 3800
+Wire Wire Line
+	6300 3800 6500 3800
+Wire Wire Line
+	6200 4000 6300 4000
+Connection ~ 6300 4000
+Wire Wire Line
+	6300 4000 6300 3900
+Wire Wire Line
+	6200 3900 6300 3900
+Connection ~ 6300 3900
+Wire Wire Line
+	6300 3900 6300 3800
 $EndSCHEMATC
