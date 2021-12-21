@@ -903,10 +903,10 @@ $EndComp
 Text Notes 550  6650 0    39   ~ 0
 XBGK when coming to \nBlitter is pulled-up\nwith 4K7, but in my STE\nit was not populated \nanyway (no external\nBlitter), so pulled-up \nwith 1K2 should be ok
 $Comp
-L custom_passives:R_Pack04_US RN?
+L custom_passives:R_Pack04_US RN201
 U 1 1 61B5A520
 P 2000 6250
-F 0 "RN?" V 1700 6250 50  0000 C CNN
+F 0 "RN201" V 1700 6250 50  0000 C CNN
 F 1 "1K2 ×4" V 2200 6250 50  0000 C CNN
 F 2 "" V 2275 6250 50  0001 C CNN
 F 3 "~" H 2000 6250 50  0001 C CNN
@@ -914,10 +914,10 @@ F 3 "~" H 2000 6250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L custom_passives:R_Pack04_US RN?
+L custom_passives:R_Pack04_US RN203
 U 1 1 61B5C554
 P 2000 7200
-F 0 "RN?" V 1700 7200 50  0000 C CNN
+F 0 "RN203" V 1700 7200 50  0000 C CNN
 F 1 "10K ×4" V 2200 7200 50  0000 C CNN
 F 2 "" V 2275 7200 50  0001 C CNN
 F 3 "~" H 2000 7200 50  0001 C CNN
@@ -925,10 +925,10 @@ F 3 "~" H 2000 7200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L custom_passives:R_Pack04_US RN?
+L custom_passives:R_Pack04_US RN202
 U 1 1 61B5F292
 P 3500 6250
-F 0 "RN?" V 3200 6250 50  0000 C CNN
+F 0 "RN202" V 3200 6250 50  0000 C CNN
 F 1 "1K2 ×4" V 3700 6250 50  0000 C CNN
 F 2 "" V 3775 6250 50  0001 C CNN
 F 3 "~" H 3500 6250 50  0001 C CNN
@@ -976,10 +976,10 @@ Connection ~ 3800 6150
 Wire Wire Line
 	3800 6150 3800 6050
 $Comp
-L custom_passives:R_Pack04_US RN?
+L custom_passives:R_Pack04_US RN204
 U 1 1 61BD00C3
 P 3500 7200
-F 0 "RN?" V 3200 7200 50  0000 C CNN
+F 0 "RN204" V 3200 7200 50  0000 C CNN
 F 1 "10K ×4" V 3700 7200 50  0000 C CNN
 F 2 "" V 3775 7200 50  0001 C CNN
 F 3 "~" H 3500 7200 50  0001 C CNN
@@ -987,10 +987,10 @@ F 3 "~" H 3500 7200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L custom_passives:R_Pack04_US RN?
+L custom_passives:R_Pack04_US RN205
 U 1 1 61BD08B3
 P 5000 7200
-F 0 "RN?" V 4700 7200 50  0000 C CNN
+F 0 "RN205" V 4700 7200 50  0000 C CNN
 F 1 "10K ×4" V 5200 7200 50  0000 C CNN
 F 2 "" V 5275 7200 50  0001 C CNN
 F 3 "~" H 5000 7200 50  0001 C CNN
@@ -998,10 +998,10 @@ F 3 "~" H 5000 7200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L custom_passives:R_Pack04_US RN?
+L custom_passives:R_Pack04_US RN206
 U 1 1 61BD1305
 P 6500 7200
-F 0 "RN?" V 6200 7200 50  0000 C CNN
+F 0 "RN206" V 6200 7200 50  0000 C CNN
 F 1 "10K ×4" V 6700 7200 50  0000 C CNN
 F 2 "" V 6775 7200 50  0001 C CNN
 F 3 "~" H 6500 7200 50  0001 C CNN
@@ -1093,10 +1093,10 @@ Connection ~ 6800 7100
 Wire Wire Line
 	6800 7100 6800 7000
 $Comp
-L custom_passives:R_Pack04_US RN?
+L custom_passives:R_Pack04_US RN207
 U 1 1 61CC273F
 P 2000 8200
-F 0 "RN?" V 1700 8200 50  0000 C CNN
+F 0 "RN207" V 1700 8200 50  0000 C CNN
 F 1 "4K7 ×4" V 2200 8200 50  0000 C CNN
 F 2 "" V 2275 8200 50  0001 C CNN
 F 3 "~" H 2000 8200 50  0001 C CNN
@@ -1104,10 +1104,10 @@ F 3 "~" H 2000 8200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L custom_passives:R_Pack04_US RN?
+L custom_passives:R_Pack04_US RN208
 U 1 1 61CDAA84
 P 3500 8200
-F 0 "RN?" V 3200 8200 50  0000 C CNN
+F 0 "RN208" V 3200 8200 50  0000 C CNN
 F 1 "4K7 ×4" V 3700 8200 50  0000 C CNN
 F 2 "" V 3775 8200 50  0001 C CNN
 F 3 "~" H 3500 8200 50  0001 C CNN
@@ -1115,10 +1115,10 @@ F 3 "~" H 3500 8200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L custom_passives:R_Pack04_US RN?
+L custom_passives:R_Pack04_US RN209
 U 1 1 61CDBA85
 P 5000 8200
-F 0 "RN?" V 4700 8200 50  0000 C CNN
+F 0 "RN209" V 4700 8200 50  0000 C CNN
 F 1 "4K7 ×4" V 5200 8200 50  0000 C CNN
 F 2 "" V 5275 8200 50  0001 C CNN
 F 3 "~" H 5000 8200 50  0001 C CNN
@@ -1126,10 +1126,10 @@ F 3 "~" H 5000 8200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L custom_passives:R_Pack04_US RN?
+L custom_passives:R_Pack04_US RN210
 U 1 1 61CDC731
 P 6500 8250
-F 0 "RN?" V 6200 8250 50  0000 C CNN
+F 0 "RN210" V 6200 8250 50  0000 C CNN
 F 1 "4K7 ×4" V 6700 8250 50  0000 C CNN
 F 2 "" V 6775 8250 50  0001 C CNN
 F 3 "~" H 6500 8250 50  0001 C CNN
@@ -1137,10 +1137,10 @@ F 3 "~" H 6500 8250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L custom_passives:R_Pack04_US RN?
+L custom_passives:R_Pack04_US RN211
 U 1 1 61D5A646
 P 2000 9200
-F 0 "RN?" V 1700 9200 50  0000 C CNN
+F 0 "RN211" V 1700 9200 50  0000 C CNN
 F 1 "4K7 ×4" V 2200 9200 50  0000 C CNN
 F 2 "" V 2275 9200 50  0001 C CNN
 F 3 "~" H 2000 9200 50  0001 C CNN
@@ -1148,10 +1148,10 @@ F 3 "~" H 2000 9200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L custom_passives:R_Pack04_US RN?
+L custom_passives:R_Pack04_US RN212
 U 1 1 61D5B85C
 P 3500 9200
-F 0 "RN?" V 3200 9200 50  0000 C CNN
+F 0 "RN212" V 3200 9200 50  0000 C CNN
 F 1 "4K7 ×4" V 3700 9200 50  0000 C CNN
 F 2 "" V 3775 9200 50  0001 C CNN
 F 3 "~" H 3500 9200 50  0001 C CNN
@@ -1289,10 +1289,10 @@ Connection ~ 3800 9100
 Wire Wire Line
 	3800 9100 3800 9000
 $Comp
-L custom_passives:R_Pack04_US RN?
+L custom_passives:R_Pack04_US RN213
 U 1 1 61ED1BB1
 P 5000 9200
-F 0 "RN?" V 4700 9200 50  0000 C CNN
+F 0 "RN213" V 4700 9200 50  0000 C CNN
 F 1 "10K ×4" V 5200 9200 50  0000 C CNN
 F 2 "" V 5275 9200 50  0001 C CNN
 F 3 "~" H 5000 9200 50  0001 C CNN
@@ -1322,4 +1322,6 @@ Wire Wire Line
 	5300 9100 5300 9000
 Text Notes 700  7650 0    50   ~ 0
 Maybe put all the 10K pull-up at 4K7 ?
+NoConn ~ 3300 9300
+NoConn ~ 4800 9300
 $EndSCHEMATC
