@@ -56,10 +56,10 @@ F 3 "~" H 2000 4150 50  0001 C CNN
 	1    2000 4150
 	1    0    0    -1  
 $EndComp
-Text Label 2000 4500 1    50   ~ 0
+Text Label 2000 4600 1    50   ~ 0
 GND
 Wire Wire Line
-	2000 4300 2000 4500
+	2000 4400 2000 4600
 Text Label 2000 3800 0    50   ~ 0
 fvcc1
 Wire Wire Line
@@ -109,7 +109,7 @@ Wire Wire Line
 Text Label 2000 5200 3    50   ~ 0
 VCC
 Wire Wire Line
-	2000 3600 2000 4000
+	2000 3600 2000 3900
 Wire Wire Line
 	2000 5600 2000 6000
 $Comp
@@ -745,37 +745,7 @@ GND
 Wire Wire Line
 	6350 2900 6350 2700
 Text Notes 700  4950 0    50   ~ 0
-When there is ghosting using RGB/Scart, \nadd a 47uF low ESR electrolytic capacitor in parallel of C411, \nand a 1uF ceramic capacitor in parallel of C411 too.\n\nsee https://www.exxoshost.co.uk/atari/last/VIDEOFIX/index.htm\n
-Wire Notes Line
-	1850 4100 1650 4100
-Wire Notes Line
-	1650 4150 1850 4150
-Wire Notes Line
-	1600 4100 1400 4100
-Wire Notes Line
-	1500 4150 1500 4300
-Wire Notes Line
-	1500 4300 2000 4300
-Wire Notes Line
-	1750 4150 1750 4300
-Wire Notes Line
-	1500 4100 1500 3950
-Wire Notes Line
-	1500 3950 2000 3950
-Wire Notes Line
-	1750 4100 1750 3950
-Wire Notes Line
-	1450 4200 1450 4150
-Wire Notes Line
-	1550 4200 1550 4150
-Wire Notes Line
-	1450 4150 1550 4150
-Text Notes 1300 4300 0    50   ~ 0
-47uF
-Text Notes 1400 4100 0    50   ~ 0
-+
-Text Notes 1600 4300 0    50   ~ 0
-1uF
+Video ghosting fix :  \nA 47uF low ESR electrolytic capacitor and a 1uF\nceramic capacitor in parallel of C411 in parallel of C411.\n\nsee https://www.exxoshost.co.uk/atari/last/VIDEOFIX/index.htm\n
 Wire Wire Line
 	3800 1500 6150 1500
 Wire Wire Line
@@ -794,4 +764,62 @@ Wire Wire Line
 	4700 2400 5050 2400
 Wire Wire Line
 	5250 2400 6150 2400
+$Comp
+L Device:C C?
+U 1 1 61CE7083
+P 1500 4150
+AR Path="/60786F27/6078774E/61CE7083" Ref="C?"  Part="1" 
+AR Path="/60786F27/607875AF/61CE7083" Ref="C?"  Part="1" 
+AR Path="/6089D0BA/61CE7083" Ref="C?"  Part="1" 
+AR Path="/608A2359/61CE7083" Ref="C?"  Part="1" 
+AR Path="/60A1445F/61CE7083" Ref="C?"  Part="1" 
+AR Path="/60A73CDE/61CE7083" Ref="C?"  Part="1" 
+AR Path="/60AD8617/61CE7083" Ref="C?"  Part="1" 
+AR Path="/60AD332C/61CE7083" Ref="C?"  Part="1" 
+AR Path="/60AD33B6/61CE7083" Ref="C?"  Part="1" 
+AR Path="/60B3D9E3/61CE7083" Ref="C2102"  Part="1" 
+F 0 "C2102" H 1525 4250 50  0000 L CNN
+F 1 "1uF" H 1525 4050 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L10.16mm" H 1538 4000 50  0001 C CNN
+F 3 "~" H 1500 4150 50  0001 C CNN
+	1    1500 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61CEA8C5
+P 1000 4150
+AR Path="/6089D0C2/61CEA8C5" Ref="C?"  Part="1" 
+AR Path="/60B3D9E3/61CEA8C5" Ref="C2101"  Part="1" 
+F 0 "C2101" H 1025 4250 50  0000 L CNN
+F 1 "47uF" H 1025 4050 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_capacitor_polarized_W6.35mm_L20.32mm" H 1000 4150 50  0001 C CNN
+F 3 "~" H 1000 4150 50  0001 C CNN
+	1    1000 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4400 1500 4400
+Wire Wire Line
+	1000 4400 1000 4300
+Wire Wire Line
+	1000 4000 1000 3900
+Wire Wire Line
+	1000 3900 1500 3900
+Connection ~ 2000 3900
+Wire Wire Line
+	2000 3900 2000 4000
+Wire Wire Line
+	1500 4000 1500 3900
+Connection ~ 1500 3900
+Wire Wire Line
+	1500 3900 2000 3900
+Wire Wire Line
+	1500 4300 1500 4400
+Connection ~ 1500 4400
+Wire Wire Line
+	1500 4400 1000 4400
+Wire Wire Line
+	2000 4400 2000 4300
+Connection ~ 2000 4400
 $EndSCHEMATC
