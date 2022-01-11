@@ -25,10 +25,10 @@ F 3 "~" H 6350 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L401
+L Device:Ferrite_Bead_Small FB401
 U 1 1 60B41C5A
 P 2000 3500
-F 0 "L401" H 2075 3550 50  0000 L CNN
+F 0 "FB401" H 2075 3550 50  0000 L CNN
 F 1 "Ferrite Bead" H 2075 3450 50  0000 L CNN
 F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 1930 3500 50  0001 C CNN
 F 3 "~" H 2000 3500 50  0001 C CNN
@@ -67,10 +67,10 @@ Wire Wire Line
 Text Label 2000 3200 3    50   ~ 0
 VCC
 $Comp
-L Device:Ferrite_Bead_Small L402
+L Device:Ferrite_Bead_Small FB402
 U 1 1 60B49A84
 P 2000 5500
-F 0 "L402" H 2075 5550 50  0000 L CNN
+F 0 "FB402" H 2075 5550 50  0000 L CNN
 F 1 "Ferrite Bead" H 2075 5450 50  0000 L CNN
 F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 1930 5500 50  0001 C CNN
 F 3 "~" H 2000 5500 50  0001 C CNN

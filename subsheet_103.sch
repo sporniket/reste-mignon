@@ -162,11 +162,11 @@ Wire Wire Line
 Wire Wire Line
 	4600 5500 4800 5500
 $Comp
-L Device:Ferrite_Bead_Small L100
+L Device:Ferrite_Bead_Small FB100
 U 1 1 6085902E
 P 4250 1700
-F 0 "L100" H 4325 1750 50  0000 L CNN
-F 1 "FB" H 4325 1650 50  0000 L CNN
+F 0 "FB100" H 4325 1750 50  0000 L CNN
+F 1 "Ferrite Bead" H 4325 1650 50  0000 L CNN
 F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 4180 1700 50  0001 C CNN
 F 3 "~" H 4250 1700 50  0001 C CNN
 	1    4250 1700

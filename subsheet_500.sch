@@ -62,8 +62,6 @@ j0_15
 Text Label 3400 1900 0    50   ~ 0
 GND
 Wire Wire Line
-	3250 1600 3650 1600
-Wire Wire Line
 	3400 1900 3650 1900
 NoConn ~ 3650 1800
 Text Label 1050 4000 0    50   ~ 0
@@ -76,44 +74,44 @@ Wire Wire Line
 	3400 4400 3650 4400
 NoConn ~ 3650 4300
 $Comp
-L Device:Ferrite_Bead_Small L500
+L Device:Ferrite_Bead_Small FB500
 U 1 1 60CA63D1
 P 2100 1500
-F 0 "L500" V 2000 1350 50  0000 L CNN
-F 1 "FB" V 2200 1350 50  0000 L CNN
+F 0 "FB500" V 2000 1350 50  0000 L CNN
+F 1 "Ferrite Bead" V 2200 1150 50  0000 L CNN
 F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 2030 1500 50  0001 C CNN
 F 3 "~" H 2100 1500 50  0001 C CNN
 	1    2100 1500
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L501
+L Device:Ferrite_Bead_Small FB501
 U 1 1 60CA7646
 P 2100 2500
-F 0 "L501" V 2000 2350 50  0000 L CNN
-F 1 "FB" V 2200 2350 50  0000 L CNN
+F 0 "FB501" V 2000 2350 50  0000 L CNN
+F 1 "Ferrite Bead" V 2200 2250 50  0000 L CNN
 F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 2030 2500 50  0001 C CNN
 F 3 "~" H 2100 2500 50  0001 C CNN
 	1    2100 2500
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L502
+L Device:Ferrite_Bead_Small FB502
 U 1 1 60CA80BE
 P 2600 4000
-F 0 "L502" V 2500 3850 50  0000 L CNN
-F 1 "FB" V 2700 3850 50  0000 L CNN
+F 0 "FB502" V 2500 3850 50  0000 L CNN
+F 1 "Ferrite Bead" V 2700 3750 50  0000 L CNN
 F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 2530 4000 50  0001 C CNN
 F 3 "~" H 2600 4000 50  0001 C CNN
 	1    2600 4000
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small L503
+L Device:Ferrite_Bead_Small FB503
 U 1 1 60CA88E0
 P 2600 5000
-F 0 "L503" V 2500 4850 50  0000 L CNN
-F 1 "FB" V 2700 4850 50  0000 L CNN
+F 0 "FB503" V 2500 4850 50  0000 L CNN
+F 1 "Ferrite Bead" V 2700 4750 50  0000 L CNN
 F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 2530 5000 50  0001 C CNN
 F 3 "~" H 2600 5000 50  0001 C CNN
 	1    2600 5000
@@ -587,18 +585,7 @@ Text GLabel 3300 2300 0    50   Output ~ 0
 JOY0_13
 Text GLabel 3300 2400 0    50   Output ~ 0
 JOY0_14
-$Comp
-L Device:Ferrite_Bead_Small L508
-U 1 1 60DFED5B
-P 3150 1600
-F 0 "L508" V 3100 1350 50  0000 L CNN
-F 1 "FB" V 3100 1700 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 3080 1600 50  0001 C CNN
-F 3 "~" H 3150 1600 50  0001 C CNN
-	1    3150 1600
-	0    1    1    0   
-$EndComp
-Text GLabel 2700 1600 0    50   BiDi ~ 0
+Text GLabel 2600 1600 0    50   BiDi ~ 0
 XPEN
 Text GLabel 3350 3600 0    50   BiDi ~ 0
 JOY1_1
@@ -699,7 +686,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 2500 3650 2500
 Wire Wire Line
-	3050 1600 2700 1600
+	2950 1600 2600 1600
 Wire Wire Line
 	3400 1700 3650 1700
 Wire Wire Line
@@ -748,4 +735,17 @@ Wire Wire Line
 	2700 4000 3650 4000
 Wire Wire Line
 	2700 5000 3650 5000
+$Comp
+L Device:Ferrite_Bead_Small FB508
+U 1 1 60DFED5B
+P 3050 1600
+F 0 "FB508" V 3000 1300 50  0000 L CNN
+F 1 "Ferrite Bead" V 3000 1700 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 2980 1600 50  0001 C CNN
+F 3 "~" H 3050 1600 50  0001 C CNN
+	1    3050 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 1600 3650 1600
 $EndSCHEMATC
