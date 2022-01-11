@@ -618,8 +618,8 @@ AR Path="/60B8B7AD/60D4F85E" Ref="C?"  Part="1"
 AR Path="/60C95DE8/60D4F85E" Ref="C?"  Part="1" 
 AR Path="/60CC3B10/60D4F85E" Ref="C?"  Part="1" 
 AR Path="/60CD36E9/60D4F85E" Ref="C?"  Part="1" 
-AR Path="/60CE6C60/60D4F85E" Ref="C600"  Part="1" 
-F 0 "C600" H 4300 1600 50  0000 L CNN
+AR Path="/60CE6C60/60D4F85E" Ref="CP600"  Part="1" 
+F 0 "CP600" H 4300 1600 50  0000 L CNN
 F 1 "100uF" H 4300 1400 50  0000 L CNN
 F 2 "commons_passives_THT:Passive_THT_capacitor_polarized_W6.35mm_L20.32mm" H 4250 1500 50  0001 C CNN
 F 3 "~" H 4250 1500 50  0001 C CNN

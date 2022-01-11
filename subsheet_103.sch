@@ -186,10 +186,10 @@ $EndComp
 Text Label 3750 2700 1    50   ~ 0
 GND
 $Comp
-L Device:CP1 C110
+L Device:CP1 CP110
 U 1 1 6085AF1D
 P 3250 2350
-F 0 "C110" H 3275 2450 50  0000 L CNN
+F 0 "CP110" H 3275 2450 50  0000 L CNN
 F 1 "100uF" H 3275 2250 50  0000 L CNN
 F 2 "commons_passives_THT:Passive_THT_capacitor_polarized_W6.35mm_L20.32mm" H 3250 2350 50  0001 C CNN
 F 3 "~" H 3250 2350 50  0001 C CNN

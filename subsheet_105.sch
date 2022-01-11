@@ -25,10 +25,10 @@ F 3 "~" H 1300 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C107
+L Device:CP1 CP107
 U 1 1 6079EFD5
 P 3750 2000
-F 0 "C107" H 3775 2100 50  0000 L CNN
+F 0 "CP107" H 3775 2100 50  0000 L CNN
 F 1 "100uF" H 3775 1900 50  0000 L CNN
 F 2 "commons_passives_THT:Passive_THT_capacitor_polarized_W6.35mm_L20.32mm" H 3750 2000 50  0001 C CNN
 F 3 "~" H 3750 2000 50  0001 C CNN

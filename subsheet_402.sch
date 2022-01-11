@@ -558,21 +558,19 @@ Wire Wire Line
 	5900 2200 6150 2200
 Wire Wire Line
 	5900 2300 6150 2300
-Text GLabel 4400 1300 0    50   Input ~ 0
+Text GLabel 4350 1300 0    50   Input ~ 0
 AUDIO
 $Comp
-L Device:CP1_Small C416
+L Device:CP1_Small CP416
 U 1 1 60BDD743
 P 4650 1300
-F 0 "C416" V 4700 1350 50  0000 L CNN
+F 0 "CP416" V 4700 1350 50  0000 L CNN
 F 1 "47uF" V 4700 1050 50  0000 L CNN
 F 2 "commons_passives_THT:Passive_THT_capacitor_polarized_rad_D5.08mm_P2.54mm_H12.70mm" H 4650 1300 50  0001 C CNN
 F 3 "~" H 4650 1300 50  0001 C CNN
 	1    4650 1300
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4400 1300 4550 1300
 Text GLabel 5850 1400 0    50   Input ~ 0
 COMPOSITE_OR_CSYNC
 Text GLabel 5400 1700 0    50   Output ~ 0
@@ -790,8 +788,8 @@ L Device:CP1 C?
 U 1 1 61CEA8C5
 P 1000 4150
 AR Path="/6089D0C2/61CEA8C5" Ref="C?"  Part="1" 
-AR Path="/60B3D9E3/61CEA8C5" Ref="C2101"  Part="1" 
-F 0 "C2101" H 1025 4250 50  0000 L CNN
+AR Path="/60B3D9E3/61CEA8C5" Ref="CP2101"  Part="1" 
+F 0 "CP2101" H 1025 4250 50  0000 L CNN
 F 1 "47uF" H 1025 4050 50  0000 L CNN
 F 2 "commons_passives_THT:Passive_THT_capacitor_polarized_W6.35mm_L20.32mm" H 1000 4150 50  0001 C CNN
 F 3 "~" H 1000 4150 50  0001 C CNN
@@ -822,4 +820,6 @@ Wire Wire Line
 Wire Wire Line
 	2000 4400 2000 4300
 Connection ~ 2000 4400
+Wire Wire Line
+	4350 1300 4550 1300
 $EndSCHEMATC
