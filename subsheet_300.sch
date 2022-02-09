@@ -470,4 +470,106 @@ Wire Wire Line
 	3500 4150 3500 4350
 Wire Wire Line
 	3500 4650 3500 4850
+Wire Wire Line
+	2100 6000 2300 6000
+Wire Wire Line
+	2100 6300 2300 6300
+Wire Wire Line
+	2100 6200 2300 6200
+Wire Wire Line
+	2100 6100 2300 6100
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 6206466E
+P 2500 6200
+AR Path="/6089D0C6/6206466E" Ref="RN?"  Part="1" 
+AR Path="/60A1445F/6206466E" Ref="RN1501"  Part="1" 
+F 0 "RN1501" V 2200 6200 50  0000 C CNN
+F 1 "10K ×4" V 2700 6200 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 2775 6200 50  0001 C CNN
+F 3 "~" H 2500 6200 50  0001 C CNN
+	1    2500 6200
+	0    1    1    0   
+$EndComp
+Text Label 3000 6000 2    50   ~ 0
+VCC
+Wire Wire Line
+	2700 6000 2800 6000
+Wire Wire Line
+	2700 6300 2800 6300
+Wire Wire Line
+	2800 6300 2800 6200
+Connection ~ 2800 6000
+Wire Wire Line
+	2800 6000 3000 6000
+Wire Wire Line
+	2700 6200 2800 6200
+Connection ~ 2800 6200
+Wire Wire Line
+	2800 6200 2800 6100
+Wire Wire Line
+	2700 6100 2800 6100
+Connection ~ 2800 6100
+Wire Wire Line
+	2800 6100 2800 6000
+Wire Wire Line
+	3600 6000 3800 6000
+Wire Wire Line
+	3600 6300 3800 6300
+Wire Wire Line
+	3600 6200 3800 6200
+Wire Wire Line
+	3600 6100 3800 6100
+$Comp
+L custom_passives:R_Pack04_US RN?
+U 1 1 6206AF44
+P 4000 6200
+AR Path="/6089D0C6/6206AF44" Ref="RN?"  Part="1" 
+AR Path="/60A1445F/6206AF44" Ref="RN1502"  Part="1" 
+F 0 "RN1502" V 3700 6200 50  0000 C CNN
+F 1 "10K ×4" V 4200 6200 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 4275 6200 50  0001 C CNN
+F 3 "~" H 4000 6200 50  0001 C CNN
+	1    4000 6200
+	0    1    1    0   
+$EndComp
+Text Label 4500 6000 2    50   ~ 0
+VCC
+Wire Wire Line
+	4200 6000 4300 6000
+Wire Wire Line
+	4200 6300 4300 6300
+Wire Wire Line
+	4300 6300 4300 6200
+Connection ~ 4300 6000
+Wire Wire Line
+	4300 6000 4500 6000
+Wire Wire Line
+	4200 6200 4300 6200
+Connection ~ 4300 6200
+Wire Wire Line
+	4300 6200 4300 6100
+Wire Wire Line
+	4200 6100 4300 6100
+Connection ~ 4300 6100
+Wire Wire Line
+	4300 6100 4300 6000
+Text Label 2100 6000 0    50   ~ 0
+CD0
+Text Label 2100 6100 0    50   ~ 0
+CD1
+Text Label 2100 6200 0    50   ~ 0
+CD2
+Text Label 2100 6300 0    50   ~ 0
+CD3
+Text Label 3600 6000 0    50   ~ 0
+CD4
+Text Label 3600 6100 0    50   ~ 0
+CD5
+Text Label 3600 6200 0    50   ~ 0
+CD6
+Text Label 3600 6300 0    50   ~ 0
+CD7
+Text Notes 2050 6700 0    50   ~ 0
+DMA data bus pull-up fix\nhttps://www.exxoshost.co.uk/forum/viewtopic.php?f=17&t=1417
 $EndSCHEMATC

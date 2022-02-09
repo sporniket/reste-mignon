@@ -458,34 +458,6 @@ Wire Wire Line
 Connection ~ 6200 7900
 Wire Wire Line
 	5950 7700 6300 7700
-Text Notes 650  1200 0    50   ~ 0
-- When the computer reports incorrectly that a disk is write protected\n- When experiencing disk IO problems with a booster or modern storage on ACSI (CF/SD cards...)\n\nThen add a  8×10K resistor bus (9 pins) as a pull ups on the data bus \n(pins 5 to 12 of the WD1772). VCC is taken from C305.\n\nSee https://www.exxoshost.co.uk/forum/viewtopic.php?f=17&t=1417
-Wire Notes Line
-	1750 2000 1750 2800
-Wire Notes Line
-	1550 2800 1550 2000
-Wire Notes Line
-	1250 2000 1750 2000
-Wire Notes Line
-	1750 2100 1850 2100
-Wire Notes Line
-	1750 2200 1850 2200
-Wire Notes Line
-	1750 2300 1850 2300
-Wire Notes Line
-	1750 2400 1850 2400
-Wire Notes Line
-	1750 2500 1850 2500
-Wire Notes Line
-	1750 2600 1850 2600
-Wire Notes Line
-	1750 2700 1850 2700
-Wire Notes Line
-	1550 2800 1850 2800
-Text Notes 1700 2500 1    50   ~ 0
-8×10K
-Wire Notes Line
-	1300 1950 1300 1250
 Text Notes 1250 5000 0    50   ~ 0
 Atari floppy drives have internal pull-ups that others have not.\nWhen experiencing drive failure although the drive works on\na PC, add a 1K pull-up on the following pins : 2, 4, 6, 8, 10.\n\nsee https://www.exxoshost.co.uk/forum/viewtopic.php?f=17&t=1395
 Wire Notes Line
@@ -582,14 +554,6 @@ Wire Notes Line
 	1300 4250 1300 4550
 Wire Notes Line
 	3900 4350 3900 4550
-Wire Notes Line
-	600  1250 600  600 
-Wire Notes Line
-	600  600  4500 600 
-Wire Notes Line
-	4500 600  4500 1250
-Wire Notes Line
-	600  1250 4500 1250
 Wire Wire Line
 	3400 6050 3400 6300
 Wire Wire Line
