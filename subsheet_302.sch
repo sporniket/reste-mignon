@@ -119,12 +119,12 @@ CA[1..2]
 $Comp
 L Connector_Generic:Conn_01x04 J302
 U 1 1 60B310B6
-P 6500 7800
-F 0 "J302" H 6500 8000 50  0000 C CNN
-F 1 "Internal FDD Power" H 6500 8100 50  0000 C CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 6500 7800 50  0001 C CNN
-F 3 "~" H 6500 7800 50  0001 C CNN
-	1    6500 7800
+P 6500 7100
+F 0 "J302" H 6500 7300 50  0000 C CNN
+F 1 "Internal FDD Power" H 6500 7400 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 6500 7100 50  0001 C CNN
+F 3 "~" H 6500 7100 50  0001 C CNN
+	1    6500 7100
 	1    0    0    -1  
 $EndComp
 Text Label 1850 1900 0    50   ~ 0
@@ -297,263 +297,167 @@ Wire Wire Line
 	5800 3800 5600 3800
 Wire Wire Line
 	5800 3900 5600 3900
-Text Label 5950 7700 0    50   ~ 0
+Text Label 5950 7000 0    50   ~ 0
 VCC
-Text Label 5950 8000 0    50   ~ 0
+Text Label 5950 7300 0    50   ~ 0
 +12V
-Text Label 5950 7900 0    50   ~ 0
+Text Label 5950 7200 0    50   ~ 0
 GND
 Wire Wire Line
-	6200 7800 6200 7900
+	6200 7100 6200 7200
 Wire Wire Line
-	6200 7900 6300 7900
+	6200 7200 6300 7200
 Wire Wire Line
-	6200 7800 6300 7800
+	6200 7100 6300 7100
 Wire Wire Line
-	4750 9200 5050 9200
+	3750 9200 4050 9200
 Wire Wire Line
-	4750 8200 5050 8200
+	3750 8200 4050 8200
 Wire Wire Line
-	4750 8100 5050 8100
+	3750 8100 4050 8100
 Wire Wire Line
-	4750 9100 5000 9100
+	3750 9100 4000 9100
 Wire Wire Line
-	4750 9000 5000 9000
+	3750 9000 4000 9000
 Wire Wire Line
-	4750 8900 5000 8900
+	3750 8900 4000 8900
 Wire Wire Line
-	4750 8400 5000 8400
-Wire Wire Line
-	4750 8000 5000 8000
-NoConn ~ 4750 9300
-Text GLabel 5050 9200 2    50   Input ~ 0
+	3750 8000 4000 8000
+NoConn ~ 3750 9300
+Text GLabel 4050 9200 2    50   Input ~ 0
 S0SEL
-Text Label 5000 9100 2    50   ~ 0
+Text Label 4000 9100 2    50   ~ 0
 rd
-Text Label 5000 9000 2    50   ~ 0
+Text Label 4000 9000 2    50   ~ 0
 wprt
-Text Label 5000 8900 2    50   ~ 0
+Text Label 4000 8900 2    50   ~ 0
 tr00
-Text Label 5000 8800 0    50   ~ 0
+Text Label 4000 8800 0    50   ~ 0
 DRV_WGATE
-Text Label 5000 8700 0    50   ~ 0
+Text Label 4000 8700 0    50   ~ 0
 DRV_WDATA
-Text Label 5000 8600 0    50   ~ 0
+Text Label 4000 8600 0    50   ~ 0
 DRV_STEP
-Text Label 5000 8500 0    50   ~ 0
+Text Label 4000 8500 0    50   ~ 0
 DRV_DOIN
-Text Label 5000 8400 0    50   ~ 0
+Text Label 4000 8400 0    50   ~ 0
 DRV_MON
-Text GLabel 5050 8200 2    50   Input ~ 0
+Text GLabel 4050 8200 2    50   Input ~ 0
 D1SEL
-Text GLabel 5050 8100 2    50   Input ~ 0
+Text GLabel 4050 8100 2    50   Input ~ 0
 D0SEL
-Text Label 5000 8000 2    50   ~ 0
+Text Label 4000 8000 2    50   ~ 0
 ip
-NoConn ~ 4750 8300
-NoConn ~ 4750 7900
-NoConn ~ 4750 7800
-NoConn ~ 4750 7700
+NoConn ~ 3750 8300
+NoConn ~ 3750 7900
+NoConn ~ 3750 7800
+NoConn ~ 3750 7700
 Wire Wire Line
-	3900 9300 4150 9300
-Connection ~ 4150 9300
+	2900 9300 3150 9300
+Connection ~ 3150 9300
 Wire Wire Line
-	4150 9200 4150 9100
-Connection ~ 4150 9200
+	3150 9200 3150 9100
+Connection ~ 3150 9200
 Wire Wire Line
-	4150 9100 4150 9000
-Connection ~ 4150 9100
+	3150 9100 3150 9000
+Connection ~ 3150 9100
 Wire Wire Line
-	4150 9000 4150 8900
-Connection ~ 4150 9000
+	3150 9000 3150 8900
+Connection ~ 3150 9000
 Wire Wire Line
-	4150 8900 4150 8800
-Connection ~ 4150 8900
+	3150 8900 3150 8800
+Connection ~ 3150 8900
 Wire Wire Line
-	4150 8800 4150 8700
-Connection ~ 4150 8800
+	3150 8800 3150 8700
+Connection ~ 3150 8800
 Wire Wire Line
-	4150 8700 4150 8600
-Connection ~ 4150 8700
+	3150 8700 3150 8600
+Connection ~ 3150 8700
 Wire Wire Line
-	4150 8600 4150 8500
-Connection ~ 4150 8600
+	3150 8600 3150 8500
+Connection ~ 3150 8600
 Wire Wire Line
-	4150 8500 4150 8400
-Connection ~ 4150 8500
+	3150 8500 3150 8400
+Connection ~ 3150 8500
 Wire Wire Line
-	4150 8400 4150 8300
-Connection ~ 4150 8400
+	3150 8400 3150 8300
+Connection ~ 3150 8400
 Wire Wire Line
-	4150 8300 4150 8200
-Connection ~ 4150 8300
+	3150 8300 3150 8200
+Connection ~ 3150 8300
 Wire Wire Line
-	4150 8200 4150 8100
-Connection ~ 4150 8200
+	3150 8200 3150 8100
+Connection ~ 3150 8200
 Wire Wire Line
-	4150 8100 4150 8000
-Connection ~ 4150 8100
+	3150 8100 3150 8000
+Connection ~ 3150 8100
 Wire Wire Line
-	4150 8000 4150 7900
-Connection ~ 4150 8000
+	3150 8000 3150 7900
+Connection ~ 3150 8000
 Wire Wire Line
-	4150 7900 4150 7800
-Connection ~ 4150 7900
+	3150 7900 3150 7800
+Connection ~ 3150 7900
 Wire Wire Line
-	4150 7800 4150 7700
-Connection ~ 4150 7800
+	3150 7800 3150 7700
+Connection ~ 3150 7800
 Wire Wire Line
-	4150 9300 4150 9200
+	3150 9300 3150 9200
 Wire Wire Line
-	4150 9300 4250 9300
+	3150 9300 3250 9300
 Wire Wire Line
-	4150 9200 4250 9200
+	3150 9200 3250 9200
 Wire Wire Line
-	4150 9100 4250 9100
+	3150 9100 3250 9100
 Wire Wire Line
-	4150 9000 4250 9000
+	3150 9000 3250 9000
 Wire Wire Line
-	4150 8900 4250 8900
+	3150 8900 3250 8900
 Wire Wire Line
-	4150 8800 4250 8800
+	3150 8800 3250 8800
 Wire Wire Line
-	4150 8700 4250 8700
+	3150 8700 3250 8700
 Wire Wire Line
-	4150 8600 4250 8600
+	3150 8600 3250 8600
 Wire Wire Line
-	4150 8500 4250 8500
+	3150 8500 3250 8500
 Wire Wire Line
-	4150 8400 4250 8400
+	3150 8400 3250 8400
 Wire Wire Line
-	4150 8300 4250 8300
+	3150 8300 3250 8300
 Wire Wire Line
-	4150 8200 4250 8200
+	3150 8200 3250 8200
 Wire Wire Line
-	4150 8100 4250 8100
+	3150 8100 3250 8100
 Wire Wire Line
-	4150 8000 4250 8000
+	3150 8000 3250 8000
 Wire Wire Line
-	4150 7900 4250 7900
+	3150 7900 3250 7900
 Wire Wire Line
-	4150 7800 4250 7800
+	3150 7800 3250 7800
 Wire Wire Line
-	4150 7700 4250 7700
-Text Label 3900 9300 0    50   ~ 0
+	3150 7700 3250 7700
+Text Label 2900 9300 0    50   ~ 0
 GND
 $Comp
 L Connector_Generic:Conn_02x17_Odd_Even J303
 U 1 1 60B32F3B
-P 4450 8500
-F 0 "J303" H 4500 9400 50  0000 C CNN
-F 1 "Internal FDD Port" H 4500 9500 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x17_P2.54mm_Vertical" H 4450 8500 50  0001 C CNN
-F 3 "~" H 4450 8500 50  0001 C CNN
-	1    4450 8500
+P 3450 8500
+F 0 "J303" H 3500 9400 50  0000 C CNN
+F 1 "Internal FDD Port" H 3500 9500 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x17_P2.54mm_Vertical" H 3450 8500 50  0001 C CNN
+F 3 "~" H 3450 8500 50  0001 C CNN
+	1    3450 8500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5950 8000 6300 8000
+	5950 7300 6300 7300
 Wire Wire Line
-	5950 7900 6200 7900
-Connection ~ 6200 7900
+	5950 7200 6200 7200
+Connection ~ 6200 7200
 Wire Wire Line
-	5950 7700 6300 7700
-Text Notes 1250 5000 0    50   ~ 0
-Atari floppy drives have internal pull-ups that others have not.\nWhen experiencing drive failure although the drive works on\na PC, add a 1K pull-up on the following pins : 2, 4, 6, 8, 10.\n\nsee https://www.exxoshost.co.uk/forum/viewtopic.php?f=17&t=1395
-Wire Notes Line
-	1550 3550 1450 3550
-Wire Notes Line
-	1450 3550 1450 3700
-Wire Notes Line
-	1450 3700 1550 3700
-Wire Notes Line
-	1550 3700 1550 3550
-Text Notes 1550 3700 1    50   ~ 0
-1K
-Wire Notes Line
-	1400 3750 1300 3750
-Wire Notes Line
-	1300 3750 1300 3900
-Wire Notes Line
-	1300 3900 1400 3900
-Wire Notes Line
-	1400 3900 1400 3750
-Text Notes 1400 3900 1    50   ~ 0
-1K
-Wire Notes Line
-	1250 3950 1150 3950
-Wire Notes Line
-	1150 3950 1150 4100
-Wire Notes Line
-	1150 4100 1250 4100
-Wire Notes Line
-	1250 4100 1250 3950
-Text Notes 1250 4100 1    50   ~ 0
-1K
-Wire Notes Line
-	1850 4200 1200 4200
-Wire Notes Line
-	1200 4200 1200 4100
-Wire Notes Line
-	1350 3900 1350 4000
-Wire Notes Line
-	1350 4000 1850 4000
-Wire Notes Line
-	1500 3700 1500 3800
-Wire Notes Line
-	1500 3800 1850 3800
-Text Notes 1100 3500 0    50   ~ 0
-VCC
-Wire Notes Line
-	1100 3500 1500 3500
-Wire Notes Line
-	1500 3500 1500 3550
-Wire Notes Line
-	1350 3750 1350 3500
-Wire Notes Line
-	1200 3950 1200 3500
-Wire Notes Line
-	4200 3900 4100 3900
-Wire Notes Line
-	4100 3900 4100 4050
-Wire Notes Line
-	4100 4050 4200 4050
-Wire Notes Line
-	4200 4050 4200 3900
-Text Notes 4200 4050 1    50   ~ 0
-1K
-Wire Notes Line
-	4350 4100 4250 4100
-Wire Notes Line
-	4250 4100 4250 4250
-Wire Notes Line
-	4250 4250 4350 4250
-Wire Notes Line
-	4350 4250 4350 4100
-Text Notes 4350 4250 1    50   ~ 0
-1K
-Wire Notes Line
-	3450 3700 4300 3700
-Wire Notes Line
-	4300 3700 4300 4100
-Wire Notes Line
-	4300 4250 4300 4300
-Wire Notes Line
-	4300 4300 3450 4300
-Wire Notes Line
-	4150 3900 4150 3700
-Wire Notes Line
-	1200 4550 3950 4550
-Wire Notes Line
-	3950 4550 3950 5050
-Wire Notes Line
-	3950 5050 1200 5050
-Wire Notes Line
-	1200 5050 1200 4550
-Wire Notes Line
-	1300 4250 1300 4550
-Wire Notes Line
-	3900 4350 3900 4550
+	5950 7000 6300 7000
+Text Notes 5000 9150 0    50   ~ 0
+see https://www.exxoshost.co.uk/forum/viewtopic.php?f=17&t=1395
 Wire Wire Line
 	3400 6050 3400 6300
 Wire Wire Line
@@ -561,30 +465,22 @@ Wire Wire Line
 $Comp
 L custom_passives:R_Pack04_US RN1703
 U 1 1 620C85E3
-P 5700 8700
-F 0 "RN1703" V 5400 8700 50  0000 C CNN
-F 1 "47 ×4" V 5900 8700 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 5975 8700 50  0001 C CNN
-F 3 "~" H 5700 8700 50  0001 C CNN
-	1    5700 8700
+P 4700 8700
+F 0 "RN1703" V 4400 8700 50  0000 C CNN
+F 1 "47 ×4" V 4900 8700 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 4975 8700 50  0001 C CNN
+F 3 "~" H 4700 8700 50  0001 C CNN
+	1    4700 8700
 	0    1    1    0   
 $EndComp
-Text Label 6300 8500 2    50   ~ 0
+Text Label 5300 8500 2    50   ~ 0
 not_dirc
-Text Label 6300 8600 2    50   ~ 0
+Text Label 5300 8600 2    50   ~ 0
 not_step
-Text Label 6300 8700 2    50   ~ 0
+Text Label 5300 8700 2    50   ~ 0
 not_wd
-Text Label 6300 8800 2    50   ~ 0
+Text Label 5300 8800 2    50   ~ 0
 not_wg
-Wire Wire Line
-	6300 8500 5900 8500
-Wire Wire Line
-	6300 8700 5900 8700
-Wire Wire Line
-	6300 8600 5900 8600
-Wire Wire Line
-	6300 8800 5900 8800
 Wire Wire Line
 	3300 5950 4300 5950
 Wire Wire Line
@@ -716,17 +612,13 @@ VCC
 Wire Wire Line
 	1450 6400 1650 6400
 Wire Wire Line
-	4750 8500 5500 8500
+	3750 8500 4500 8500
 Wire Wire Line
-	4750 8600 5500 8600
+	3750 8600 4500 8600
 Wire Wire Line
-	4750 8700 5500 8700
+	3750 8700 4500 8700
 Wire Wire Line
-	4750 8800 5500 8800
-Wire Notes Line
-	3450 4100 4150 4100
-Wire Notes Line
-	4150 4050 4150 4100
+	3750 8800 4500 8800
 $Comp
 L custom_passives:R_Pack04_US RN1701
 U 1 1 622098CD
@@ -802,4 +694,78 @@ Wire Wire Line
 NoConn ~ 5800 4000
 NoConn ~ 5800 4100
 NoConn ~ 4300 2300
+$Comp
+L custom_passives:R_Pack04_US RN1704
+U 1 1 620532ED
+P 5700 8700
+F 0 "RN1704" V 5400 8700 50  0000 C CNN
+F 1 "1K ×4" V 5900 8700 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 5975 8700 50  0001 C CNN
+F 3 "~" H 5700 8700 50  0001 C CNN
+	1    5700 8700
+	0    1    1    0   
+$EndComp
+Text Label 6200 8300 2    50   ~ 0
+VCC
+Wire Wire Line
+	5900 8500 6000 8500
+Wire Wire Line
+	5900 8800 6000 8800
+Wire Wire Line
+	6000 8800 6000 8700
+Wire Wire Line
+	5900 8700 6000 8700
+Connection ~ 6000 8700
+Wire Wire Line
+	6000 8700 6000 8600
+Wire Wire Line
+	5900 8600 6000 8600
+Connection ~ 6000 8600
+Wire Wire Line
+	6000 8600 6000 8500
+$Comp
+L Device:R_Small_US R?
+U 1 1 6205B188
+P 5700 8300
+AR Path="/608A2359/6205B188" Ref="R?"  Part="1" 
+AR Path="/60A1445F/6205B188" Ref="R?"  Part="1" 
+AR Path="/60A73CDE/6205B188" Ref="R?"  Part="1" 
+AR Path="/60AD8617/6205B188" Ref="R1701"  Part="1" 
+F 0 "R1701" V 5600 8400 50  0000 C CNN
+F 1 "1K" V 5600 8200 50  0000 C CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5700 8300 50  0001 C CNN
+F 3 "~" H 5700 8300 50  0001 C CNN
+	1    5700 8300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 8300 6000 8300
+Wire Wire Line
+	6000 8500 6000 8300
+Connection ~ 6000 8500
+Connection ~ 6000 8300
+Wire Wire Line
+	6000 8300 6200 8300
+Wire Wire Line
+	4900 8500 5500 8500
+Wire Wire Line
+	4900 8600 5500 8600
+Wire Wire Line
+	4900 8700 5500 8700
+Wire Wire Line
+	4900 8800 5500 8800
+Wire Wire Line
+	4450 8400 4450 8300
+Wire Wire Line
+	4450 8300 5600 8300
+Wire Wire Line
+	3750 8400 4450 8400
+Wire Notes Line
+	5450 8100 6300 8100
+Wire Notes Line
+	6300 8100 6300 9000
+Wire Notes Line
+	6300 9000 5450 9000
+Wire Notes Line
+	5450 9000 5450 8100
 $EndSCHEMATC
