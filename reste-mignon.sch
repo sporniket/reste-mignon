@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 1 29
-Title "Converted schematics of Atari STE"
-Date "2021-08-31"
-Rev "1.0.0"
-Comp ""
-Comment1 "Reference : C300780-001"
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Title "ReSTe mignon"
+Date "2022-02-15"
+Rev "mk0-0"
+Comp "David SPORN"
+Comment1 ""
+Comment2 "a target size of 25×18cm (B5)"
+Comment3 "with some fixes applied and"
+Comment4 "A remake of the Atari STe"
 $EndDescr
 Text Notes 750  2200 0    157  ~ 0
 Sheet 1
@@ -252,5 +252,5 @@ Page 29
 Text Notes 900  1500 0    500  ~ 100
 Table of content
 Text Notes 800  8900 0    79   ~ 0
-Note : some mods aimed to troubleshoot some problems are \nadded as comment (text + graphics) at the relevant location.\n\n- DMA pull-up on databus (done on the floppy disc controller U301)\n- WD1772 pull-ups (done on U305)\n- LMC audio mix fix (done near U508)\n- RGB Video ghosting fix (done at C411)\n- C415 should be reversed\n
+Note : some mods aimed to troubleshoot some problems have been applied at the relevant location.\n\n- DMA pull-up on databus (done on the floppy disc controller U301)\n- WD1772 pull-ups (done on U305)\n- LMC audio mix fix (done near U508)\n- RGB Video ghosting fix (done at C411)\n\nMoreover, the analog video circuitry (PAL/NTSC) has been removed\n
 $EndSCHEMATC

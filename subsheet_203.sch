@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 12 29
-Title "Converted schematics of Atari STE"
-Date "2021-08-31"
-Rev "1.0.0"
-Comp ""
-Comment1 "Reference : C300780-001"
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Title "ReSTe mignon"
+Date "2022-02-15"
+Rev "mk0-0"
+Comp "David SPORN"
+Comment1 ""
+Comment2 "a target size of 25×18cm (B5)"
+Comment3 "with some fixes applied and"
+Comment4 "A remake of the Atari STe"
 $EndDescr
 $Comp
 L mc68901d-dip48:MC68901_DIP_48_PHY U203
