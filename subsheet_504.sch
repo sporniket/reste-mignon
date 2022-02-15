@@ -40,9 +40,9 @@ Text GLabel 7150 3700 2    50   Output ~ 0
 GIR
 Text GLabel 1000 3800 0    50   Output ~ 0
 GIL
-Text GLabel 1150 1250 0    50   Input ~ 0
+Text GLabel 1150 1050 0    50   Input ~ 0
 AUDIOS
-Text GLabel 1150 1750 0    50   Input ~ 0
+Text GLabel 1150 1550 0    50   Input ~ 0
 AUDIOI
 NoConn ~ 2900 3600
 NoConn ~ 2900 3700
@@ -117,43 +117,43 @@ GND
 $Comp
 L Device:CP1 C?
 U 1 1 60CF0999
-P 1500 1250
+P 1500 1050
 AR Path="/6089D0C2/60CF0999" Ref="C?"  Part="1" 
 AR Path="/60B8B7AD/60CF0999" Ref="C?"  Part="1" 
 AR Path="/60C95DE8/60CF0999" Ref="C?"  Part="1" 
 AR Path="/60CC3B10/60CF0999" Ref="C?"  Part="1" 
 AR Path="/60CD36E9/60CF0999" Ref="CP541"  Part="1" 
-F 0 "CP541" V 1350 1150 50  0000 L CNN
-F 1 "47uF" V 1650 1150 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_polarized_W6.35mm_L20.32mm" H 1500 1250 50  0001 C CNN
-F 3 "~" H 1500 1250 50  0001 C CNN
-	1    1500 1250
+F 0 "CP541" V 1350 950 50  0000 L CNN
+F 1 "47uF" V 1650 950 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_capacitor_polarized_W6.35mm_L20.32mm" H 1500 1050 50  0001 C CNN
+F 3 "~" H 1500 1050 50  0001 C CNN
+	1    1500 1050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1650 1250 1850 1250
+	1650 1050 1850 1050
 Wire Wire Line
-	1150 1250 1350 1250
+	1150 1050 1350 1050
 $Comp
 L Device:CP1 C?
 U 1 1 60CF36CC
-P 1500 1750
+P 1500 1550
 AR Path="/6089D0C2/60CF36CC" Ref="C?"  Part="1" 
 AR Path="/60B8B7AD/60CF36CC" Ref="C?"  Part="1" 
 AR Path="/60C95DE8/60CF36CC" Ref="C?"  Part="1" 
 AR Path="/60CC3B10/60CF36CC" Ref="C?"  Part="1" 
 AR Path="/60CD36E9/60CF36CC" Ref="CP546"  Part="1" 
-F 0 "CP546" V 1350 1650 50  0000 L CNN
-F 1 "47uF" V 1650 1650 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_polarized_W6.35mm_L20.32mm" H 1500 1750 50  0001 C CNN
-F 3 "~" H 1500 1750 50  0001 C CNN
-	1    1500 1750
+F 0 "CP546" V 1350 1450 50  0000 L CNN
+F 1 "47uF" V 1650 1450 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_capacitor_polarized_W6.35mm_L20.32mm" H 1500 1550 50  0001 C CNN
+F 3 "~" H 1500 1550 50  0001 C CNN
+	1    1500 1550
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1650 1750 1850 1750
+	1650 1550 1850 1550
 Wire Wire Line
-	1150 1750 1350 1750
+	1150 1550 1350 1550
 $Comp
 L Device:CP1 C?
 U 1 1 60CF439B
@@ -191,66 +191,66 @@ Wire Wire Line
 $Comp
 L Device:R_Small_US R?
 U 1 1 60CF6F70
-P 3500 1200
+P 3500 1000
 AR Path="/60B3D9E3/60CF6F70" Ref="R?"  Part="1" 
 AR Path="/60B8B7AD/60CF6F70" Ref="R?"  Part="1" 
 AR Path="/60C95DE8/60CF6F70" Ref="R?"  Part="1" 
 AR Path="/60CC3B10/60CF6F70" Ref="R?"  Part="1" 
 AR Path="/60CD36E9/60CF6F70" Ref="R525"  Part="1" 
-F 0 "R525" H 3550 1250 50  0000 L CNN
-F 1 "10K" H 3550 1150 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3500 1200 50  0001 C CNN
-F 3 "~" H 3500 1200 50  0001 C CNN
-	1    3500 1200
+F 0 "R525" H 3550 1050 50  0000 L CNN
+F 1 "10K" H 3550 950 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3500 1000 50  0001 C CNN
+F 3 "~" H 3500 1000 50  0001 C CNN
+	1    3500 1000
 	1    0    0    -1  
 $EndComp
 Text Label 3000 2700 1    50   ~ 0
 GND
-Text GLabel 3300 1000 0    50   Input ~ 0
+Text GLabel 3300 800  0    50   Input ~ 0
 +8.2V
 Wire Wire Line
 	4000 2050 4000 2200
 Wire Wire Line
 	3000 2450 3000 2700
-Text Notes 1200 1200 2    50   ~ 0
+Text Notes 1200 1000 2    50   ~ 0
 From YM2149
-Text Notes 1300 1700 2    50   ~ 0
+Text Notes 1300 1500 2    50   ~ 0
 From Video port
-Text Label 2300 1500 2    50   ~ 0
+Text Label 2300 1300 2    50   ~ 0
 audio_full
 $Comp
 L Device:R_Small_US R?
 U 1 1 60D12893
-P 3100 1500
+P 3100 1300
 AR Path="/60B3D9E3/60D12893" Ref="R?"  Part="1" 
 AR Path="/60B8B7AD/60D12893" Ref="R?"  Part="1" 
 AR Path="/60C95DE8/60D12893" Ref="R?"  Part="1" 
 AR Path="/60CC3B10/60D12893" Ref="R?"  Part="1" 
 AR Path="/60CD36E9/60D12893" Ref="R531"  Part="1" 
-F 0 "R531" V 3200 1400 50  0000 L CNN
-F 1 "51K" V 3000 1450 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3100 1500 50  0001 C CNN
-F 3 "~" H 3100 1500 50  0001 C CNN
-	1    3100 1500
+F 0 "R531" V 3200 1200 50  0000 L CNN
+F 1 "51K" V 3000 1250 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3100 1300 50  0001 C CNN
+F 3 "~" H 3100 1300 50  0001 C CNN
+	1    3100 1300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 60D13044
-P 3900 1850
+P 3850 1650
 AR Path="/60B3D9E3/60D13044" Ref="R?"  Part="1" 
 AR Path="/60B8B7AD/60D13044" Ref="R?"  Part="1" 
 AR Path="/60C95DE8/60D13044" Ref="R?"  Part="1" 
 AR Path="/60CC3B10/60D13044" Ref="R?"  Part="1" 
 AR Path="/60CD36E9/60D13044" Ref="R539"  Part="1" 
-F 0 "R539" V 4000 1750 50  0000 L CNN
-F 1 "51K" V 3800 1750 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3900 1850 50  0001 C CNN
-F 3 "~" H 3900 1850 50  0001 C CNN
-	1    3900 1850
-	0    -1   -1   0   
+F 0 "R539" H 3600 1600 50  0000 L CNN
+F 1 "51K" H 3650 1700 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3850 1650 50  0001 C CNN
+F 3 "~" H 3850 1650 50  0001 C CNN
+	1    3850 1650
+	-1   0    0    1   
 $EndComp
-Text Label 5000 1850 2    50   ~ 0
+Text Label 4700 1200 2    50   ~ 0
 audio_low
 $Comp
 L Device:C C?
@@ -812,9 +812,9 @@ Wire Wire Line
 Wire Wire Line
 	2450 3300 2900 3300
 Wire Wire Line
-	3200 1500 3500 1500
+	3200 1300 3500 1300
 Wire Wire Line
-	3300 1000 3500 1000
+	3300 800  3500 800 
 Wire Wire Line
 	1550 4000 1650 4000
 Wire Wire Line
@@ -825,14 +825,12 @@ Wire Wire Line
 Wire Wire Line
 	1650 3900 2900 3900
 Wire Wire Line
-	1850 1250 1850 1500
+	1850 1050 1850 1300
 Wire Wire Line
-	3500 1850 3800 1850
+	1850 1300 3000 1300
+Connection ~ 1850 1300
 Wire Wire Line
-	1850 1500 3000 1500
-Connection ~ 1850 1500
-Wire Wire Line
-	1850 1500 1850 1750
+	1850 1300 1850 1550
 Wire Wire Line
 	3000 1950 3500 1950
 Wire Wire Line
@@ -844,9 +842,6 @@ Wire Wire Line
 	3500 2050 3500 2200
 Wire Wire Line
 	3000 1950 3000 2250
-Connection ~ 3500 1500
-Wire Wire Line
-	4000 1850 5000 1850
 Wire Wire Line
 	1550 3800 2900 3800
 Wire Wire Line
@@ -942,35 +937,14 @@ Wire Wire Line
 Wire Wire Line
 	7450 4200 7450 4850
 Text Notes 5200 2250 0    50   ~ 0
-LMC Mixer Fix\n\nThe original circuit gives no sound at 'audio_low',\ninstead of a -12 dB attenuated sound to have a balanced\nmix of digitized sound and sound from YM2149.\n\nPeter Putnik did some research on that problem and proposed \nthe following fix :\n\n- Cut between R531 and R539/R530, to insert a 10K resistor\n  \n- Connect the output of R531 to 'audio_low'. \n\nSee http://atari.8bitchip.info/STEamFix.html for \nthe details and how to select this mix in software.\n\nThis fix is confirmed by Exxos, see the second section of\nhttps://www.exxoshost.co.uk/atari/last/STEDACFIX/index.htm\n
+LMC Mixer Fix\n\nThe original circuit gives no sound at 'audio_low', instead of a \n-12 dB attenuated sound to have a balanced mix of digitized \nsound and sound from YM2149.\n\nPeter Putnik did some research on that problem and proposed \nthe following fix :\n\n- Cut between R531 and R539/R530, to insert a 10K resistor \n  (R2701)\n  \n- Connect the output of R531 to 'audio_low'. \n\nSee http://atari.8bitchip.info/STEamFix.html for the details \nand how to select this mix in software.\n\nThis fix is confirmed by Exxos, see the second section of\nhttps://www.exxoshost.co.uk/atari/last/STEDACFIX/index.htm\n
 Connection ~ 3500 1950
-Text Notes 3500 1750 1    50   ~ 0
-10K
-Wire Notes Line
-	3400 1550 3550 1550
-Wire Notes Line
-	3550 1550 3550 1800
-Wire Notes Line
-	3550 1800 3400 1800
-Wire Notes Line
-	3400 1800 3400 1550
 Wire Wire Line
-	3500 1100 3500 1000
-Wire Wire Line
-	3500 1300 3500 1500
-Wire Notes Line
-	3500 1400 4500 1400
-Connection ~ 3500 1850
+	3500 900  3500 800 
 Wire Wire Line
 	3500 1850 3500 1950
-Wire Wire Line
-	3500 1500 3500 1850
-Wire Notes Line
-	4500 1400 4500 1850
 Wire Notes Line
 	5150 700  5150 2400
-Wire Notes Line
-	4550 1500 5150 1500
 Wire Notes Line
 	5150 700  7650 700 
 Wire Notes Line
@@ -981,4 +955,44 @@ Wire Wire Line
 	6500 6150 6500 7500
 Wire Wire Line
 	1000 3800 1250 3800
+$Comp
+L Device:R_Small_US R?
+U 1 1 620C294B
+P 3500 1650
+AR Path="/60B3D9E3/620C294B" Ref="R?"  Part="1" 
+AR Path="/60B8B7AD/620C294B" Ref="R?"  Part="1" 
+AR Path="/60C95DE8/620C294B" Ref="R?"  Part="1" 
+AR Path="/60CC3B10/620C294B" Ref="R?"  Part="1" 
+AR Path="/60CD36E9/620C294B" Ref="R2701"  Part="1" 
+F 0 "R2701" H 3550 1700 50  0000 L CNN
+F 1 "10K" H 3550 1600 50  0000 L CNN
+F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3500 1650 50  0001 C CNN
+F 3 "~" H 3500 1650 50  0001 C CNN
+	1    3500 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3500 1300
+Wire Wire Line
+	3500 1300 3500 1400
+Wire Wire Line
+	3500 1750 3500 1850
+Connection ~ 3500 1850
+Wire Wire Line
+	3500 1400 3850 1400
+Connection ~ 3500 1400
+Wire Wire Line
+	3500 1400 3500 1550
+Wire Wire Line
+	3850 1850 3850 1750
+Wire Wire Line
+	3500 1850 3850 1850
+Wire Wire Line
+	3850 1550 3850 1400
+Wire Wire Line
+	3500 1100 3500 1200
+Wire Wire Line
+	3500 1200 4700 1200
+Connection ~ 3500 1200
+Wire Wire Line
+	3500 1200 3500 1300
 $EndSCHEMATC
