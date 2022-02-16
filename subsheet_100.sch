@@ -400,7 +400,7 @@ U 1 1 60907E08
 P 5000 6000
 F 0 "R102" V 5100 6000 50  0000 C CNN
 F 1 "1K" V 4900 6000 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" V 5040 5990 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5040 5990 50  0001 C CNN
 F 3 "~" H 5000 6000 50  0001 C CNN
 	1    5000 6000
 	0    1    1    0   
@@ -421,7 +421,7 @@ U 1 1 6093D9ED
 P 5000 6400
 F 0 "R107" V 5100 6400 50  0000 C CNN
 F 1 "1K" V 4900 6400 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" V 5040 6390 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5040 6390 50  0001 C CNN
 F 3 "~" H 5000 6400 50  0001 C CNN
 	1    5000 6400
 	0    1    1    0   
@@ -432,7 +432,7 @@ U 1 1 6093E40C
 P 6500 6000
 F 0 "R109" V 6600 6000 50  0000 C CNN
 F 1 "2K2" V 6400 6000 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" V 6540 5990 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6540 5990 50  0001 C CNN
 F 3 "~" H 6500 6000 50  0001 C CNN
 	1    6500 6000
 	0    1    1    0   
@@ -443,7 +443,7 @@ U 1 1 6093E522
 P 6500 6400
 F 0 "R110" V 6600 6400 50  0000 C CNN
 F 1 "2K2" V 6400 6400 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" V 6540 6390 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6540 6390 50  0001 C CNN
 F 3 "~" H 6500 6400 50  0001 C CNN
 	1    6500 6400
 	0    1    1    0   

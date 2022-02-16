@@ -51,7 +51,7 @@ U 1 1 608C1635
 P 2500 1350
 F 0 "R100" H 2650 1400 50  0000 C CNN
 F 1 "10K" H 2650 1300 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" V 2540 1340 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2540 1340 50  0001 C CNN
 F 3 "~" H 2500 1350 50  0001 C CNN
 	1    2500 1350
 	1    0    0    -1  
@@ -134,7 +134,7 @@ U 1 1 608C9171
 P 6500 1350
 F 0 "R101" H 6650 1400 50  0000 C CNN
 F 1 "12K" H 6650 1300 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" V 6540 1340 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6540 1340 50  0001 C CNN
 F 3 "~" H 6500 1350 50  0001 C CNN
 	1    6500 1350
 	1    0    0    -1  

@@ -85,7 +85,7 @@ AR Path="/60CC3B10/60CED590" Ref="R?"  Part="1"
 AR Path="/60CD36E9/60CED590" Ref="R530"  Part="1" 
 F 0 "R530" H 3050 2400 50  0000 L CNN
 F 1 "10K" H 3050 2300 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3000 2350 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 3000 2350 50  0001 C CNN
 F 3 "~" H 3000 2350 50  0001 C CNN
 	1    3000 2350
 	1    0    0    -1  
@@ -199,7 +199,7 @@ AR Path="/60CC3B10/60CF6F70" Ref="R?"  Part="1"
 AR Path="/60CD36E9/60CF6F70" Ref="R525"  Part="1" 
 F 0 "R525" H 3550 1050 50  0000 L CNN
 F 1 "10K" H 3550 950 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3500 1000 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 3500 1000 50  0001 C CNN
 F 3 "~" H 3500 1000 50  0001 C CNN
 	1    3500 1000
 	1    0    0    -1  
@@ -229,7 +229,7 @@ AR Path="/60CC3B10/60D12893" Ref="R?"  Part="1"
 AR Path="/60CD36E9/60D12893" Ref="R531"  Part="1" 
 F 0 "R531" V 3200 1200 50  0000 L CNN
 F 1 "51K" V 3000 1250 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3100 1300 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 3100 1300 50  0001 C CNN
 F 3 "~" H 3100 1300 50  0001 C CNN
 	1    3100 1300
 	0    -1   -1   0   
@@ -245,7 +245,7 @@ AR Path="/60CC3B10/60D13044" Ref="R?"  Part="1"
 AR Path="/60CD36E9/60D13044" Ref="R539"  Part="1" 
 F 0 "R539" H 3600 1600 50  0000 L CNN
 F 1 "51K" H 3650 1700 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3850 1650 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 3850 1650 50  0001 C CNN
 F 3 "~" H 3850 1650 50  0001 C CNN
 	1    3850 1650
 	-1   0    0    1   
@@ -417,7 +417,7 @@ AR Path="/60CC3B10/60D900EB" Ref="R?"  Part="1"
 AR Path="/60CD36E9/60D900EB" Ref="R520"  Part="1" 
 F 0 "R520" H 1900 5450 50  0000 C CNN
 F 1 "1K" H 1900 5550 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 1750 5500 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 1750 5500 50  0001 C CNN
 F 3 "~" H 1750 5500 50  0001 C CNN
 	1    1750 5500
 	-1   0    0    1   
@@ -449,7 +449,7 @@ AR Path="/60CC3B10/60D9A41B" Ref="R?"  Part="1"
 AR Path="/60CD36E9/60D9A41B" Ref="R590"  Part="1" 
 F 0 "R590" V 1400 7400 50  0000 L CNN
 F 1 "270K" V 1600 7400 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 1500 7500 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 1500 7500 50  0001 C CNN
 F 3 "~" H 1500 7500 50  0001 C CNN
 	1    1500 7500
 	0    1    1    0   
@@ -498,7 +498,7 @@ AR Path="/60CC3B10/60DBE188" Ref="R?"  Part="1"
 AR Path="/60CD36E9/60DBE188" Ref="R533"  Part="1" 
 F 0 "R533" H 6350 5450 50  0000 C CNN
 F 1 "1K" H 6350 5550 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6500 5500 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 6500 5500 50  0001 C CNN
 F 3 "~" H 6500 5500 50  0001 C CNN
 	1    6500 5500
 	-1   0    0    1   
@@ -530,7 +530,7 @@ AR Path="/60CC3B10/60DBE19B" Ref="R?"  Part="1"
 AR Path="/60CD36E9/60DBE19B" Ref="R591"  Part="1" 
 F 0 "R591" V 6150 7400 50  0000 L CNN
 F 1 "270K" V 6350 7400 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6250 7500 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 6250 7500 50  0001 C CNN
 F 3 "~" H 6250 7500 50  0001 C CNN
 	1    6250 7500
 	0    1    1    0   
@@ -595,7 +595,7 @@ AR Path="/60CC3B10/60DC0E1A" Ref="R?"  Part="1"
 AR Path="/60CD36E9/60DC0E1A" Ref="R527"  Part="1" 
 F 0 "R527" H 2100 5700 50  0000 C CNN
 F 1 "10K" H 2100 5800 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2250 5750 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 2250 5750 50  0001 C CNN
 F 3 "~" H 2250 5750 50  0001 C CNN
 	1    2250 5750
 	-1   0    0    1   
@@ -611,7 +611,7 @@ AR Path="/60CC3B10/60DC5540" Ref="R?"  Part="1"
 AR Path="/60CD36E9/60DC5540" Ref="R524"  Part="1" 
 F 0 "R524" V 2850 5750 50  0000 L CNN
 F 1 "3K6" V 2850 6150 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 2900 6050 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 2900 6050 50  0001 C CNN
 F 3 "~" H 2900 6050 50  0001 C CNN
 	1    2900 6050
 	0    1    1    0   
@@ -634,7 +634,7 @@ AR Path="/60CC3B10/60DC5E81" Ref="R?"  Part="1"
 AR Path="/60CD36E9/60DC5E81" Ref="R540"  Part="1" 
 F 0 "R540" H 3400 6700 50  0000 C CNN
 F 1 "1K" H 3400 6800 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3550 6750 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 3550 6750 50  0001 C CNN
 F 3 "~" H 3550 6750 50  0001 C CNN
 	1    3550 6750
 	-1   0    0    1   
@@ -681,7 +681,7 @@ AR Path="/60CC3B10/60DDE609" Ref="R?"  Part="1"
 AR Path="/60CD36E9/60DDE609" Ref="R538"  Part="1" 
 F 0 "R538" H 5850 5700 50  0000 C CNN
 F 1 "10K" H 5850 5800 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6000 5750 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 6000 5750 50  0001 C CNN
 F 3 "~" H 6000 5750 50  0001 C CNN
 	1    6000 5750
 	-1   0    0    1   
@@ -697,7 +697,7 @@ AR Path="/60CC3B10/60DDE611" Ref="R?"  Part="1"
 AR Path="/60CD36E9/60DDE611" Ref="R537"  Part="1" 
 F 0 "R537" V 5400 6150 50  0000 L CNN
 F 1 "3K6" V 5400 5800 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 5350 6050 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 5350 6050 50  0001 C CNN
 F 3 "~" H 5350 6050 50  0001 C CNN
 	1    5350 6050
 	0    -1   -1   0   
@@ -720,7 +720,7 @@ AR Path="/60CC3B10/60DDE617" Ref="R?"  Part="1"
 AR Path="/60CD36E9/60DDE617" Ref="R541"  Part="1" 
 F 0 "R541" H 4550 6700 50  0000 C CNN
 F 1 "1K" H 4550 6800 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4700 6750 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 4700 6750 50  0001 C CNN
 F 3 "~" H 4700 6750 50  0001 C CNN
 	1    4700 6750
 	-1   0    0    1   
@@ -966,7 +966,7 @@ AR Path="/60CC3B10/620C294B" Ref="R?"  Part="1"
 AR Path="/60CD36E9/620C294B" Ref="R2701"  Part="1" 
 F 0 "R2701" H 3550 1700 50  0000 L CNN
 F 1 "10K" H 3550 1600 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 3500 1650 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 3500 1650 50  0001 C CNN
 F 3 "~" H 3500 1650 50  0001 C CNN
 	1    3500 1650
 	1    0    0    -1  

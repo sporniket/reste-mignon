@@ -821,7 +821,7 @@ AR Path="/60AD8617/60DB2A50" Ref="R?"  Part="1"
 AR Path="/60AD332C/60DB2A50" Ref="R421"  Part="1" 
 F 0 "R421" V 6800 7500 50  0000 C CNN
 F 1 "1K" V 7000 7500 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 6900 7500 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 6900 7500 50  0001 C CNN
 F 3 "~" H 6900 7500 50  0001 C CNN
 	1    6900 7500
 	0    1    1    0   

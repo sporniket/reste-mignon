@@ -194,7 +194,7 @@ AR Path="/608A2359/608E21C0" Ref="R?"  Part="1"
 AR Path="/608C2344/608E21C0" Ref="R210"  Part="1" 
 F 0 "R210" H 4400 4450 50  0000 C CNN
 F 1 "10K" H 4400 4550 50  0000 C CNN
-F 2 "commons_passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" H 4550 4500 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 4550 4500 50  0001 C CNN
 F 3 "~" H 4550 4500 50  0001 C CNN
 	1    4550 4500
 	-1   0    0    1   
