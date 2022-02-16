@@ -173,7 +173,7 @@ AR Path="/60786F27/607874AD/607ECFCE" Ref="C111"  Part="1"
 AR Path="/6089D0C6/607ECFCE" Ref="C111"  Part="1" 
 F 0 "C111" H 4125 5100 50  0000 L CNN
 F 1 "0.1uF" H 4125 4900 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L7.62mm" H 4138 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4138 4850 50  0001 C CNN
 F 3 "~" H 4100 5000 50  0001 C CNN
 	1    4100 5000
 	1    0    0    -1  
@@ -187,7 +187,7 @@ AR Path="/60786F27/607874AD/607ECFD4" Ref="C112"  Part="1"
 AR Path="/6089D0C6/607ECFD4" Ref="C112"  Part="1" 
 F 0 "C112" H 4625 5100 50  0000 L CNN
 F 1 "0.1uF" H 4625 4900 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L7.62mm" H 4638 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4638 4850 50  0001 C CNN
 F 3 "~" H 4600 5000 50  0001 C CNN
 	1    4600 5000
 	1    0    0    -1  

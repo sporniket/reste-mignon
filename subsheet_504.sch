@@ -270,7 +270,7 @@ AR Path="/60C95DE8/60D49A02" Ref="C?"  Part="1"
 AR Path="/60CD36E9/60D49A02" Ref="C528"  Part="1" 
 F 0 "C528" V 1950 4050 50  0000 L CNN
 F 1 "0.0082uF" V 1850 3950 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L10.16mm" H 2038 3850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2038 3850 50  0001 C CNN
 F 3 "~" H 2000 4000 50  0001 C CNN
 	1    2000 4000
 	0    -1   -1   0   
@@ -307,7 +307,7 @@ AR Path="/60C95DE8/60D4E0B7" Ref="C?"  Part="1"
 AR Path="/60CD36E9/60D4E0B7" Ref="C531"  Part="1" 
 F 0 "C531" H 500 4950 50  0000 L CNN
 F 1 "0.0082uF" H 350 5050 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L10.16mm" H 838 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 838 4850 50  0001 C CNN
 F 3 "~" H 800 5000 50  0001 C CNN
 	1    800  5000
 	-1   0    0    1   
@@ -330,7 +330,7 @@ AR Path="/60C95DE8/60D4E467" Ref="C?"  Part="1"
 AR Path="/60CD36E9/60D4E467" Ref="C534"  Part="1" 
 F 0 "C534" H 7600 4950 50  0000 L CNN
 F 1 "0.0082uF" H 7550 5050 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L10.16mm" H 7488 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7488 4850 50  0001 C CNN
 F 3 "~" H 7450 5000 50  0001 C CNN
 	1    7450 5000
 	-1   0    0    1   
@@ -363,7 +363,7 @@ AR Path="/60C95DE8/60D4E923" Ref="C?"  Part="1"
 AR Path="/60CD36E9/60D4E923" Ref="C538"  Part="1" 
 F 0 "C538" V 6300 3950 50  0000 L CNN
 F 1 "0.0082uF" V 6400 3900 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L10.16mm" H 6288 3750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 6288 3750 50  0001 C CNN
 F 3 "~" H 6250 3900 50  0001 C CNN
 	1    6250 3900
 	0    1    1    0   
@@ -386,7 +386,7 @@ AR Path="/60C95DE8/60D89D1F" Ref="C?"  Part="1"
 AR Path="/60CD36E9/60D89D1F" Ref="C524"  Part="1" 
 F 0 "C524" H 825 3100 50  0000 L CNN
 F 1 "0.1uF" H 825 2900 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L7.62mm" H 838 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 838 2850 50  0001 C CNN
 F 3 "~" H 800 3000 50  0001 C CNN
 	1    800  3000
 	1    0    0    -1  

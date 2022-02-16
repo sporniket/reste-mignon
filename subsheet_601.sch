@@ -304,7 +304,7 @@ AR Path="/6089D0C6/60D9E128" Ref="C?"  Part="1"
 AR Path="/60D5A91C/60D9E128" Ref="C632"  Part="1" 
 F 0 "C632" H 7025 2600 50  0000 L CNN
 F 1 "0.1uF" H 7025 2400 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L7.62mm" H 7038 2350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7038 2350 50  0001 C CNN
 F 3 "~" H 7000 2500 50  0001 C CNN
 	1    7000 2500
 	1    0    0    -1  

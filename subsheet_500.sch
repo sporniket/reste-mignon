@@ -300,7 +300,7 @@ U 1 1 60CCCD2F
 P 900 2750
 F 0 "C532" H 910 2820 50  0000 L CNN
 F 1 "800pF" H 910 2670 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_ceramic_radial_W5.08mm_L6.35mm_X11.43mm" H 900 2750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 900 2750 50  0001 C CNN
 F 3 "~" H 900 2750 50  0001 C CNN
 	1    900  2750
 	1    0    0    -1  
@@ -311,7 +311,7 @@ U 1 1 60CD0365
 P 900 1750
 F 0 "C526" H 910 1820 50  0000 L CNN
 F 1 "800pF" H 910 1670 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_ceramic_radial_W5.08mm_L6.35mm_X11.43mm" H 900 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 900 1750 50  0001 C CNN
 F 3 "~" H 900 1750 50  0001 C CNN
 	1    900  1750
 	1    0    0    -1  
@@ -325,7 +325,7 @@ U 1 1 60CD4646
 P 1400 4250
 F 0 "C539" H 1410 4320 50  0000 L CNN
 F 1 "800pF" H 1410 4170 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_ceramic_radial_W5.08mm_L6.35mm_X11.43mm" H 1400 4250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1400 4250 50  0001 C CNN
 F 3 "~" H 1400 4250 50  0001 C CNN
 	1    1400 4250
 	1    0    0    -1  
@@ -336,7 +336,7 @@ U 1 1 60CD52C4
 P 1400 5250
 F 0 "C548" H 1410 5320 50  0000 L CNN
 F 1 "800pF" H 1410 5170 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_ceramic_radial_W5.08mm_L6.35mm_X11.43mm" H 1400 5250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1400 5250 50  0001 C CNN
 F 3 "~" H 1400 5250 50  0001 C CNN
 	1    1400 5250
 	1    0    0    -1  
@@ -495,7 +495,7 @@ U 1 1 60DD775B
 P 4650 1600
 F 0 "C527" V 4600 1350 50  0000 L CNN
 F 1 "0.01uF" V 4600 1650 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_W2.54mm_L10.16mm" H 4650 1600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4650 1600 50  0001 C CNN
 F 3 "~" H 4650 1600 50  0001 C CNN
 	1    4650 1600
 	0    1    1    0   
@@ -510,7 +510,7 @@ U 1 1 60DDEDB7
 P 7300 1700
 F 0 "C533" V 7250 1450 50  0000 L CNN
 F 1 "0.01uF" V 7250 1750 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_W2.54mm_L10.16mm" H 7300 1700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7300 1700 50  0001 C CNN
 F 3 "~" H 7300 1700 50  0001 C CNN
 	1    7300 1700
 	0    1    1    0   
@@ -525,7 +525,7 @@ U 1 1 60DED26A
 P 4650 4100
 F 0 "C540" V 4600 3850 50  0000 L CNN
 F 1 "0.01uF" V 4600 4150 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_W2.54mm_L10.16mm" H 4650 4100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4650 4100 50  0001 C CNN
 F 3 "~" H 4650 4100 50  0001 C CNN
 	1    4650 4100
 	0    1    1    0   
@@ -540,7 +540,7 @@ U 1 1 60DF3F13
 P 7300 4200
 F 0 "C549" V 7350 4250 50  0000 L CNN
 F 1 "0.01uF" V 7350 3900 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_W2.54mm_L10.16mm" H 7300 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7300 4200 50  0001 C CNN
 F 3 "~" H 7300 4200 50  0001 C CNN
 	1    7300 4200
 	0    -1   -1   0   
@@ -623,7 +623,7 @@ AR Path="/60AD33B6/60F1EB48" Ref="C?"  Part="1"
 AR Path="/60C451BA/60F1EB48" Ref="C554"  Part="1" 
 F 0 "C554" H 6825 2650 50  0000 L CNN
 F 1 "0.1uF" H 6825 2450 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L7.62mm" H 6838 2400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 6838 2400 50  0001 C CNN
 F 3 "~" H 6800 2550 50  0001 C CNN
 	1    6800 2550
 	1    0    0    -1  
@@ -652,7 +652,7 @@ AR Path="/60AD33B6/60F1EB52" Ref="C?"  Part="1"
 AR Path="/60C451BA/60F1EB52" Ref="C555"  Part="1" 
 F 0 "C555" H 6825 5150 50  0000 L CNN
 F 1 "0.1uF" H 6825 4950 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L7.62mm" H 6838 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 6838 4900 50  0001 C CNN
 F 3 "~" H 6800 5050 50  0001 C CNN
 	1    6800 5050
 	1    0    0    -1  
