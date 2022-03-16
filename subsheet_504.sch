@@ -91,17 +91,17 @@ F 3 "~" H 3000 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C?
+L Device:C_Small C?
 U 1 1 60CEE43A
 P 4000 2350
 AR Path="/6089D0C2/60CEE43A" Ref="C?"  Part="1" 
 AR Path="/60B8B7AD/60CEE43A" Ref="C?"  Part="1" 
 AR Path="/60C95DE8/60CEE43A" Ref="C?"  Part="1" 
 AR Path="/60CC3B10/60CEE43A" Ref="C?"  Part="1" 
-AR Path="/60CD36E9/60CEE43A" Ref="CP536"  Part="1" 
-F 0 "CP536" H 4050 2450 50  0000 L CNN
+AR Path="/60CD36E9/60CEE43A" Ref="C536"  Part="1" 
+F 0 "C536" H 4050 2450 50  0000 L CNN
 F 1 "0.1uF" H 4050 2250 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_mlcc_W2.54mm_L7.62mm" H 4000 2350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4000 2350 50  0001 C CNN
 F 3 "~" H 4000 2350 50  0001 C CNN
 	1    4000 2350
 	1    0    0    -1  
@@ -110,8 +110,6 @@ Wire Wire Line
 	3500 2700 3500 2500
 Text Label 3500 2700 1    50   ~ 0
 GND
-Wire Wire Line
-	4000 2700 4000 2500
 Text Label 4000 2700 1    50   ~ 0
 GND
 $Comp
@@ -208,8 +206,6 @@ Text Label 3000 2700 1    50   ~ 0
 GND
 Text GLabel 3300 800  0    50   Input ~ 0
 +8.2V
-Wire Wire Line
-	4000 2050 4000 2200
 Wire Wire Line
 	3000 2450 3000 2700
 Text Notes 1200 1000 2    50   ~ 0
@@ -995,4 +991,8 @@ Wire Wire Line
 Connection ~ 3500 1200
 Wire Wire Line
 	3500 1200 3500 1300
+Wire Wire Line
+	4000 2050 4000 2250
+Wire Wire Line
+	4000 2450 4000 2700
 $EndSCHEMATC

@@ -97,22 +97,18 @@ Wire Wire Line
 Wire Wire Line
 	2750 2200 2750 2400
 $Comp
-L Device:CP1 CP101
+L Device:C_Small C101
 U 1 1 608C7F71
 P 6000 2250
-F 0 "CP101" H 6050 2350 50  0000 L CNN
+F 0 "C101" H 6050 2350 50  0000 L CNN
 F 1 "0.01uF" H 6050 2150 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_W2.54mm_L10.16mm" H 6000 2250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 6000 2250 50  0001 C CNN
 F 3 "~" H 6000 2250 50  0001 C CNN
 	1    6000 2250
 	1    0    0    -1  
 $EndComp
 Text Label 6000 2600 1    50   ~ 0
 GND
-Wire Wire Line
-	6000 1900 6000 2100
-Wire Wire Line
-	6000 2400 6000 2600
 $Comp
 L Device:CP1 CP102
 U 1 1 608C88D5
@@ -187,4 +183,8 @@ Text Label 2100 2200 1    50   ~ 0
 GND
 Wire Wire Line
 	2100 2000 2100 2200
+Wire Wire Line
+	6000 1900 6000 2150
+Wire Wire Line
+	6000 2350 6000 2600
 $EndSCHEMATC
