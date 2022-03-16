@@ -53,7 +53,7 @@ AR Path="/60C95DE8/60D196C8" Ref="C?"  Part="1"
 AR Path="/60CC3B10/60D196C8" Ref="CP566"  Part="1" 
 F 0 "CP566" H 3900 2050 50  0000 L CNN
 F 1 "47uF" H 3900 1850 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_polarized_rad_D5.08mm_P2.54mm_H12.70mm" H 3850 1950 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm" H 3850 1950 50  0001 C CNN
 F 3 "~" H 3850 1950 50  0001 C CNN
 	1    3850 1950
 	1    0    0    -1  
@@ -300,7 +300,7 @@ AR Path="/60C95DE8/60DEF28D" Ref="C?"  Part="1"
 AR Path="/60CC3B10/60DEF28D" Ref="CP567"  Part="1" 
 F 0 "CP567" H 7250 2900 50  0000 L CNN
 F 1 "47uF" H 7250 2700 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_polarized_rad_D5.08mm_P2.54mm_H12.70mm" H 7200 2800 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm" H 7200 2800 50  0001 C CNN
 F 3 "~" H 7200 2800 50  0001 C CNN
 	1    7200 2800
 	1    0    0    -1  
@@ -425,7 +425,7 @@ AR Path="/60C95DE8/60E9CB0E" Ref="C?"  Part="1"
 AR Path="/60CC3B10/60E9CB0E" Ref="CP520"  Part="1" 
 F 0 "CP520" H 7600 7350 50  0000 L CNN
 F 1 "47uF" H 7600 7450 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_polarized_W6.35mm_L20.32mm" H 7500 7400 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm" H 7500 7400 50  0001 C CNN
 F 3 "~" H 7500 7400 50  0001 C CNN
 	1    7500 7400
 	-1   0    0    1   
@@ -808,7 +808,7 @@ AR Path="/60C95DE8/60E9CAAA" Ref="C?"  Part="1"
 AR Path="/60CC3B10/60E9CAAA" Ref="CP508"  Part="1" 
 F 0 "CP508" H 3850 6400 50  0000 L CNN
 F 1 "47uF" H 3850 6500 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_polarized_W6.35mm_L20.32mm" H 4150 6450 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm" H 4150 6450 50  0001 C CNN
 F 3 "~" H 4150 6450 50  0001 C CNN
 	1    4150 6450
 	-1   0    0    1   
@@ -1193,7 +1193,7 @@ AR Path="/60CD36E9/60E55789" Ref="C?"  Part="1"
 AR Path="/60CC3B10/60E55789" Ref="CP564"  Part="1" 
 F 0 "CP564" H 6375 1150 50  0000 L CNN
 F 1 "100uF" H 6375 950 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_polarized_W6.35mm_L20.32mm" H 6350 1050 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm" H 6350 1050 50  0001 C CNN
 F 3 "~" H 6350 1050 50  0001 C CNN
 	1    6350 1050
 	1    0    0    -1  

@@ -64,7 +64,7 @@ U 1 1 608C1A6C
 P 2750 2050
 F 0 "CP100" H 2800 2150 50  0000 L CNN
 F 1 "47uF" H 2800 1950 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_polarized_W5.08mm_L17.78mm" H 2750 2050 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm" H 2750 2050 50  0001 C CNN
 F 3 "~" H 2750 2050 50  0001 C CNN
 	1    2750 2050
 	1    0    0    -1  
@@ -115,7 +115,7 @@ U 1 1 608C88D5
 P 6500 2050
 F 0 "CP102" H 6550 2150 50  0000 L CNN
 F 1 "22uF" H 6550 1950 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_polarized_W6.35mm_L20.32mm" H 6500 2050 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm" H 6500 2050 50  0001 C CNN
 F 3 "~" H 6500 2050 50  0001 C CNN
 	1    6500 2050
 	1    0    0    -1  

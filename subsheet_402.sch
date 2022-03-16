@@ -566,7 +566,7 @@ U 1 1 60BDD743
 P 4650 1300
 F 0 "CP416" V 4700 1350 50  0000 L CNN
 F 1 "47uF" V 4700 1050 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_polarized_rad_D5.08mm_P2.54mm_H12.70mm" H 4650 1300 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm" H 4650 1300 50  0001 C CNN
 F 3 "~" H 4650 1300 50  0001 C CNN
 	1    4650 1300
 	0    -1   -1   0   
@@ -791,7 +791,7 @@ AR Path="/6089D0C2/61CEA8C5" Ref="C?"  Part="1"
 AR Path="/60B3D9E3/61CEA8C5" Ref="CP2101"  Part="1" 
 F 0 "CP2101" H 1025 4250 50  0000 L CNN
 F 1 "47uF" H 1025 4050 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_capacitor_polarized_W6.35mm_L20.32mm" H 1000 4150 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm" H 1000 4150 50  0001 C CNN
 F 3 "~" H 1000 4150 50  0001 C CNN
 	1    1000 4150
 	1    0    0    -1  
