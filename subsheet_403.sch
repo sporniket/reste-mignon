@@ -21,7 +21,7 @@ AR Path="/60B3D9E3/60C12DAA" Ref="L?"  Part="1"
 AR Path="/60B8B7AD/60C12DAA" Ref="FB410"  Part="1" 
 F 0 "FB410" H 4075 1350 50  0000 L CNN
 F 1 "Ferrite Bead" H 4075 1250 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 3930 1300 50  0001 C CNN
+F 2 "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder" V 3930 1300 50  0001 C CNN
 F 3 "~" H 4000 1300 50  0001 C CNN
 	1    4000 1300
 	1    0    0    -1  

@@ -79,7 +79,7 @@ U 1 1 60CA63D1
 P 2100 1500
 F 0 "FB500" V 2000 1350 50  0000 L CNN
 F 1 "Ferrite Bead" V 2200 1150 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 2030 1500 50  0001 C CNN
+F 2 "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder" V 2030 1500 50  0001 C CNN
 F 3 "~" H 2100 1500 50  0001 C CNN
 	1    2100 1500
 	0    1    1    0   
@@ -90,7 +90,7 @@ U 1 1 60CA7646
 P 2100 2500
 F 0 "FB501" V 2000 2350 50  0000 L CNN
 F 1 "Ferrite Bead" V 2200 2250 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 2030 2500 50  0001 C CNN
+F 2 "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder" V 2030 2500 50  0001 C CNN
 F 3 "~" H 2100 2500 50  0001 C CNN
 	1    2100 2500
 	0    1    1    0   
@@ -101,7 +101,7 @@ U 1 1 60CA80BE
 P 2600 4000
 F 0 "FB502" V 2500 3850 50  0000 L CNN
 F 1 "Ferrite Bead" V 2700 3750 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 2530 4000 50  0001 C CNN
+F 2 "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder" V 2530 4000 50  0001 C CNN
 F 3 "~" H 2600 4000 50  0001 C CNN
 	1    2600 4000
 	0    1    1    0   
@@ -112,7 +112,7 @@ U 1 1 60CA88E0
 P 2600 5000
 F 0 "FB503" V 2500 4850 50  0000 L CNN
 F 1 "Ferrite Bead" V 2700 4750 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 2530 5000 50  0001 C CNN
+F 2 "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder" V 2530 5000 50  0001 C CNN
 F 3 "~" H 2600 5000 50  0001 C CNN
 	1    2600 5000
 	0    1    1    0   
@@ -741,7 +741,7 @@ U 1 1 60DFED5B
 P 3050 1600
 F 0 "FB508" V 3000 1300 50  0000 L CNN
 F 1 "Ferrite Bead" V 3000 1700 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 2980 1600 50  0001 C CNN
+F 2 "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder" V 2980 1600 50  0001 C CNN
 F 3 "~" H 3050 1600 50  0001 C CNN
 	1    3050 1600
 	0    1    1    0   

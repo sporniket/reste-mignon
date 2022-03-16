@@ -167,7 +167,7 @@ U 1 1 6085902E
 P 4250 1700
 F 0 "FB100" H 4325 1750 50  0000 L CNN
 F 1 "Ferrite Bead" H 4325 1650 50  0000 L CNN
-F 2 "commons_passives_THT:Passive_THT_ferrite_bead_W3.81mm_L15.24mm" V 4180 1700 50  0001 C CNN
+F 2 "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder" V 4180 1700 50  0001 C CNN
 F 3 "~" H 4250 1700 50  0001 C CNN
 	1    4250 1700
 	1    0    0    -1  
