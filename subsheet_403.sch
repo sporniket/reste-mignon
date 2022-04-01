@@ -40,7 +40,7 @@ AR Path="/60B3D9E3/60C878BF" Ref="Q?"  Part="1"
 AR Path="/60B8B7AD/60C878BF" Ref="Q405"  Part="1" 
 F 0 "Q405" H 4100 2150 50  0000 L CNN
 F 1 "2N3904" H 4050 2050 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 4100 2075 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4100 2075 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 3900 2150 50  0001 L CNN
 	1    3900 2150
 	1    0    0    -1  
