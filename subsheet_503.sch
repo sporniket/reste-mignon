@@ -1166,7 +1166,7 @@ P 5850 800
 AR Path="/60CD36E9/60E5577E" Ref="Q?"  Part="1" 
 AR Path="/60CC3B10/60E5577E" Ref="Q500"  Part="1" 
 F 0 "Q500" H 5700 925 50  0000 C CNN
-F 1 "LM78L82_TO92" H 5850 925 50  0000 L CNN
+F 1 "UA78L08" H 5850 925 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-89-3_Handsoldering" H 5850 1025 50  0001 C CIN
 F 3 "https://www.onsemi.com/pub/Collateral/MC78L06A-D.pdf" H 5850 750 50  0001 C CNN
 	1    5850 800 
@@ -1174,12 +1174,12 @@ F 3 "https://www.onsemi.com/pub/Collateral/MC78L06A-D.pdf" H 5850 750 50  0001 C
 $EndComp
 Text Label 5850 1300 1    50   ~ 0
 GND
-Text Label 5300 800  0    50   ~ 0
+Text Label 5100 800  0    50   ~ 0
 +12V
 Text GLabel 7350 800  2    50   Output ~ 0
 +8.2V
 Wire Wire Line
-	5300 800  5550 800 
+	5100 800  5350 800 
 Wire Wire Line
 	5850 1100 5850 1300
 $Comp
@@ -1246,4 +1246,37 @@ Text GLabel 1000 2550 0    50   Input ~ 0
 V_AUD-
 Text GLabel 3300 2350 2    50   Input ~ 0
 V_AUD+
+$Comp
+L Device:C C?
+U 1 1 62499869
+P 5350 1050
+AR Path="/60786F27/6078774E/62499869" Ref="C?"  Part="1" 
+AR Path="/60786F27/607875AF/62499869" Ref="C?"  Part="1" 
+AR Path="/6089D0BA/62499869" Ref="C?"  Part="1" 
+AR Path="/608A2359/62499869" Ref="C?"  Part="1" 
+AR Path="/60A1445F/62499869" Ref="C?"  Part="1" 
+AR Path="/60A73CDE/62499869" Ref="C?"  Part="1" 
+AR Path="/60AD8617/62499869" Ref="C?"  Part="1" 
+AR Path="/60AD332C/62499869" Ref="C?"  Part="1" 
+AR Path="/60AD33B6/62499869" Ref="C?"  Part="1" 
+AR Path="/60B8B7AD/62499869" Ref="C?"  Part="1" 
+AR Path="/60C95DE8/62499869" Ref="C?"  Part="1" 
+AR Path="/60CD36E9/62499869" Ref="C?"  Part="1" 
+AR Path="/60CC3B10/62499869" Ref="C2601"  Part="1" 
+F 0 "C2601" H 5375 1150 50  0000 L CNN
+F 1 "0.33uF" H 5375 950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5388 900 50  0001 C CNN
+F 3 "~" H 5350 1050 50  0001 C CNN
+	1    5350 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 900  5350 800 
+Wire Wire Line
+	5350 800  5550 800 
+Connection ~ 5350 800 
+Text Label 5350 1400 1    50   ~ 0
+GND
+Wire Wire Line
+	5350 1200 5350 1400
 $EndSCHEMATC
