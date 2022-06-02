@@ -111,17 +111,17 @@ Wire Wire Line
 Wire Wire Line
 	2250 5150 2250 5350
 Wire Wire Line
-	3350 6400 3750 6400
+	1350 6400 1750 6400
 Wire Wire Line
-	3350 6600 3750 6600
+	1350 6600 1750 6600
 Wire Wire Line
-	3350 6800 3750 6800
+	1350 6800 1750 6800
 Wire Wire Line
-	3350 7000 3750 7000
+	1350 7000 1750 7000
 Wire Wire Line
-	3350 7600 3750 7600
+	3350 7500 3750 7500
 Wire Wire Line
-	3350 7800 3750 7800
+	3350 7700 3750 7700
 $Comp
 L Connector_Generic_Shielded:Conn_01x19_Shielded J301
 U 1 1 60A88574
@@ -312,29 +312,29 @@ Text Notes 5200 4850 0    50   ~ 0
 TODO : verify how to wire unused flip flop
 Text Label 3200 2400 2    50   ~ 0
 acsi_12
-Text Label 3350 6400 0    50   ~ 0
+Text Label 1350 6400 0    50   ~ 0
 HD0
-Text Label 3350 6500 0    50   ~ 0
+Text Label 1350 6500 0    50   ~ 0
 HD1
-Text Label 3350 6600 0    50   ~ 0
+Text Label 1350 6600 0    50   ~ 0
 HD2
-Text Label 3350 6700 0    50   ~ 0
+Text Label 1350 6700 0    50   ~ 0
 HD3
-Text Label 3350 6800 0    50   ~ 0
+Text Label 1350 6800 0    50   ~ 0
 HD4
-Text Label 3350 6900 0    50   ~ 0
+Text Label 1350 6900 0    50   ~ 0
 HD5
-Text Label 3350 7000 0    50   ~ 0
+Text Label 1350 7000 0    50   ~ 0
 HD6
-Text Label 3350 7100 0    50   ~ 0
+Text Label 1350 7100 0    50   ~ 0
 HD7
-Text Label 3350 7600 0    50   ~ 0
+Text Label 3350 7500 0    50   ~ 0
 hdcs
-Text Label 3350 7700 0    50   ~ 0
+Text Label 3350 7600 0    50   ~ 0
 hdack
-Text Label 3350 7800 0    50   ~ 0
+Text Label 3350 7700 0    50   ~ 0
 hda0
-Text Label 3350 7900 0    50   ~ 0
+Text Label 3350 7800 0    50   ~ 0
 hdrw
 Text Label 4800 2400 0    50   ~ 0
 hdrw
@@ -399,13 +399,13 @@ Wire Wire Line
 Wire Wire Line
 	4600 2500 5000 2500
 Wire Wire Line
-	3350 6500 3750 6500
+	1350 6500 1750 6500
 Wire Wire Line
-	3350 6700 3750 6700
+	1350 6700 1750 6700
 Wire Wire Line
-	3350 6900 3750 6900
+	1350 6900 1750 6900
 Wire Wire Line
-	3350 7100 3750 7100
+	1350 7100 1750 7100
 Text Label 5650 8600 1    50   ~ 0
 GND
 Wire Wire Line
@@ -452,12 +452,12 @@ $EndComp
 $Comp
 L custom_passives:R_Pack04_US RN1603
 U 1 1 61FF4DF9
-P 3950 7800
-F 0 "RN1603" V 3650 7800 50  0000 C CNN
-F 1 "68 ×4" V 4150 7800 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 4225 7800 50  0001 C CNN
-F 3 "~" H 3950 7800 50  0001 C CNN
-	1    3950 7800
+P 3950 7700
+F 0 "RN1603" V 3650 7700 50  0000 C CNN
+F 1 "68 ×4" V 4150 7700 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 4225 7700 50  0001 C CNN
+F 3 "~" H 3950 7700 50  0001 C CNN
+	1    3950 7700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -469,27 +469,15 @@ Wire Wire Line
 Wire Wire Line
 	4150 7100 5450 7100
 Wire Wire Line
-	3350 7700 3750 7700
+	3350 7600 3750 7600
 Wire Wire Line
-	3350 7900 3750 7900
-Wire Wire Line
-	4150 7700 5450 7700
-Wire Wire Line
-	4150 7900 4400 7900
-Wire Wire Line
-	4400 7900 4400 8100
+	3350 7800 3750 7800
 Wire Wire Line
 	4400 8100 5450 8100
 Wire Wire Line
-	4150 7800 4500 7800
-Wire Wire Line
-	4500 7800 4500 7900
-Wire Wire Line
 	4500 7900 5450 7900
 Wire Wire Line
-	4150 7600 4300 7600
-Wire Wire Line
-	4300 7600 4300 7200
+	4150 7500 4300 7500
 Wire Wire Line
 	4300 7200 5450 7200
 Wire Wire Line
@@ -500,4 +488,135 @@ Wire Wire Line
 	4150 6600 5450 6600
 Wire Wire Line
 	4150 6700 5450 6700
+$Comp
+L Connector_Generic:Conn_02x15_Odd_Even J1601
+U 1 1 6299D251
+P 2050 7100
+F 0 "J1601" H 2100 7900 50  0000 C CNN
+F 1 "Like MegaSTE J402" H 2100 6300 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Vertical" H 2050 7100 50  0001 C CNN
+F 3 "~" H 2050 7100 50  0001 C CNN
+	1    2050 7100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 7600 4600 7600
+Wire Wire Line
+	5450 7700 4600 7700
+Wire Wire Line
+	4600 7700 4600 7600
+Wire Wire Line
+	4300 7500 4300 7200
+Wire Wire Line
+	4150 7700 4500 7700
+Wire Wire Line
+	4500 7700 4500 7900
+Wire Wire Line
+	4150 7800 4400 7800
+Wire Wire Line
+	4400 7800 4400 8100
+Text Label 1350 7200 0    50   ~ 0
+hdack
+Wire Wire Line
+	1350 7200 1750 7200
+Wire Wire Line
+	1350 7300 1750 7300
+Text Label 1350 7300 0    50   ~ 0
+hda0
+Text GLabel 1350 7400 0    50   Output ~ 0
+ACSI_19_HDRQ
+NoConn ~ 1750 7500
+$Comp
+L Device:C C?
+U 1 1 62A0B5E0
+P 1000 8000
+AR Path="/60786F27/6078774E/62A0B5E0" Ref="C?"  Part="1" 
+AR Path="/60786F27/607875AF/62A0B5E0" Ref="C?"  Part="1" 
+AR Path="/6089D0BA/62A0B5E0" Ref="C?"  Part="1" 
+AR Path="/608A2359/62A0B5E0" Ref="C?"  Part="1" 
+AR Path="/60A1445F/62A0B5E0" Ref="C?"  Part="1" 
+AR Path="/60A73CDE/62A0B5E0" Ref="C1601"  Part="1" 
+F 0 "C1601" H 1025 8100 50  0000 L CNN
+F 1 "0.1uF" H 1025 7900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1038 7850 50  0001 C CNN
+F 3 "~" H 1000 8000 50  0001 C CNN
+	1    1000 8000
+	1    0    0    -1  
+$EndComp
+Text Label 1000 8350 1    50   ~ 0
+GND
+Text Label 1000 7650 3    50   ~ 0
+VCC
+Wire Wire Line
+	1000 8150 1000 8350
+Wire Wire Line
+	1750 7700 1650 7700
+Wire Wire Line
+	1650 7700 1650 7600
+Wire Wire Line
+	1650 7600 1750 7600
+Wire Wire Line
+	1750 7800 1650 7800
+Wire Wire Line
+	1650 7800 1650 7700
+Connection ~ 1650 7700
+Text Label 2600 7800 2    50   ~ 0
+GND
+Wire Wire Line
+	2250 7600 2350 7600
+Wire Wire Line
+	2350 7600 2350 7700
+Wire Wire Line
+	2250 7700 2350 7700
+Connection ~ 2350 7700
+Wire Wire Line
+	2350 7700 2350 7800
+Wire Wire Line
+	2250 7800 2350 7800
+Connection ~ 2350 7800
+Text Label 1350 7600 0    50   ~ 0
+VCC
+Wire Wire Line
+	1350 7600 1650 7600
+Connection ~ 1650 7600
+Wire Wire Line
+	1000 7650 1000 7850
+Text Label 2600 7200 2    50   ~ 0
+acsi_12
+Wire Wire Line
+	2600 7200 2250 7200
+Wire Wire Line
+	2350 7800 2600 7800
+Text Label 2600 7300 2    50   ~ 0
+hdcs
+Text Label 2600 7400 2    50   ~ 0
+hdrw
+Text GLabel 2600 7500 2    50   Output ~ 0
+XHDINT
+Wire Wire Line
+	2250 7300 2600 7300
+Wire Wire Line
+	2600 7400 2250 7400
+Wire Wire Line
+	2250 7500 2600 7500
+Wire Wire Line
+	1350 7400 1750 7400
+Wire Wire Line
+	2250 6400 3750 6400
+Wire Wire Line
+	2250 6500 3750 6500
+Wire Wire Line
+	2250 6600 3750 6600
+Wire Wire Line
+	2250 6700 3750 6700
+Wire Wire Line
+	2250 6800 3750 6800
+Wire Wire Line
+	2250 6900 3750 6900
+Wire Wire Line
+	2250 7000 3750 7000
+Wire Wire Line
+	2250 7100 3750 7100
+Text Notes 1350 8200 0    50   ~ 0
+This connector is the same as in \nthe MegaSTE (J402). One could plug \nthe harddisk controller C103561-001
 $EndSCHEMATC
