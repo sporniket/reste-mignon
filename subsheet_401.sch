@@ -784,4 +784,101 @@ Wire Wire Line
 Wire Wire Line
 	3100 2050 3100 2300
 NoConn ~ 4800 5800
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J2001
+U 1 1 629BA30C
+P 6200 8900
+F 0 "J2001" H 6250 9400 50  0000 C CNN
+F 1 "For RGB2HDMI" H 6250 8300 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 6200 8900 50  0001 C CNN
+F 3 "~" H 6200 8900 50  0001 C CNN
+	1    6200 8900
+	1    0    0    -1  
+$EndComp
+Text GLabel 5700 8500 0    50   Input ~ 0
+HSYNC
+Text GLabel 6800 8500 2    50   Input ~ 0
+VSYNC
+Text Label 5700 9400 0    50   ~ 0
+VCC
+Text Label 6800 9400 2    50   ~ 0
+GND
+Text Label 5700 8600 0    50   ~ 0
+mono
+Text Label 5700 8700 0    50   ~ 0
+b0
+Text Label 6800 8700 2    50   ~ 0
+b1
+Text Label 5700 8800 0    50   ~ 0
+b2
+Text Label 6800 8800 2    50   ~ 0
+b3
+Text Label 5700 8900 0    50   ~ 0
+g0
+Text Label 6800 8900 2    50   ~ 0
+g1
+Text Label 5700 9000 0    50   ~ 0
+g2
+Text Label 6800 9000 2    50   ~ 0
+g3
+Text Label 5700 9100 0    50   ~ 0
+r0
+Text Label 6800 9100 2    50   ~ 0
+r1
+Text Label 5700 9200 0    50   ~ 0
+r2
+Text Label 6800 9200 2    50   ~ 0
+r3
+Wire Wire Line
+	5700 8500 6000 8500
+Wire Wire Line
+	5700 8600 6000 8600
+Wire Wire Line
+	5700 8700 6000 8700
+Wire Wire Line
+	5700 8800 6000 8800
+Wire Wire Line
+	5700 8900 6000 8900
+Wire Wire Line
+	5700 9000 6000 9000
+Wire Wire Line
+	5700 9100 6000 9100
+Wire Wire Line
+	5700 9200 6000 9200
+Wire Wire Line
+	5700 9400 5900 9400
+Wire Wire Line
+	6500 8500 6800 8500
+Wire Wire Line
+	6500 8600 6800 8600
+Wire Wire Line
+	6500 8700 6800 8700
+Wire Wire Line
+	6500 8800 6800 8800
+Wire Wire Line
+	6500 8900 6800 8900
+Wire Wire Line
+	6500 9000 6800 9000
+Wire Wire Line
+	6500 9100 6800 9100
+Wire Wire Line
+	6500 9200 6800 9200
+Wire Wire Line
+	6500 9400 6600 9400
+Wire Wire Line
+	6000 9300 5900 9300
+Wire Wire Line
+	5900 9300 5900 9400
+Connection ~ 5900 9400
+Wire Wire Line
+	5900 9400 6000 9400
+Wire Wire Line
+	6500 9300 6600 9300
+Wire Wire Line
+	6600 9300 6600 9400
+Connection ~ 6600 9400
+Wire Wire Line
+	6600 9400 6800 9400
+Text Label 6800 8600 2    50   ~ 0
+mono
 $EndSCHEMATC
