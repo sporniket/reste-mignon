@@ -25,7 +25,7 @@ This is a project made with [Kicad](https://www.kicad.org/). I started this work
 
 ### Releases notes
 
-**mk0-0-schematic** / 2022-06-08
+**mk0-0.1-schematic** / 2022-06-08
 
 The first complete schematics of the mark0 milestone, starting [from the conversion of the original Atari STe schematics](https://github.com/sporniket/kicad-conversions--atari-ste-motherboard--c300780-001).
 
@@ -56,6 +56,7 @@ The first complete schematics of the mark0 milestone, starting [from the convers
   * Resolves #22 : Change Q500 from LM78L82 to UA78L08 -- add bypass capacitor on input
   * Resolves #23 : Add internal ACSI port
   * Resolves #24 : Add an internal port to make easier to plug a RGB2HDMI
+  * Fixes #28 : [BUG] Incomplete restoration of the blitter
 
 ## 2. What should you know before using **Sporniket's 'ReSTe mignon'** ?
 

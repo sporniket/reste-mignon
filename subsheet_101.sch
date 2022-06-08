@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 3 29
 Title "Converted schematics of Atari STE"
 Date "2022-06-08"
-Rev "1.0.0"
+Rev "mk0-0.1"
 Comp ""
 Comment1 "Reference : C300780-001"
 Comment2 ""

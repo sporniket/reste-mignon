@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 16 29
 Title "ReSTe mignon"
 Date "2022-06-08"
-Rev "mk0-0"
+Rev "mk0-0.1"
 Comp "David SPORN"
 Comment1 ""
 Comment2 "a target size of 25×18cm (B5)"
