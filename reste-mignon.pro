@@ -1,6 +1,6 @@
-update=mar. 15 févr. 2022 21:37:06 CET
+update=mer. 08 juin 2022 07:00:38
 version=1
-last_client=eeschema
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=page-description.kicad_wks
-PlotDirectoryName=
+PlotDirectoryName=export
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

@@ -369,7 +369,7 @@ Wire Wire Line
 Text Label 1300 6150 0    50   ~ 0
 XBERR
 Text Label 1300 6250 0    50   ~ 0
-XBGK
+XBGACK
 Text Label 1300 6350 0    50   ~ 0
 XBR
 Text Label 2800 6050 0    50   ~ 0
@@ -636,7 +636,7 @@ Wire Wire Line
 Text Label 5300 3350 0    50   ~ 0
 VCC
 Text GLabel 5250 3050 0    50   Output ~ 0
-XBLTBG
+XCPUBG
 Text GLabel 5300 3450 0    50   Input ~ 0
 CLK8
 Wire Wire Line
@@ -644,7 +644,7 @@ Wire Wire Line
 Text GLabel 5300 3250 0    50   Input ~ 0
 XBR
 Text GLabel 5300 3150 0    50   Input ~ 0
-XBGK
+XBGACK
 Text GLabel 5300 2950 0    50   Input ~ 0
 XDTACK
 Wire Wire Line
@@ -900,8 +900,6 @@ F 3 "https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf" H 5800 5650 50 
 	1    6250 3600
 	1    0    0    -1  
 $EndComp
-Text Notes 550  6650 0    39   ~ 0
-XBGK when coming to \nBlitter is pulled-up\nwith 4K7, but in my STE\nit was not populated \nanyway (no external\nBlitter), so pulled-up \nwith 1K2 should be ok
 $Comp
 L custom_passives:R_Pack04_US RN201
 U 1 1 61B5A520
