@@ -139,7 +139,7 @@ XUDS
 Text GLabel 2000 1500 1    50   Output ~ 0
 XLDS
 Text GLabel 950  2500 0    50   Output ~ 0
-XBLTBG
+XCPUBG
 Wire Bus Line
 	1300 1000 1550 1000
 Wire Bus Line
@@ -481,7 +481,7 @@ Wire Wire Line
 Text GLabel 1000 2700 0    50   Input ~ 0
 XBR
 Text GLabel 1000 2600 0    50   Input ~ 0
-XBGK
+XBGACK
 Text GLabel 1000 2400 0    50   Input ~ 0
 XDTACK
 Wire Wire Line
