@@ -23,6 +23,40 @@ This is a project made with [Kicad](https://www.kicad.org/). I started this work
 
 **Sporniket's 'ReSTe mignon'** is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
+### Releases notes
+
+**mk0-0-schematic** / 2022-06-08
+
+The first complete schematics of the mark0 milestone, starting [from the conversion of the original Atari STe schematics](https://github.com/sporniket/kicad-conversions--atari-ste-motherboard--c300780-001).
+
+  * Added DIP-64 CPU port extension
+  * Removed T-filters
+  * Deleted circuitry related to PAL/NTSC and modulator
+  * Resolves #1 : Use 4-resistor packs wherever it is possible
+  * Resolves #2 : apply the pull-up fix to data and address bus
+  * Resolves #3 : Apply the DMA Pull up fix on databus
+  * Resolves #4 : Apply the 1772 pull-up fix
+  * Resolves #6 : Apply the reset fix
+  * Resolves #5 : Apply the fix for the video ghosting
+  * Resolves #7 : Assign SMD footprints to resistors pack
+  * Resolves #8 : Assign 1206 hand-solder footprints to non polarized capacitors
+  * Resolves #9 : Assign radial THT footprints to polarized capacitors
+  * Resolves #10 : Remove the C103
+  * Resolves #11 : Use the reference 'FB?' for the ferrite beads
+  * Resolves #12 : Use the reference 'CP?' for polarized capacitors
+  * Resolves #13 : assign 1206 hand-solder footprints to resistors
+  * Resolves #14 : assign smd footprints for ferrite beads
+  * Resolves #15 : assign smd footprints to the inductors
+  * Resolves #16 : assign smd footprints to diodes
+  * Resolves #17 : assign smd footprints to transistors
+  * Resolves #18 : Apply the LMC mixer fix
+  * Fixes #19 : Reinstate the external blitter for the mark 0 version
+  * Resolves #20 : Replace polarized capacitors CP101 and CP536 by unpolarized ones
+  * Resolves #21 : Change Q400 to Q405 from 2N3904 to MMBT3904
+  * Resolves #22 : Change Q500 from LM78L82 to UA78L08 -- add bypass capacitor on input
+  * Resolves #23 : Add internal ACSI port
+  * Resolves #24 : Add an internal port to make easier to plug a RGB2HDMI
+
 ## 2. What should you know before using **Sporniket's 'ReSTe mignon'** ?
 
 **Sporniket's 'ReSTe mignon'** is made using [Kicad](https://www.kicad.org/).
@@ -45,16 +79,15 @@ Then, open the project in Kicad.
 
 ### From github releases
 
-A github releases will provide :
+A github **schematic only** release (with `schematics` in the release tag and name) will provide a PDF of the schematics
+
+A github **regular** release will provide :
 
 * A standalone Kicad project (all custom libraries included and ready to use)
 * A PDF of the schematics
 * A PDF of the silkscreen
-
-If appropriate, a github release MAY provide :
-
-* A Gerber for boardmanufacturer. Some details may have been adapted for a specific manufacturer.
-* A BOM, and pick an place files, likely for a specific manufacturer too.
+* If applicable, a Gerber for boardmanufacturer. Some details may have been adapted for a specific manufacturer.
+* If applicable, a BOM, and pick an place files, likely for a specific manufacturer too.
 
 ## 4. Known issues
 See the [project issues](https://github.com/sporniket/reste-mignon/issues) page.
