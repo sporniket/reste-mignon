@@ -705,7 +705,7 @@ F 3 "~" H 5700 8700 50  0001 C CNN
 	1    5700 8700
 	0    1    1    0   
 $EndComp
-Text Label 6200 8300 2    50   ~ 0
+Text Label 6800 8300 2    50   ~ 0
 VCC
 Wire Wire Line
 	5900 8500 6000 8500
@@ -741,11 +741,8 @@ $EndComp
 Wire Wire Line
 	5800 8300 6000 8300
 Wire Wire Line
-	6000 8500 6000 8300
+	6000 8500 6000 8400
 Connection ~ 6000 8500
-Connection ~ 6000 8300
-Wire Wire Line
-	6000 8300 6200 8300
 Wire Wire Line
 	4900 8500 5500 8500
 Wire Wire Line
@@ -761,11 +758,31 @@ Wire Wire Line
 Wire Wire Line
 	3750 8400 4450 8400
 Wire Notes Line
-	5450 8100 6300 8100
-Wire Notes Line
-	6300 8100 6300 9000
-Wire Notes Line
-	6300 9000 5450 9000
-Wire Notes Line
 	5450 9000 5450 8100
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J1701
+U 1 1 62B5571A
+P 6200 8300
+F 0 "J1701" H 6250 8400 50  0000 C CNN
+F 1 "Jumpers" H 6250 8100 50  0000 C CNN
+F 2 "" H 6200 8300 50  0001 C CNN
+F 3 "~" H 6200 8300 50  0001 C CNN
+	1    6200 8300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 8300 6600 8300
+Wire Wire Line
+	6500 8400 6600 8400
+Wire Wire Line
+	6600 8400 6600 8300
+Connection ~ 6600 8300
+Wire Wire Line
+	6600 8300 6800 8300
+Wire Notes Line
+	6900 8100 6900 9000
+Wire Notes Line
+	5450 8100 6900 8100
+Wire Notes Line
+	5450 9000 6900 9000
 $EndSCHEMATC
