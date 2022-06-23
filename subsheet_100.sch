@@ -5,13 +5,13 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 2 29
 Title "ReSTe mignon"
-Date "2022-06-08"
+Date "2022-06-23"
 Rev "mk0-0.1"
 Comp "David SPORN"
 Comment1 ""
-Comment2 "a target size of 25×18cm (B5)"
-Comment3 "with some fixes applied and"
-Comment4 "A remake of the Atari STe"
+Comment2 "original repository : https://github.com/sporniket/reste-mignon"
+Comment3 ""
+Comment4 "A remake of the Atari STe with some fixes applied and a target size of 25×18cm (B5)"
 $EndDescr
 Text Label 4500 3200 2    50   ~ 0
 VCC

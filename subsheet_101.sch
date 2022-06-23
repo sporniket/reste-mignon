@@ -5,13 +5,13 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 3 29
 Title "Converted schematics of Atari STE"
-Date "2022-06-08"
+Date "2022-06-23"
 Rev "mk0-0.1"
 Comp ""
-Comment1 "Reference : C300780-001"
-Comment2 ""
+Comment1 ""
+Comment2 "original repository : https://github.com/sporniket/reste-mignon"
 Comment3 ""
-Comment4 ""
+Comment4 "A remake of the Atari STe with some fixes applied and a target size of 25×18cm (B5)"
 $EndDescr
 $Comp
 L st_blitter:ST_BLITTER_PHY U101
