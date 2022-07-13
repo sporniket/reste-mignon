@@ -180,4 +180,199 @@ Wire Wire Line
 	3750 2350 3750 2150
 Wire Wire Line
 	4250 2350 4250 2150
+Text Notes 1200 3150 0    100  ~ 0
+Main mounting holes
+$Comp
+L Mechanical:MountingHole_Pad H701
+U 1 1 62CF34E2
+P 1500 3550
+F 0 "H701" H 1500 3800 50  0000 C CNN
+F 1 "UNC 6-32" H 1500 3725 50  0000 C CNN
+F 2 "unc-mounting-holes:MountingHole_3.7mm_UTS_6_Pad_Via" H 1500 3550 50  0001 C CNN
+F 3 "~" H 1500 3550 50  0001 C CNN
+	1    1500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H702
+U 1 1 62CF3686
+P 2000 3550
+F 0 "H702" H 2000 3800 50  0000 C CNN
+F 1 "UNC 6-32" H 2000 3725 50  0000 C CNN
+F 2 "unc-mounting-holes:MountingHole_3.7mm_UTS_6_Pad_Via" H 2000 3550 50  0001 C CNN
+F 3 "~" H 2000 3550 50  0001 C CNN
+	1    2000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H703
+U 1 1 62CF3C96
+P 2500 3550
+F 0 "H703" H 2500 3800 50  0000 C CNN
+F 1 "UNC 6-32" H 2500 3725 50  0000 C CNN
+F 2 "unc-mounting-holes:MountingHole_3.7mm_UTS_6_Pad_Via" H 2500 3550 50  0001 C CNN
+F 3 "~" H 2500 3550 50  0001 C CNN
+	1    2500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H704
+U 1 1 62CF4001
+P 3000 3550
+F 0 "H704" H 3000 3800 50  0000 C CNN
+F 1 "UNC 6-32" H 3000 3725 50  0000 C CNN
+F 2 "unc-mounting-holes:MountingHole_3.7mm_UTS_6_Pad_Via" H 3000 3550 50  0001 C CNN
+F 3 "~" H 3000 3550 50  0001 C CNN
+	1    3000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H705
+U 1 1 62CF4266
+P 3500 3550
+F 0 "H705" H 3500 3800 50  0000 C CNN
+F 1 "UNC 6-32" H 3500 3725 50  0000 C CNN
+F 2 "unc-mounting-holes:MountingHole_3.7mm_UTS_6_Pad_Via" H 3500 3550 50  0001 C CNN
+F 3 "~" H 3500 3550 50  0001 C CNN
+	1    3500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H706
+U 1 1 62CF477A
+P 4000 3550
+F 0 "H706" H 4000 3800 50  0000 C CNN
+F 1 "UNC 6-32" H 4000 3725 50  0000 C CNN
+F 2 "unc-mounting-holes:MountingHole_3.7mm_UTS_6_Pad_Via" H 4000 3550 50  0001 C CNN
+F 3 "~" H 4000 3550 50  0001 C CNN
+	1    4000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H707
+U 1 1 62CF4AD7
+P 4500 3550
+F 0 "H707" H 4500 3800 50  0000 C CNN
+F 1 "UNC 6-32" H 4500 3725 50  0000 C CNN
+F 2 "unc-mounting-holes:MountingHole_3.7mm_UTS_6_Pad_Via" H 4500 3550 50  0001 C CNN
+F 3 "~" H 4500 3550 50  0001 C CNN
+	1    4500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H708
+U 1 1 62CF71B8
+P 5000 3550
+F 0 "H708" H 5000 3800 50  0000 C CNN
+F 1 "UNC 6-32" H 5000 3725 50  0000 C CNN
+F 2 "unc-mounting-holes:MountingHole_3.7mm_UTS_6_Pad_Via" H 5000 3550 50  0001 C CNN
+F 3 "~" H 5000 3550 50  0001 C CNN
+	1    5000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H709
+U 1 1 62CF71BE
+P 5500 3550
+F 0 "H709" H 5500 3800 50  0000 C CNN
+F 1 "UNC 6-32" H 5500 3725 50  0000 C CNN
+F 2 "unc-mounting-holes:MountingHole_3.7mm_UTS_6_Pad_Via" H 5500 3550 50  0001 C CNN
+F 3 "~" H 5500 3550 50  0001 C CNN
+	1    5500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H710
+U 1 1 62CF71C4
+P 6000 3550
+F 0 "H710" H 6000 3800 50  0000 C CNN
+F 1 "UNC 6-32" H 6000 3725 50  0000 C CNN
+F 2 "unc-mounting-holes:MountingHole_3.7mm_UTS_6_Pad_Via" H 6000 3550 50  0001 C CNN
+F 3 "~" H 6000 3550 50  0001 C CNN
+	1    6000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H711
+U 1 1 62CF71CA
+P 6500 3550
+F 0 "H711" H 6500 3800 50  0000 C CNN
+F 1 "UNC 6-32" H 6500 3725 50  0000 C CNN
+F 2 "unc-mounting-holes:MountingHole_3.7mm_UTS_6_Pad_Via" H 6500 3550 50  0001 C CNN
+F 3 "~" H 6500 3550 50  0001 C CNN
+	1    6500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H712
+U 1 1 62CF71D0
+P 7000 3550
+F 0 "H712" H 7000 3800 50  0000 C CNN
+F 1 "UNC 6-32" H 7000 3725 50  0000 C CNN
+F 2 "unc-mounting-holes:MountingHole_3.7mm_UTS_6_Pad_Via" H 7000 3550 50  0001 C CNN
+F 3 "~" H 7000 3550 50  0001 C CNN
+	1    7000 3550
+	1    0    0    -1  
+$EndComp
+Text Label 1300 4000 0    50   ~ 0
+GND
+Wire Wire Line
+	1300 4000 1500 4000
+Wire Wire Line
+	7000 4000 7000 3650
+Wire Wire Line
+	1500 3650 1500 4000
+Connection ~ 1500 4000
+Wire Wire Line
+	1500 4000 2000 4000
+Wire Wire Line
+	2000 3650 2000 4000
+Connection ~ 2000 4000
+Wire Wire Line
+	2500 3650 2500 4000
+Wire Wire Line
+	2000 4000 2500 4000
+Connection ~ 2500 4000
+Wire Wire Line
+	3000 3650 3000 4000
+Wire Wire Line
+	2500 4000 3000 4000
+Connection ~ 3000 4000
+Wire Wire Line
+	3000 4000 3500 4000
+Wire Wire Line
+	3500 3650 3500 4000
+Connection ~ 3500 4000
+Wire Wire Line
+	3500 4000 4000 4000
+Wire Wire Line
+	4000 3650 4000 4000
+Connection ~ 4000 4000
+Wire Wire Line
+	4000 4000 4500 4000
+Wire Wire Line
+	4500 3650 4500 4000
+Connection ~ 4500 4000
+Wire Wire Line
+	4500 4000 5000 4000
+Wire Wire Line
+	5000 3650 5000 4000
+Connection ~ 5000 4000
+Wire Wire Line
+	5000 4000 5500 4000
+Wire Wire Line
+	5500 3650 5500 4000
+Connection ~ 5500 4000
+Wire Wire Line
+	6000 3650 6000 4000
+Wire Wire Line
+	5500 4000 6000 4000
+Connection ~ 6000 4000
+Wire Wire Line
+	6500 3650 6500 4000
+Wire Wire Line
+	6000 4000 6500 4000
+Connection ~ 6500 4000
+Wire Wire Line
+	6500 4000 7000 4000
 $EndSCHEMATC
