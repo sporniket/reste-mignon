@@ -787,48 +787,52 @@ NoConn ~ 4800 5800
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J2001
 U 1 1 629BA30C
-P 6200 8900
-F 0 "J2001" H 6250 9400 50  0000 C CNN
-F 1 "For RGB2HDMI" H 6250 8300 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 6200 8900 50  0001 C CNN
-F 3 "~" H 6200 8900 50  0001 C CNN
-	1    6200 8900
+P 6200 8700
+F 0 "J2001" H 6250 9200 50  0000 C CNN
+F 1 "For RGB2HDMI" H 6250 8100 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 6200 8700 50  0001 C CNN
+F 3 "~" H 6200 8700 50  0001 C CNN
+	1    6200 8700
 	1    0    0    -1  
 $EndComp
-Text GLabel 5700 8500 0    50   Input ~ 0
+Text GLabel 5700 8300 0    50   Input ~ 0
 HSYNC
-Text GLabel 6800 8500 2    50   Input ~ 0
+Text GLabel 6800 8300 2    50   Input ~ 0
 VSYNC
-Text Label 5700 9400 0    50   ~ 0
-VCC
-Text Label 6800 9400 2    50   ~ 0
-GND
-Text Label 5700 8600 0    50   ~ 0
-mono
-Text Label 5700 8700 0    50   ~ 0
-b0
-Text Label 6800 8700 2    50   ~ 0
-b1
-Text Label 5700 8800 0    50   ~ 0
-b2
-Text Label 6800 8800 2    50   ~ 0
-b3
-Text Label 5700 8900 0    50   ~ 0
-g0
-Text Label 6800 8900 2    50   ~ 0
-g1
-Text Label 5700 9000 0    50   ~ 0
-g2
-Text Label 6800 9000 2    50   ~ 0
-g3
-Text Label 5700 9100 0    50   ~ 0
-r0
-Text Label 6800 9100 2    50   ~ 0
-r1
 Text Label 5700 9200 0    50   ~ 0
-r2
+VCC
 Text Label 6800 9200 2    50   ~ 0
+GND
+Text Label 5700 8400 0    50   ~ 0
+mono
+Text Label 5700 8500 0    50   ~ 0
+b0
+Text Label 6800 8500 2    50   ~ 0
+b1
+Text Label 5700 8600 0    50   ~ 0
+b2
+Text Label 6800 8600 2    50   ~ 0
+b3
+Text Label 5700 8700 0    50   ~ 0
+g0
+Text Label 6800 8700 2    50   ~ 0
+g1
+Text Label 5700 8800 0    50   ~ 0
+g2
+Text Label 6800 8800 2    50   ~ 0
+g3
+Text Label 5700 8900 0    50   ~ 0
+r0
+Text Label 6800 8900 2    50   ~ 0
+r1
+Text Label 5700 9000 0    50   ~ 0
+r2
+Text Label 6800 9000 2    50   ~ 0
 r3
+Wire Wire Line
+	5700 8300 6000 8300
+Wire Wire Line
+	5700 8400 6000 8400
 Wire Wire Line
 	5700 8500 6000 8500
 Wire Wire Line
@@ -842,11 +846,11 @@ Wire Wire Line
 Wire Wire Line
 	5700 9000 6000 9000
 Wire Wire Line
-	5700 9100 6000 9100
+	5700 9200 5900 9200
 Wire Wire Line
-	5700 9200 6000 9200
+	6500 8300 6800 8300
 Wire Wire Line
-	5700 9400 5900 9400
+	6500 8400 6800 8400
 Wire Wire Line
 	6500 8500 6800 8500
 Wire Wire Line
@@ -860,25 +864,65 @@ Wire Wire Line
 Wire Wire Line
 	6500 9000 6800 9000
 Wire Wire Line
-	6500 9100 6800 9100
+	6500 9200 6600 9200
 Wire Wire Line
-	6500 9200 6800 9200
+	6000 9100 5900 9100
 Wire Wire Line
-	6500 9400 6600 9400
+	5900 9100 5900 9200
+Connection ~ 5900 9200
 Wire Wire Line
-	6000 9300 5900 9300
+	5900 9200 6000 9200
 Wire Wire Line
-	5900 9300 5900 9400
-Connection ~ 5900 9400
+	6500 9100 6600 9100
 Wire Wire Line
-	5900 9400 6000 9400
+	6600 9100 6600 9200
+Connection ~ 6600 9200
 Wire Wire Line
-	6500 9300 6600 9300
-Wire Wire Line
-	6600 9300 6600 9400
-Connection ~ 6600 9400
-Wire Wire Line
-	6600 9400 6800 9400
-Text Label 6800 8600 2    50   ~ 0
+	6600 9200 6800 9200
+Text Label 6800 8400 2    50   ~ 0
 mono
+$Comp
+L Mechanical:MountingHole H2004
+U 1 1 62D095B5
+P 7350 9500
+F 0 "H2004" V 7350 9250 50  0000 C CNN
+F 1 "M2.5" V 7350 9700 50  0000 C CNN
+F 2 "mounting-holes:MountingHole_2.7mm_M2.5_clear_10mm" H 7350 9500 50  0001 C CNN
+F 3 "~" H 7350 9500 50  0001 C CNN
+	1    7350 9500
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole H2003
+U 1 1 62D2B56E
+P 7350 9250
+F 0 "H2003" V 7350 9000 50  0000 C CNN
+F 1 "M2.5" V 7350 9450 50  0000 C CNN
+F 2 "mounting-holes:MountingHole_2.7mm_M2.5_clear_10mm" H 7350 9250 50  0001 C CNN
+F 3 "~" H 7350 9250 50  0001 C CNN
+	1    7350 9250
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole H2002
+U 1 1 62D2BA08
+P 7350 9000
+F 0 "H2002" V 7350 8750 50  0000 C CNN
+F 1 "M2.5" V 7350 9200 50  0000 C CNN
+F 2 "mounting-holes:MountingHole_2.7mm_M2.5_clear_10mm" H 7350 9000 50  0001 C CNN
+F 3 "~" H 7350 9000 50  0001 C CNN
+	1    7350 9000
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole H2001
+U 1 1 62D2BD1F
+P 7350 8750
+F 0 "H2001" V 7350 8500 50  0000 C CNN
+F 1 "M2.5" V 7350 8950 50  0000 C CNN
+F 2 "mounting-holes:MountingHole_2.7mm_M2.5_clear_10mm" H 7350 8750 50  0001 C CNN
+F 3 "~" H 7350 8750 50  0001 C CNN
+	1    7350 8750
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
