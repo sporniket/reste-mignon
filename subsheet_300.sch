@@ -5,7 +5,7 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 15 29
 Title "ReSTe mignon"
-Date "2022-06-23"
+Date "2022-07-13"
 Rev "mk0-0.1"
 Comp "David SPORN"
 Comment1 ""

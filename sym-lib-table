@@ -38,4 +38,5 @@
   (lib (name reset-switch)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-handmade/reset-switch.lib)(options "")(descr ""))
   (lib (name mc_68000_dip64)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-generated/ics/atari-16-32/mc_68000_dip64.lib)(options "")(descr ""))
   (lib (name custom_passives)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-handmade/custom_passives.lib)(options "")(descr ""))
+  (lib (name mcp-101d)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols-generated/ics/commons/mcp-101d.lib)(options "")(descr ""))
 )

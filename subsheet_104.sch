@@ -5,7 +5,7 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 6 29
 Title "ReSTe mignon"
-Date "2022-06-23"
+Date "2022-07-13"
 Rev "mk0-0.1"
 Comp "David SPORN"
 Comment1 ""
@@ -139,7 +139,7 @@ Text Label 6500 1000 3    50   ~ 0
 VCC
 Wire Wire Line
 	6500 1200 6500 1000
-Text GLabel 3850 1800 0    50   Output ~ 0
+Text GLabel 3700 1800 0    50   Output ~ 0
 RESET
 Text Notes 4400 2250 0    50   ~ 0
 RESET is sent to U210 \nto drive XRESET & XHALT
@@ -176,9 +176,7 @@ Wire Wire Line
 	2750 1700 3000 1700
 Connection ~ 3000 1700
 Wire Wire Line
-	3000 1700 4100 1700
-Wire Wire Line
-	3850 1800 4100 1800
+	3000 1700 3250 1700
 Text Label 2100 2200 1    50   ~ 0
 GND
 Wire Wire Line
@@ -187,4 +185,47 @@ Wire Wire Line
 	6000 1900 6000 2150
 Wire Wire Line
 	6000 2350 6000 2600
+$Comp
+L mcp-101d:MCP101-D_PHY U604
+U 1 1 62CF4DC8
+P 5550 3500
+F 0 "U604" H 5300 3900 50  0000 L TNN
+F 1 "MCP101-D_PHY" H 5300 3800 50  0000 L TNB
+F 2 "Package_TO_SOT_THT:TO-92L_Inline" H 5300 4000 50  0001 L TNN
+F 3 "" H 5300 4100 50  0001 L TNN
+	1    5550 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 3250 1700
+Wire Wire Line
+	3250 1700 4100 1700
+Wire Wire Line
+	3250 3500 5000 3500
+Wire Wire Line
+	3700 1800 3800 1800
+Wire Wire Line
+	3800 1800 3800 3400
+Wire Wire Line
+	3800 3400 5000 3400
+Connection ~ 3800 1800
+Wire Wire Line
+	3800 1800 4100 1800
+Wire Wire Line
+	3250 1700 3250 3500
+Text Label 4800 3600 0    50   ~ 0
+GND
+Wire Wire Line
+	5000 3600 4800 3600
+Text Notes 5000 3850 0    50   ~ 0
+Install either U104 or U604
+Wire Notes Line
+	7000 2700 7000 850 
+Wire Notes Line
+	7000 850  5800 850 
+Wire Notes Line
+	5800 850  5800 2700
+Wire Notes Line
+	5800 2700 7000 2700
+Text Notes 5800 2800 0    50   ~ 0
+Populated only with U104
 $EndSCHEMATC
