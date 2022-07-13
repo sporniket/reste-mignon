@@ -375,4 +375,72 @@ Wire Wire Line
 Connection ~ 6500 4000
 Wire Wire Line
 	6500 4000 7000 4000
+Text Notes 1200 4650 0    100  ~ 0
+Mounting holes for DOP modules
+$Comp
+L Mechanical:MountingHole H713
+U 1 1 62D38612
+P 1500 5000
+F 0 "H713" H 1500 5200 50  0000 C CNN
+F 1 "M2.5" H 1500 5125 50  0000 C CNN
+F 2 "mounting-holes:MountingHole_2.7mm_M2.5_clear_10mm" H 1500 5000 50  0001 C CNN
+F 3 "~" H 1500 5000 50  0001 C CNN
+	1    1500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H714
+U 1 1 62D386A2
+P 2000 5000
+F 0 "H714" H 2000 5200 50  0000 C CNN
+F 1 "M2.5" H 2000 5125 50  0000 C CNN
+F 2 "mounting-holes:MountingHole_2.7mm_M2.5_clear_10mm" H 2000 5000 50  0001 C CNN
+F 3 "~" H 2000 5000 50  0001 C CNN
+	1    2000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H715
+U 1 1 62D38AAB
+P 2500 5000
+F 0 "H715" H 2500 5200 50  0000 C CNN
+F 1 "M2.5" H 2500 5125 50  0000 C CNN
+F 2 "mounting-holes:MountingHole_2.7mm_M2.5_clear_10mm" H 2500 5000 50  0001 C CNN
+F 3 "~" H 2500 5000 50  0001 C CNN
+	1    2500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H716
+U 1 1 62D38D19
+P 3000 5000
+F 0 "H716" H 3000 5200 50  0000 C CNN
+F 1 "M2.5" H 3000 5125 50  0000 C CNN
+F 2 "mounting-holes:MountingHole_2.7mm_M2.5_clear_10mm" H 3000 5000 50  0001 C CNN
+F 3 "~" H 3000 5000 50  0001 C CNN
+	1    3000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H717
+U 1 1 62D39145
+P 3500 5000
+F 0 "H717" H 3500 5200 50  0000 C CNN
+F 1 "M2.5" H 3500 5125 50  0000 C CNN
+F 2 "mounting-holes:MountingHole_2.7mm_M2.5_clear_10mm" H 3500 5000 50  0001 C CNN
+F 3 "~" H 3500 5000 50  0001 C CNN
+	1    3500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H718
+U 1 1 62D39429
+P 4000 5000
+F 0 "H718" H 4000 5200 50  0000 C CNN
+F 1 "M2.5" H 4000 5125 50  0000 C CNN
+F 2 "mounting-holes:MountingHole_2.7mm_M2.5_clear_10mm" H 4000 5000 50  0001 C CNN
+F 3 "~" H 4000 5000 50  0001 C CNN
+	1    4000 5000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
