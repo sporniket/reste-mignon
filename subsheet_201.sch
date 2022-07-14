@@ -221,7 +221,7 @@ Connection ~ 4550 4750
 Wire Wire Line
 	4350 4750 4550 4750
 $Comp
-L Connector_Generic_Shielded:Conn_01x06_Shielded J1001
+L Connector_Generic:Conn_01x06 J1001
 U 1 1 62D0466F
 P 5950 6000
 F 0 "J1001" H 5960 6290 50  0000 C CNN
@@ -335,12 +335,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 6450 5000 6550
 Wire Wire Line
-	5950 6550 5950 6500
-Wire Wire Line
 	5000 6550 5650 6550
 Wire Wire Line
 	5650 6300 5650 6550
-Connection ~ 5650 6550
-Wire Wire Line
-	5650 6550 5950 6550
 $EndSCHEMATC
