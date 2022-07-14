@@ -220,4 +220,127 @@ Wire Wire Line
 Connection ~ 4550 4750
 Wire Wire Line
 	4350 4750 4550 4750
+$Comp
+L Connector_Generic_Shielded:Conn_01x06_Shielded J1001
+U 1 1 62D0466F
+P 5950 6000
+F 0 "J1001" H 5960 6290 50  0000 C CNN
+F 1 "RJ11S - To Mega ST(e)/TT Keyboard" H 5990 5610 50  0000 L CNN
+F 2 "Connector_RJ:RJ12_Amphenol_54601" H 5950 6000 50  0001 C CNN
+F 3 "~" H 5950 6000 50  0001 C CNN
+	1    5950 6000
+	1    0    0    -1  
+$EndComp
+Text Label 5350 6550 0    50   ~ 0
+GND
+Wire Wire Line
+	5750 6200 5650 6200
+Wire Wire Line
+	5650 6200 5650 6300
+Connection ~ 5650 6300
+Wire Wire Line
+	5650 6300 5750 6300
+Text Label 3800 5800 0    50   ~ 0
+VCC
+Wire Wire Line
+	5750 5900 5650 5900
+Wire Wire Line
+	5650 5900 5650 5800
+Connection ~ 5650 5800
+Wire Wire Line
+	5650 5800 5750 5800
+Text Label 4350 6000 2    50   ~ 0
+tx
+Text Label 4850 6100 2    50   ~ 0
+rx
+$Comp
+L Device:C C?
+U 1 1 62D0F683
+P 5000 6300
+AR Path="/60786F27/6078774E/62D0F683" Ref="C?"  Part="1" 
+AR Path="/60786F27/607875AF/62D0F683" Ref="C?"  Part="1" 
+AR Path="/6089D0BA/62D0F683" Ref="C?"  Part="1" 
+AR Path="/608A2359/62D0F683" Ref="C?"  Part="1" 
+AR Path="/608C2344/62D0F683" Ref="C1003"  Part="1" 
+F 0 "C1003" H 5025 6400 50  0000 L CNN
+F 1 "1nF" H 5025 6200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5038 6150 50  0001 C CNN
+F 3 "~" H 5000 6300 50  0001 C CNN
+	1    5000 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62D10E2A
+P 4000 6300
+AR Path="/60786F27/6078774E/62D10E2A" Ref="C?"  Part="1" 
+AR Path="/60786F27/607875AF/62D10E2A" Ref="C?"  Part="1" 
+AR Path="/6089D0BA/62D10E2A" Ref="C?"  Part="1" 
+AR Path="/608A2359/62D10E2A" Ref="C?"  Part="1" 
+AR Path="/608C2344/62D10E2A" Ref="C1001"  Part="1" 
+F 0 "C1001" H 4025 6400 50  0000 L CNN
+F 1 "0.1uF" H 4025 6200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4038 6150 50  0001 C CNN
+F 3 "~" H 4000 6300 50  0001 C CNN
+	1    4000 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 6150 5000 6100
+Wire Wire Line
+	5000 6100 5750 6100
+$Comp
+L Device:C C?
+U 1 1 62D130A0
+P 4500 6300
+AR Path="/60786F27/6078774E/62D130A0" Ref="C?"  Part="1" 
+AR Path="/60786F27/607875AF/62D130A0" Ref="C?"  Part="1" 
+AR Path="/6089D0BA/62D130A0" Ref="C?"  Part="1" 
+AR Path="/608A2359/62D130A0" Ref="C?"  Part="1" 
+AR Path="/608C2344/62D130A0" Ref="C1002"  Part="1" 
+F 0 "C1002" H 4525 6400 50  0000 L CNN
+F 1 "1nF" H 4525 6200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4538 6150 50  0001 C CNN
+F 3 "~" H 4500 6300 50  0001 C CNN
+	1    4500 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 6000 4500 6150
+Wire Wire Line
+	4500 6000 5750 6000
+Wire Wire Line
+	4500 6550 5000 6550
+Connection ~ 5000 6550
+Wire Wire Line
+	4850 6100 5000 6100
+Connection ~ 5000 6100
+Wire Wire Line
+	4350 6000 4500 6000
+Connection ~ 4500 6000
+Wire Wire Line
+	4000 6150 4000 5800
+Wire Wire Line
+	4000 5800 5650 5800
+Wire Wire Line
+	3800 5800 4000 5800
+Connection ~ 4000 5800
+Wire Wire Line
+	4000 6550 4500 6550
+Connection ~ 4500 6550
+Wire Wire Line
+	4000 6450 4000 6550
+Wire Wire Line
+	4500 6450 4500 6550
+Wire Wire Line
+	5000 6450 5000 6550
+Wire Wire Line
+	5950 6550 5950 6500
+Wire Wire Line
+	5000 6550 5650 6550
+Wire Wire Line
+	5650 6300 5650 6550
+Connection ~ 5650 6550
+Wire Wire Line
+	5650 6550 5950 6550
 $EndSCHEMATC
