@@ -895,7 +895,7 @@ U 1 1 61B132BF
 P 6250 3600
 F 0 "U100_DIP64" H 5800 5450 50  0000 L TNN
 F 1 "MC68000_DIP_64_SOCKET" H 5800 5350 50  0000 L TNB
-F 2 "Package_DIP:DIP-64_W22.86mm_LongPads" H 5800 5550 50  0001 L TNN
+F 2 "Package_DIP:DIP-64_W22.86mm_Socket_LongPads" H 5800 5550 50  0001 L TNN
 F 3 "https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf" H 5800 5650 50  0001 L TNN
 	1    6250 3600
 	1    0    0    -1  

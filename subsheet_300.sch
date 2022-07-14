@@ -19,7 +19,7 @@ U 1 1 60A1494C
 P 2200 2850
 F 0 "U300_DIP40" H 1800 4100 50  0000 L TNN
 F 1 "ST_DMA_DIP40_PHY" H 1800 4000 50  0000 L TNB
-F 2 "Package_DIP:DIP-40_W15.24mm_LongPads" H 1800 4200 50  0001 L TNN
+F 2 "Package_DIP:DIP-40_W15.24mm_Socket_LongPads" H 1800 4200 50  0001 L TNN
 F 3 "https://docs.dev-docs.org/htm/search.php?find=Atari+STBook+Schematic+" H 1800 4300 50  0001 L TNN
 	1    2200 2850
 	1    0    0    -1  
