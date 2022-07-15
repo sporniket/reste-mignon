@@ -217,9 +217,9 @@ Wire Wire Line
 	2450 6350 2650 6350
 Text Label 4550 4650 0    50   ~ 0
 VCC
-Text Label 4550 4850 0    50   ~ 0
+Text Label 4550 4750 0    50   ~ 0
 VCC
-Text Label 4200 4750 0    50   ~ 0
+Text Label 4200 4850 0    50   ~ 0
 midi_thru
 Text Label 4200 4950 0    50   ~ 0
 midi_out
@@ -350,7 +350,7 @@ F 3 "~" H 6250 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 4750 4950 4750
+	4200 4850 4950 4850
 Wire Wire Line
 	4200 4950 4950 4950
 Wire Wire Line
@@ -423,8 +423,6 @@ Connection ~ 5050 6150
 Wire Wire Line
 	5050 6150 5250 6150
 Wire Wire Line
-	5350 4750 6050 4750
-Wire Wire Line
 	5550 4550 6050 4550
 Wire Wire Line
 	5050 6650 5850 6650
@@ -476,8 +474,6 @@ F 3 "~" H 5150 4850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5350 4850 6050 4850
-Wire Wire Line
 	5350 4950 6050 4950
 Wire Wire Line
 	5350 4650 5550 4650
@@ -486,6 +482,30 @@ Wire Wire Line
 Wire Wire Line
 	4550 4650 4950 4650
 Wire Wire Line
-	4950 4850 4550 4850
+	4950 4750 4550 4750
 NoConn ~ 5300 3300
+Wire Wire Line
+	6050 4850 5950 4850
+Wire Wire Line
+	5650 4700 5650 4750
+Wire Wire Line
+	5650 4750 5350 4750
+Wire Wire Line
+	5650 4700 5800 4700
+Wire Wire Line
+	5950 4900 5950 4850
+Wire Wire Line
+	5800 4700 5800 4900
+Wire Wire Line
+	5700 4800 5700 4850
+Wire Wire Line
+	5700 4850 5350 4850
+Wire Wire Line
+	5700 4800 5900 4800
+Wire Wire Line
+	5900 4800 5900 4750
+Wire Wire Line
+	5900 4750 6050 4750
+Wire Wire Line
+	5800 4900 5950 4900
 $EndSCHEMATC
