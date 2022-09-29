@@ -258,47 +258,47 @@ Text Label 6100 7200 0    50   ~ 0
 D14
 Text Label 6100 7300 0    50   ~ 0
 D15
-Text Label 1600 8000 0    50   ~ 0
-A1
-Text Label 1600 8100 0    50   ~ 0
-A2
-Text Label 1600 8200 0    50   ~ 0
-A3
 Text Label 1600 8300 0    50   ~ 0
+A1
+Text Label 1600 8200 0    50   ~ 0
+A2
+Text Label 1600 8100 0    50   ~ 0
+A3
+Text Label 1600 8000 0    50   ~ 0
 A4
-Text Label 3100 8000 0    50   ~ 0
-A5
-Text Label 3100 8100 0    50   ~ 0
-A6
-Text Label 3100 8200 0    50   ~ 0
-A7
 Text Label 3100 8300 0    50   ~ 0
+A5
+Text Label 3100 8200 0    50   ~ 0
+A6
+Text Label 3100 8100 0    50   ~ 0
+A7
+Text Label 3100 8000 0    50   ~ 0
 A8
-Text Label 4600 8000 0    50   ~ 0
-A9
-Text Label 4600 8100 0    50   ~ 0
-A10
-Text Label 4600 8200 0    50   ~ 0
-A11
 Text Label 4600 8300 0    50   ~ 0
+A9
+Text Label 4600 8200 0    50   ~ 0
+A10
+Text Label 4600 8100 0    50   ~ 0
+A11
+Text Label 4600 8000 0    50   ~ 0
 A12
-Text Label 6100 8050 0    50   ~ 0
-A13
-Text Label 6100 8150 0    50   ~ 0
-A14
-Text Label 6100 8250 0    50   ~ 0
-A15
 Text Label 6100 8350 0    50   ~ 0
+A13
+Text Label 6100 8250 0    50   ~ 0
+A14
+Text Label 6100 8150 0    50   ~ 0
+A15
+Text Label 6100 8050 0    50   ~ 0
 A16
-Text Label 1600 9000 0    50   ~ 0
-A17
-Text Label 1600 9100 0    50   ~ 0
-A18
-Text Label 1600 9200 0    50   ~ 0
-A19
 Text Label 1600 9300 0    50   ~ 0
+A17
+Text Label 1600 9200 0    50   ~ 0
+A18
+Text Label 1600 9100 0    50   ~ 0
+A19
+Text Label 1600 9000 0    50   ~ 0
 A20
-Text Label 3100 9000 0    50   ~ 0
+Text Label 3100 9200 0    50   ~ 0
 A21
 Text Label 3100 9100 0    50   ~ 0
 A22
@@ -362,15 +362,15 @@ Wire Wire Line
 	6100 7200 6300 7200
 Wire Wire Line
 	6100 7300 6300 7300
-Text Label 1300 6050 0    50   ~ 0
+Text Label 1300 6150 0    50   ~ 0
 XHALT
 Wire Wire Line
 	1300 6050 1800 6050
-Text Label 1300 6150 0    50   ~ 0
+Text Label 1300 6050 0    50   ~ 0
 XBERR
-Text Label 1300 6250 0    50   ~ 0
-XBGACK
 Text Label 1300 6350 0    50   ~ 0
+XBGACK
+Text Label 1300 6250 0    50   ~ 0
 XBR
 Text Label 2800 6050 0    50   ~ 0
 RXW
@@ -1158,7 +1158,7 @@ F 3 "~" H 3500 9200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3100 9200 3300 9200
-Text Label 3100 9200 0    50   ~ 0
+Text Label 3100 9000 0    50   ~ 0
 A23
 Text Label 2500 8000 2    50   ~ 0
 VCC
