@@ -297,7 +297,7 @@ AR Path="/6089D0C4/609DCE8D" Ref="L?"  Part="1"
 AR Path="/609D3E52/609DCE8D" Ref="L203"  Part="1" 
 F 0 "L203" V 3400 4050 50  0000 C CNN
 F 1 "220uH" V 3525 4050 50  0000 C CNN
-F 2 "commons-passives_SMD:L_Bourns_SRR1208" H 3450 4050 50  0001 C CNN
+F 2 "commons_passives_THT:L_Radial_D15.0mm_P5.00mm" H 3450 4050 50  0001 C CNN
 F 3 "~" H 3450 4050 50  0001 C CNN
 	1    3450 4050
 	0    -1   -1   0   
@@ -477,7 +477,7 @@ AR Path="/6089D0C4/60A46579" Ref="L?"  Part="1"
 AR Path="/609D3E52/60A46579" Ref="L208"  Part="1" 
 F 0 "L208" V 4100 6350 50  0000 C CNN
 F 1 "220uH" V 4225 6350 50  0000 C CNN
-F 2 "commons-passives_SMD:L_Bourns_SRR1208" H 4150 6350 50  0001 C CNN
+F 2 "commons_passives_THT:L_Radial_D15.0mm_P5.00mm" H 4150 6350 50  0001 C CNN
 F 3 "~" H 4150 6350 50  0001 C CNN
 	1    4150 6350
 	0    -1   -1   0   
