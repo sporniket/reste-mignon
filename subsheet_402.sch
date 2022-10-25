@@ -822,4 +822,33 @@ Wire Wire Line
 Connection ~ 2000 4400
 Wire Wire Line
 	4350 1300 4550 1300
+$Comp
+L Device:C C?
+U 1 1 635B68B0
+P 6000 8250
+AR Path="/60786F27/6078774E/635B68B0" Ref="C?"  Part="1" 
+AR Path="/60786F27/607875AF/635B68B0" Ref="C?"  Part="1" 
+AR Path="/6089D0BA/635B68B0" Ref="C?"  Part="1" 
+AR Path="/608A2359/635B68B0" Ref="C?"  Part="1" 
+AR Path="/60A1445F/635B68B0" Ref="C?"  Part="1" 
+AR Path="/60A73CDE/635B68B0" Ref="C?"  Part="1" 
+AR Path="/60AD8617/635B68B0" Ref="C?"  Part="1" 
+AR Path="/60AD332C/635B68B0" Ref="C?"  Part="1" 
+AR Path="/60AD33B6/635B68B0" Ref="C?"  Part="1" 
+AR Path="/60B3D9E3/635B68B0" Ref="C2101"  Part="1" 
+F 0 "C2101" H 6025 8350 50  0000 L CNN
+F 1 "0.1uF" H 6025 8150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 6038 8100 50  0001 C CNN
+F 3 "~" H 6000 8250 50  0001 C CNN
+	1    6000 8250
+	1    0    0    -1  
+$EndComp
+Text Label 6000 7850 3    50   ~ 0
+VCC
+Text Label 6000 8650 1    50   ~ 0
+GND
+Wire Wire Line
+	6000 7850 6000 8100
+Wire Wire Line
+	6000 8650 6000 8400
 $EndSCHEMATC
