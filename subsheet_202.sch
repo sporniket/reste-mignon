@@ -353,4 +353,145 @@ Wire Wire Line
 	5950 7900 5950 7700
 Wire Wire Line
 	4150 6100 5750 6100
+$Comp
+L Connector_Generic:Conn_02x14_Odd_Even J1101
+U 1 1 635D914E
+P 2050 5600
+F 0 "J1101" H 2100 6300 50  0000 C CNN
+F 1 "Parallel and Serial breakout" H 2100 4800 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x14_P2.54mm_Vertical" H 2050 5600 50  0001 C CNN
+F 3 "~" H 2050 5600 50  0001 C CNN
+	1    2050 5600
+	1    0    0    -1  
+$EndComp
+Text Label 1700 5100 2    50   ~ 0
+strobe
+Text Label 1700 5200 2    50   ~ 0
+pd0
+Text Label 1700 5300 2    50   ~ 0
+pd1
+Text Label 1700 5400 2    50   ~ 0
+pd2
+Text Label 1700 5500 2    50   ~ 0
+pd3
+Text Label 1700 5600 2    50   ~ 0
+pd4
+Text Label 1700 5700 2    50   ~ 0
+pd5
+Text Label 1700 5800 2    50   ~ 0
+pd6
+Text Label 1700 5900 2    50   ~ 0
+pd7
+Wire Wire Line
+	1700 5100 1850 5100
+Wire Wire Line
+	1700 5200 1850 5200
+Wire Wire Line
+	1700 5300 1850 5300
+Wire Wire Line
+	1700 5400 1850 5400
+Wire Wire Line
+	1700 5500 1850 5500
+Wire Wire Line
+	1700 5600 1850 5600
+Wire Wire Line
+	1700 5700 1850 5700
+Wire Wire Line
+	1700 5800 1850 5800
+Wire Wire Line
+	1700 5900 1850 5900
+Text GLabel 1450 5000 0    50   Output ~ 0
+PARALLEL_BUSY
+Text GLabel 1550 6200 0    50   Output ~ 0
+SERIAL_RX
+Text GLabel 1550 6300 0    50   Input ~ 0
+SERIAL_TX
+Wire Wire Line
+	1850 6200 1550 6200
+Wire Wire Line
+	1550 6300 1850 6300
+Text Label 1300 6100 0    50   ~ 0
+VCC
+Wire Wire Line
+	1750 6100 1750 6000
+Connection ~ 1750 6100
+Wire Wire Line
+	1750 6100 1850 6100
+Wire Wire Line
+	1750 6000 1850 6000
+Wire Wire Line
+	1300 6100 1750 6100
+Wire Wire Line
+	2350 6300 2450 6300
+Text Label 2650 6300 2    50   ~ 0
+GND
+Wire Wire Line
+	2450 6300 2450 6200
+Wire Wire Line
+	2450 5000 2350 5000
+Connection ~ 2450 6300
+Wire Wire Line
+	2450 6300 2650 6300
+Wire Wire Line
+	2350 5100 2450 5100
+Connection ~ 2450 5100
+Wire Wire Line
+	2450 5100 2450 5000
+Wire Wire Line
+	2350 5200 2450 5200
+Connection ~ 2450 5200
+Wire Wire Line
+	2450 5200 2450 5100
+Wire Wire Line
+	2350 5300 2450 5300
+Connection ~ 2450 5300
+Wire Wire Line
+	2450 5300 2450 5200
+Wire Wire Line
+	2350 5400 2450 5400
+Connection ~ 2450 5400
+Wire Wire Line
+	2450 5400 2450 5300
+Wire Wire Line
+	2350 5500 2450 5500
+Connection ~ 2450 5500
+Wire Wire Line
+	2450 5500 2450 5400
+Wire Wire Line
+	2350 5600 2450 5600
+Connection ~ 2450 5600
+Wire Wire Line
+	2450 5600 2450 5500
+Wire Wire Line
+	2350 5700 2450 5700
+Connection ~ 2450 5700
+Wire Wire Line
+	2450 5700 2450 5600
+Wire Wire Line
+	2350 5800 2450 5800
+Connection ~ 2450 5800
+Wire Wire Line
+	2450 5800 2450 5700
+Wire Wire Line
+	2350 5900 2450 5900
+Connection ~ 2450 5900
+Wire Wire Line
+	2450 5900 2450 5800
+Wire Wire Line
+	2350 6000 2450 6000
+Connection ~ 2450 6000
+Wire Wire Line
+	2450 6000 2450 5900
+Wire Wire Line
+	2350 6100 2450 6100
+Connection ~ 2450 6100
+Wire Wire Line
+	2450 6100 2450 6000
+Wire Wire Line
+	2350 6200 2450 6200
+Connection ~ 2450 6200
+Wire Wire Line
+	2450 6200 2450 6100
+Wire Wire Line
+	1450 5000 1850 5000
 $EndSCHEMATC
