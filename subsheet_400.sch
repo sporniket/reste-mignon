@@ -56,7 +56,7 @@ Text Label 3950 1900 3    50   ~ 0
 GND
 Text Label 5850 1900 3    50   ~ 0
 GND
-Text Label 7100 6400 2    50   ~ 0
+Text Label 6600 8600 2    50   ~ 0
 GND
 Text Label 2350 7400 1    50   ~ 0
 GND
@@ -486,10 +486,6 @@ Wire Wire Line
 	1250 3800 1550 3800
 Wire Wire Line
 	1250 3900 1550 3900
-NoConn ~ 1550 3500
-NoConn ~ 1550 3600
-NoConn ~ 1550 4000
-NoConn ~ 1550 4100
 Text GLabel 1300 4300 0    50   Input ~ 0
 XHDINT
 Text GLabel 1300 4400 0    50   Input ~ 0
@@ -949,4 +945,99 @@ NoConn ~ 5800 9200
 NoConn ~ 6200 9200
 NoConn ~ 5800 9300
 NoConn ~ 6200 9300
+$Comp
+L Connector_Generic:Conn_02x07_Odd_Even J1901
+U 1 1 6366E19E
+P 5950 8300
+F 0 "J1901" H 6000 8700 50  0000 C CNN
+F 1 "ROM[0..6] Breakout" H 6000 7900 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x07_P2.54mm_Vertical" H 5950 8300 50  0001 C CNN
+F 3 "~" H 5950 8300 50  0001 C CNN
+	1    5950 8300
+	1    0    0    -1  
+$EndComp
+Text Label 1300 3500 0    50   ~ 0
+rom0
+Text Label 1300 3600 0    50   ~ 0
+rom1
+Text Label 1300 3700 0    50   ~ 0
+rom2
+Text Label 1300 3800 0    50   ~ 0
+rom3
+Text Label 1300 3900 0    50   ~ 0
+rom4
+Text Label 1300 4000 0    50   ~ 0
+rom5
+Text Label 1300 4100 0    50   ~ 0
+rom6
+Wire Wire Line
+	1300 3500 1550 3500
+Wire Wire Line
+	1300 3600 1550 3600
+Wire Wire Line
+	1300 4000 1550 4000
+Wire Wire Line
+	1300 4100 1550 4100
+Text Label 5500 8000 0    50   ~ 0
+rom0
+Text Label 5500 8100 0    50   ~ 0
+rom1
+Text Label 5500 8200 0    50   ~ 0
+rom2
+Text Label 5500 8300 0    50   ~ 0
+rom3
+Text Label 5500 8400 0    50   ~ 0
+rom4
+Text Label 5500 8500 0    50   ~ 0
+rom5
+Text Label 5500 8600 0    50   ~ 0
+rom6
+Wire Wire Line
+	5500 8000 5750 8000
+Wire Wire Line
+	5500 8100 5750 8100
+Wire Wire Line
+	5500 8200 5750 8200
+Wire Wire Line
+	5500 8300 5750 8300
+Wire Wire Line
+	5500 8400 5750 8400
+Wire Wire Line
+	5500 8500 5750 8500
+Wire Wire Line
+	5500 8600 5750 8600
+Wire Wire Line
+	6600 8600 6350 8600
+Wire Wire Line
+	6350 8600 6350 8500
+Wire Wire Line
+	6350 8000 6250 8000
+Wire Wire Line
+	6250 8100 6350 8100
+Connection ~ 6350 8100
+Wire Wire Line
+	6350 8100 6350 8000
+Wire Wire Line
+	6250 8200 6350 8200
+Connection ~ 6350 8200
+Wire Wire Line
+	6350 8200 6350 8100
+Wire Wire Line
+	6250 8300 6350 8300
+Connection ~ 6350 8300
+Wire Wire Line
+	6350 8300 6350 8200
+Wire Wire Line
+	6250 8400 6350 8400
+Connection ~ 6350 8400
+Wire Wire Line
+	6350 8400 6350 8300
+Wire Wire Line
+	6250 8500 6350 8500
+Connection ~ 6350 8500
+Wire Wire Line
+	6350 8500 6350 8400
+Wire Wire Line
+	6250 8600 6350 8600
+Connection ~ 6350 8600
 $EndSCHEMATC
