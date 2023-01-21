@@ -390,7 +390,7 @@
     )
   )
 
-  (symbol (lib_id "Device:Ferrite_Bead_Small") (at 101.6 33.02 0)
+  (symbol (lib_id "Device:Ferrite_Bead_Small") (at 101.6 33.02 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060c12daa)
     (property "Reference" "FB410" (id 0) (at 103.505 31.75 0)
@@ -409,7 +409,7 @@
     (pin "2" (uuid 82255604-411b-46b7-8e59-7ae5f001469f))
   )
 
-  (symbol (lib_id "Transistor_BJT:2N3904") (at 99.06 54.61 0)
+  (symbol (lib_id "Transistor_BJT:2N3904") (at 99.06 54.61 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060c878bf)
     (property "Reference" "Q405" (id 0) (at 104.14 54.61 0)
@@ -429,7 +429,7 @@
     (pin "3" (uuid a2c27ba8-13f5-4b67-ac8f-61d1389b67b0))
   )
 
-  (symbol (lib_id "Device:R_Small_US") (at 90.17 48.26 0)
+  (symbol (lib_id "Device:R_Small_US") (at 90.17 48.26 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060c887e0)
     (property "Reference" "R473" (id 0) (at 90.932 47.752 0)
@@ -448,7 +448,7 @@
     (pin "2" (uuid a3fbe55f-3c83-4727-be69-32355abd2a0b))
   )
 
-  (symbol (lib_id "Device:R_Small_US") (at 101.6 69.85 0)
+  (symbol (lib_id "Device:R_Small_US") (at 101.6 69.85 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060c8e2e8)
     (property "Reference" "R475" (id 0) (at 102.362 69.342 0)
@@ -467,7 +467,7 @@
     (pin "2" (uuid 337d66a3-d20f-46e9-8295-04745f0caeb4))
   )
 
-  (symbol (lib_id "Device:R_Small_US") (at 107.95 63.5 270)
+  (symbol (lib_id "Device:R_Small_US") (at 107.95 63.5 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060c9cc6e)
     (property "Reference" "R474" (id 0) (at 107.95 60.96 90))

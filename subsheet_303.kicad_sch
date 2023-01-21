@@ -397,7 +397,7 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 166.37 43.18 0)
+  (symbol (lib_id "Device:C") (at 166.37 43.18 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060ac6355)
     (property "Reference" "C300" (id 0) (at 167.005 40.64 0)
@@ -416,7 +416,7 @@
     (pin "2" (uuid 7a8f6da0-adda-4f6d-b0dc-c18e734e02b8))
   )
 
-  (symbol (lib_id "Device:C") (at 39.37 40.64 0)
+  (symbol (lib_id "Device:C") (at 39.37 40.64 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060ac6ccf)
     (property "Reference" "C301" (id 0) (at 40.005 38.1 0)
@@ -466,7 +466,7 @@
     (pin "9" (uuid 56601bb3-b412-4c87-aa12-559ff7b8c781))
   )
 
-  (symbol (lib_id "Oscillator:ACO-xxxMHz") (at 52.07 40.64 0)
+  (symbol (lib_id "Oscillator:ACO-xxxMHz") (at 52.07 40.64 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060acfc2e)
     (property "Reference" "U303" (id 0) (at 53.34 34.29 0)

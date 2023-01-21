@@ -1942,6 +1942,10 @@
     (uuid ff870511-3a90-49f1-9990-5aec7ad35822)
   )
 
+  (label "GND" (at 180.34 162.56 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 03e6e53e-2294-4c17-8562-f1d13ac7052a)
+  )
   (label "D11" (at 177.8 147.32 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 05c66f7d-5ec1-4b7f-80d5-ea1eb396392f)
@@ -3094,7 +3098,7 @@
     (pin "99" (uuid 520b6883-347b-4855-884b-7b817d9584ef))
   )
 
-  (symbol (lib_id "Device:C") (at 27.94 184.15 0)
+  (symbol (lib_id "Device:C") (at 27.94 184.15 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060b1eaca)
     (property "Reference" "C402" (id 0) (at 28.575 181.61 0)
@@ -3113,7 +3117,7 @@
     (pin "2" (uuid 4154c486-aedb-40a4-9f92-547dc7b2863e))
   )
 
-  (symbol (lib_id "Device:C") (at 40.64 184.15 0)
+  (symbol (lib_id "Device:C") (at 40.64 184.15 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060b202ca)
     (property "Reference" "C403" (id 0) (at 41.275 181.61 0)
@@ -3132,7 +3136,7 @@
     (pin "2" (uuid 8254de3a-fcaa-403d-bd5e-ea382c6f960b))
   )
 
-  (symbol (lib_id "Device:C") (at 27.94 209.55 0)
+  (symbol (lib_id "Device:C") (at 27.94 209.55 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060b21c56)
     (property "Reference" "C404" (id 0) (at 28.575 207.01 0)
@@ -3151,7 +3155,7 @@
     (pin "2" (uuid 4e11536a-7f3c-4a2e-b3df-0307b66db720))
   )
 
-  (symbol (lib_id "Device:C") (at 40.64 209.55 0)
+  (symbol (lib_id "Device:C") (at 40.64 209.55 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060b23717)
     (property "Reference" "C405" (id 0) (at 41.275 207.01 0)
@@ -3170,7 +3174,7 @@
     (pin "2" (uuid c92485c0-a6f7-4ac2-adb5-702fe2181a8c))
   )
 
-  (symbol (lib_id "Device:C") (at 27.94 234.95 0)
+  (symbol (lib_id "Device:C") (at 27.94 234.95 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060b252c8)
     (property "Reference" "C406" (id 0) (at 28.575 232.41 0)
@@ -3189,7 +3193,7 @@
     (pin "2" (uuid 74064faa-1231-4f94-8bcd-c04841594ac4))
   )
 
-  (symbol (lib_id "Device:R_Small_US") (at 175.26 190.5 270)
+  (symbol (lib_id "Device:R_Small_US") (at 175.26 190.5 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060db2a50)
     (property "Reference" "R421" (id 0) (at 175.26 187.96 90))

@@ -1835,7 +1835,7 @@
     (pin "9" (uuid bf477936-9db2-4658-bef6-07065ced0772))
   )
 
-  (symbol (lib_id "Device:C") (at 76.2 114.3 0)
+  (symbol (lib_id "Device:C") (at 76.2 114.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060aa2863)
     (property "Reference" "C302" (id 0) (at 76.835 111.76 0)
@@ -1854,7 +1854,7 @@
     (pin "2" (uuid 03c63b1a-5fa1-4b18-b06f-d8d3e3d623b1))
   )
 
-  (symbol (lib_id "Device:R_Small_US") (at 107.95 50.8 270)
+  (symbol (lib_id "Device:R_Small_US") (at 107.95 50.8 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060aa515e)
     (property "Reference" "R303" (id 0) (at 107.95 48.26 90))
@@ -1869,7 +1869,7 @@
     (pin "2" (uuid 032ab517-1169-45b2-b246-7a5580a7a1e0))
   )
 
-  (symbol (lib_id "Device:C") (at 88.9 114.3 0)
+  (symbol (lib_id "Device:C") (at 88.9 114.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fc622a)
     (property "Reference" "C226" (id 0) (at 89.535 111.76 0)
@@ -1888,7 +1888,7 @@
     (pin "2" (uuid 88417d39-119d-4e7a-bbdf-e70683107c5d))
   )
 
-  (symbol (lib_id "custom_passives:R_Pack04_US") (at 63.5 157.48 270)
+  (symbol (lib_id "custom_passives:R_Pack04_US") (at 63.5 157.48 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006206466e)
     (property "Reference" "RN1501" (id 0) (at 63.5 149.86 90))
@@ -1909,7 +1909,7 @@
     (pin "8" (uuid 6423601c-40a2-4261-95a0-334a428ce916))
   )
 
-  (symbol (lib_id "custom_passives:R_Pack04_US") (at 101.6 157.48 270)
+  (symbol (lib_id "custom_passives:R_Pack04_US") (at 101.6 157.48 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006206af44)
     (property "Reference" "RN1502" (id 0) (at 101.6 149.86 90))

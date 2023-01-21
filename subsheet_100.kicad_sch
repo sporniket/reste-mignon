@@ -3292,7 +3292,7 @@
     (pin "9" (uuid 4f19a2b5-c53b-41d5-a9fa-fe21ce685968))
   )
 
-  (symbol (lib_id "Device:C") (at 104.14 127 0)
+  (symbol (lib_id "Device:C") (at 104.14 127 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000607ecfce)
     (property "Reference" "C111" (id 0) (at 104.775 124.46 0)
@@ -3311,7 +3311,7 @@
     (pin "2" (uuid 6b208a8b-b312-4164-a07d-8ed5c47ea1d4))
   )
 
-  (symbol (lib_id "Device:C") (at 116.84 127 0)
+  (symbol (lib_id "Device:C") (at 116.84 127 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000607ecfd4)
     (property "Reference" "C112" (id 0) (at 117.475 124.46 0)

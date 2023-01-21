@@ -1065,7 +1065,7 @@
     (pin "2" (uuid f9696f94-a4b3-4aa6-99fc-f73ebd4e2c9f))
   )
 
-  (symbol (lib_id "Device:C") (at 177.8 63.5 0)
+  (symbol (lib_id "Device:C") (at 177.8 63.5 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060d9e128)
     (property "Reference" "C632" (id 0) (at 178.435 60.96 0)
