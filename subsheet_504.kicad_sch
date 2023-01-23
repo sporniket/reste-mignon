@@ -128,23 +128,29 @@
         )
       )
     )
-    (symbol "Device:CP1" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:C_Polarized_US" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "Device_CP1" (id 1) (at 0.635 -2.54 0)
+      (property "Value" "C_Polarized_US" (id 1) (at 0.635 -2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "" (id 2) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "CP_*" (id 4) (at 0 0 0)
+      (property "ki_keywords" "cap capacitor" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "CP1_0_1"
+      (property "ki_description" "Polarized capacitor, US symbol" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "CP_*" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_Polarized_US_0_1"
         (polyline
           (pts
             (xy -2.032 0.762)
@@ -174,7 +180,7 @@
           (fill (type none))
         )
       )
-      (symbol "CP1_1_1"
+      (symbol "C_Polarized_US_1_1"
         (pin passive line (at 0 3.81 270) (length 2.794)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -1458,7 +1464,7 @@
     (pin "9" (uuid a7e9a4a0-9b73-4117-ab35-a06d6eac52d5))
   )
 
-  (symbol (lib_id "Device:CP1") (at 88.9 59.69 0) (unit 1)
+  (symbol (lib_id "Device:C_Polarized_US") (at 88.9 59.69 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060ced58a)
     (property "Reference" "CP535" (id 0) (at 90.17 57.15 0)
@@ -1515,7 +1521,7 @@
     (pin "2" (uuid b07c8bd2-a811-4113-901b-e249acd98038))
   )
 
-  (symbol (lib_id "Device:CP1") (at 38.1 26.67 270) (unit 1)
+  (symbol (lib_id "Device:C_Polarized_US") (at 38.1 26.67 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060cf0999)
     (property "Reference" "CP541" (id 0) (at 35.56 22.86 90)
@@ -1534,7 +1540,7 @@
     (pin "2" (uuid 2266d865-23ab-4f25-ad6e-bec890d3e3d9))
   )
 
-  (symbol (lib_id "Device:CP1") (at 38.1 39.37 270) (unit 1)
+  (symbol (lib_id "Device:C_Polarized_US") (at 38.1 39.37 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060cf36cc)
     (property "Reference" "CP546" (id 0) (at 35.56 35.56 90)
@@ -1553,7 +1559,7 @@
     (pin "2" (uuid c9d8cfeb-d425-42c9-ab0f-f723079d665e))
   )
 
-  (symbol (lib_id "Device:CP1") (at 35.56 96.52 270) (unit 1)
+  (symbol (lib_id "Device:C_Polarized_US") (at 35.56 96.52 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060cf439b)
     (property "Reference" "CP544" (id 0) (at 26.67 95.25 90)
@@ -1572,7 +1578,7 @@
     (pin "2" (uuid 81f9af37-e170-4b8a-a0e5-65c658490de9))
   )
 
-  (symbol (lib_id "Device:CP1") (at 172.72 93.98 90) (unit 1)
+  (symbol (lib_id "Device:C_Polarized_US") (at 172.72 93.98 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060cf5477)
     (property "Reference" "CP547" (id 0) (at 170.18 92.71 90)
@@ -1758,7 +1764,7 @@
     (pin "2" (uuid 0ea3cefa-40dd-4231-87e4-e9a0289d91ef))
   )
 
-  (symbol (lib_id "Device:CP1") (at 44.45 152.4 0) (unit 1)
+  (symbol (lib_id "Device:C_Polarized_US") (at 44.45 152.4 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060d91985)
     (property "Reference" "CP525" (id 0) (at 35.56 151.13 0)
@@ -1826,7 +1832,7 @@
     (pin "2" (uuid 8ac5a98c-bdef-4f85-bf5c-9a29bed2d2e5))
   )
 
-  (symbol (lib_id "Device:CP1") (at 165.1 152.4 0) (unit 1)
+  (symbol (lib_id "Device:C_Polarized_US") (at 165.1 152.4 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060dbe18e)
     (property "Reference" "CP537" (id 0) (at 167.64 151.13 0)
@@ -1879,7 +1885,7 @@
     (pin "2" (uuid af91054d-4242-4fc8-ad8e-c8c13d281a57))
   )
 
-  (symbol (lib_id "Device:CP1") (at 57.15 133.35 0) (unit 1)
+  (symbol (lib_id "Device:C_Polarized_US") (at 57.15 133.35 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060dc0622)
     (property "Reference" "CP529" (id 0) (at 59.69 132.08 0)
@@ -1947,7 +1953,7 @@
     (pin "2" (uuid fa151500-1f9e-4730-ab4e-8a7b20444761))
   )
 
-  (symbol (lib_id "Device:CP1") (at 152.4 133.35 0) (unit 1)
+  (symbol (lib_id "Device:C_Polarized_US") (at 152.4 133.35 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060dde603)
     (property "Reference" "CP543" (id 0) (at 154.94 132.08 0)
@@ -2055,7 +2061,7 @@
     (pin "9" (uuid fb4a1839-4a30-49ee-be53-e25e1232d7e5))
   )
 
-  (symbol (lib_id "Device:CP1") (at 154.94 81.28 90) (unit 1)
+  (symbol (lib_id "Device:C_Polarized_US") (at 154.94 81.28 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e01c9d)
     (property "Reference" "CP542" (id 0) (at 163.83 80.01 90)

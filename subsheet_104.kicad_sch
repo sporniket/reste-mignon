@@ -14,23 +14,29 @@
   )
 
   (lib_symbols
-    (symbol "Device:CP1" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:C_Polarized_US" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "Device_CP1" (id 1) (at 0.635 -2.54 0)
+      (property "Value" "C_Polarized_US" (id 1) (at 0.635 -2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "" (id 2) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "CP_*" (id 4) (at 0 0 0)
+      (property "ki_keywords" "cap capacitor" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "CP1_0_1"
+      (property "ki_description" "Polarized capacitor, US symbol" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "CP_*" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_Polarized_US_0_1"
         (polyline
           (pts
             (xy -2.032 0.762)
@@ -60,7 +66,7 @@
           (fill (type none))
         )
       )
-      (symbol "CP1_1_1"
+      (symbol "C_Polarized_US_1_1"
         (pin passive line (at 0 3.81 270) (length 2.794)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -899,7 +905,7 @@
     (pin "2" (uuid faad1e0c-568f-4d6c-b1aa-ffd862eee041))
   )
 
-  (symbol (lib_id "Device:CP1") (at 69.85 52.07 0) (unit 1)
+  (symbol (lib_id "Device:C_Polarized_US") (at 69.85 52.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000608c1a6c)
     (property "Reference" "CP100" (id 0) (at 71.12 49.53 0)
@@ -952,7 +958,7 @@
     (pin "2" (uuid 1856ee75-9328-4bd7-847c-0f80e0be9d11))
   )
 
-  (symbol (lib_id "Device:CP1") (at 165.1 52.07 0) (unit 1)
+  (symbol (lib_id "Device:C_Polarized_US") (at 165.1 52.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000608c88d5)
     (property "Reference" "CP102" (id 0) (at 166.37 49.53 0)
