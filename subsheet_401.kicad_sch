@@ -791,6 +791,7 @@
     )
   )
 
+
   (junction (at 43.18 190.5) (diameter 0) (color 0 0 0 0)
     (uuid 0af77c4b-93ab-4a5f-a0dc-d745ce2ad9af)
   )
@@ -2494,7 +2495,7 @@
   (symbol (lib_id "power:VCC") (at 181.61 143.51 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2a2a4c9f-17f5-4d9b-8eb7-d798f5436650)
-    (property "Reference" "#PWR?" (id 0) (at 181.61 147.32 0)
+    (property "Reference" "#PWR0122" (id 0) (at 181.61 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 181.61 139.7 0))
@@ -2510,7 +2511,7 @@
   (symbol (lib_id "power:GND") (at 181.61 168.91 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b3d85781-ca2a-4768-87d1-0f26f0315c44)
-    (property "Reference" "#PWR?" (id 0) (at 181.61 175.26 0)
+    (property "Reference" "#PWR0123" (id 0) (at 181.61 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 181.61 172.72 0))
