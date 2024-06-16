@@ -94,3 +94,43 @@ Signals named prefixed by `BLT.` should target the blitter. Signals prefixed by 
 |29|`68.BGACK`| |30|`68.BG`|
 |31|`VCC`| |32|`VCC`|
 
+## Applications
+
+### Main board
+
+The extension port is placed around the GST MCU, so that the GST MCU will be oriented 90° clock-side, in other words, the GST MCU's North (pin #1 to the north-west) points toward the East of the extension port.
+
+All the signal from the extension port, except `68.BGACK` and `68.BG` (connector B, pins #29 and #30), are wired to the MCU.
+
+### Blitter extension
+
+The extension port is placed around the blitter, so that the North of the blitter (pin #1 to the north)  will points toward the South of the extension port.
+
+All relevant signals are wired to the blitter, espectially `68.BGACK` and `68.BG` (connector B, pins #29 and #30).
+
+
+### CPU PLCC extension 
+
+The extension port is placed around the PLCC CPU, so that the North of the CPU (pin #1 to the north) will points toward the North of the extension port.
+
+All relevant signals are wired to the blitter, espectially `68.BGACK` and `68.BG` (connector B, pins #29 and #30).
+
+A configuration system (jumpers, solder blobs, etc...) allow to connect to `BLT.BG` and `BLT.BGACK` (connector A, pins #7 and #8) instead of `68.BGACK` and `68.BG`.
+
+The CPU extension also implement the pull-ups on the various relevant signals.
+
+
+### CPU DIP extension
+
+The extension port is placed around the DIP CPU, so that the North of the CPU (great axes of the DIP chip along North/South, pin #1 to the north) will points toward the North of the extension port.
+
+
+All relevant signals are wired to the blitter, espectially `68.BGACK` and `68.BG` (connector B, pins #29 and #30).
+
+A configuration system (jumpers, solder blobs, etc...) allow to connect to `BLT.BG` and `BLT.BGACK` (connector A, pins #7 and #8) instead of `68.BGACK` and `68.BG`.
+
+The CPU extension also implement the pull-ups on the various relevant signals.
+
+
+
+
