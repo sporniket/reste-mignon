@@ -204,12 +204,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "label_dangling|1866900|1270000|560b2389-1ca1-44b1-a9d7-ee8a397d0712|00000000-0000-0000-0000-000000000000|/5ae9712c-56a4-4baf-99ee-c0a0e97d4775||",
-      "label_dangling|1905000|1295400|aad4e62f-b8a3-4a4b-97ee-8a7ed72b41af|00000000-0000-0000-0000-000000000000|/5ae9712c-56a4-4baf-99ee-c0a0e97d4775||",
-      "label_dangling|1905000|1320800|d2bb2a6e-fc7c-456c-b0c3-ff82d59219db|00000000-0000-0000-0000-000000000000|/5ae9712c-56a4-4baf-99ee-c0a0e97d4775||",
-      "label_dangling|1905000|1346200|0b58ac1f-2829-49e4-9928-b17af46efb08|00000000-0000-0000-0000-000000000000|/5ae9712c-56a4-4baf-99ee-c0a0e97d4775||"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
