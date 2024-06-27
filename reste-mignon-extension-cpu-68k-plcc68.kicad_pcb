@@ -7,8 +7,8 @@
   (paper "A4" portrait)
   (title_block
     (title "ReSTe mignon — The 68k extension — PLCC68")
-    (date "2024-06-24")
-    (rev "v1.0.0-DRAFT")
+    (date "2024-06-27")
+    (rev "v1.0.0-beta.1")
     (company "Sporniket.com")
     (comment 3 "https://github.com/sporniket/reste-mignon")
     (comment 4 "Original repository")
@@ -2258,11 +2258,11 @@
     (attr through_hole)
     (fp_text reference "G***" (at 0 0) (layer "B.SilkS") hide
         (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
-      (tstamp d8a6ee49-0df8-4ad1-9016-9e7b8a4c4bdc)
+      (tstamp 29d7f477-be10-405d-aa47-81910bba0d8a)
     )
     (fp_text value "LOGO" (at 0.75 0) (layer "B.SilkS") hide
         (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
-      (tstamp 4e8007ac-e5d2-43a2-90aa-9797feb4f335)
+      (tstamp 839b4662-3497-4510-abd8-789bc31930c5)
     )
     (fp_poly
       (pts
@@ -2304,7 +2304,7 @@
         (xy 0.133748 1.937655)
       )
 
-      (stroke (width 0.01) (type solid)) (fill solid) (layer "B.SilkS") (tstamp d16b6aab-6516-4cb6-9e92-4542b821a485))
+      (stroke (width 0.01) (type solid)) (fill solid) (layer "B.SilkS") (tstamp 8f57107c-3cc7-432a-9e56-d34381ff70ea))
     (fp_poly
       (pts
         (xy 0.895449 0.833639)
@@ -2345,7 +2345,7 @@
         (xy 0.895449 0.833639)
       )
 
-      (stroke (width 0.01) (type solid)) (fill solid) (layer "B.SilkS") (tstamp 01b876ae-a819-4ae4-9fca-3d453736e444))
+      (stroke (width 0.01) (type solid)) (fill solid) (layer "B.SilkS") (tstamp d56357f6-8fed-4029-b6be-c1959f5d85f7))
     (fp_poly
       (pts
         (xy 0.38622 4.426731)
@@ -2469,7 +2469,7 @@
         (xy 0.38622 4.426731)
       )
 
-      (stroke (width 0.01) (type solid)) (fill solid) (layer "B.SilkS") (tstamp af5e7100-d960-4c3a-a5ad-1670cd9caa0f))
+      (stroke (width 0.01) (type solid)) (fill solid) (layer "B.SilkS") (tstamp 746543d5-48b5-42f3-aa52-322ec3084b63))
   )
 
   (footprint "cliparts:logo--cc--cc" (layer "B.Cu")
@@ -2478,11 +2478,11 @@
     (attr through_hole)
     (fp_text reference "G***" (at 0 0) (layer "B.SilkS") hide
         (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
-      (tstamp 6096fd0f-652d-443c-be7c-b941297f2eaa)
+      (tstamp 76a51394-e4ed-4c33-8f4b-0d5ee6c07594)
     )
     (fp_text value "LOGO" (at 0.75 0) (layer "B.SilkS") hide
         (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
-      (tstamp c97b308a-333b-4b5f-b6aa-14f3df5244a7)
+      (tstamp 337c7f78-a3bd-4814-b76b-650bbf1108da)
     )
     (fp_poly
       (pts
@@ -2698,7 +2698,7 @@
         (xy 0.423671 4.407923)
       )
 
-      (stroke (width 0.01) (type solid)) (fill solid) (layer "B.SilkS") (tstamp 7c2d86f9-c56e-4b92-8cbc-852bcb8b35ca))
+      (stroke (width 0.01) (type solid)) (fill solid) (layer "B.SilkS") (tstamp b71e4542-4226-444d-90aa-dc0e3d1fadd9))
   )
 
   (gr_poly

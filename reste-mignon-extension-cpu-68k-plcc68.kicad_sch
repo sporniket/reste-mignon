@@ -6,8 +6,8 @@
 
   (title_block
     (title "ReSTe mignon — The 68k extension — PLCC68")
-    (date "2024-06-22")
-    (rev "v1.0.0-DRAFT")
+    (date "2024-06-27")
+    (rev "v1.0.0-beta.1")
     (company "Sporniket.com")
     (comment 3 "https://github.com/sporniket/reste-mignon")
     (comment 4 "Original repository : ")
