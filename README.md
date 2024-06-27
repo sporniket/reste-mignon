@@ -27,7 +27,7 @@ This is a project made with [Kicad](https://www.kicad.org/). I started this work
 
 #### extension-cpu-68k-plcc68--v1.0.0-beta.1
 
-First beta implemantion of the extension board holding the CPU in a PLCC68 package. This implements the [extansion port for CPU and Blitter](README-extension-port-cpu-and-blitter.md)
+First beta implemantion of the extension board holding the CPU in a PLCC68 package. This implements the [extension port for CPU and Blitter](README-extension-port-cpu-and-blitter.md)
 
 #### mk0-0.1-schematic / 2022-06-08
 
